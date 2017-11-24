@@ -1,0 +1,14 @@
+###### 状态切换、播放器按钮
+- https://github.com/recruit-lifestyle/PlayPauseButton
+- https://github.com/flavienlaurent/tickplusdrawable
+- https://github.com/cdflynn/crossview
+- https://github.com/wnafee/vector-compat
+- https://github.com/balysv/material-menu
+- https://github.com/zeratel/add_Up_Down_stateInMaterialMenu
+- https://github.com/hanks-zyh/OpAnimateView
+- https://github.com/xiprox/SimpleRatingView
+- https://github.com/renaudcerrato/ToggleDrawable
+- https://github.com/droidchef/MaterialCheckBox
+- https://github.com/saulmm/android-arrow-drawable-sample
+- https://github.com/tarek360/Material-Animation-Samples
+- https://github.com/markushi/android-ui

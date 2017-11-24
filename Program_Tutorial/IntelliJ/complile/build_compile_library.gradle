@@ -1,0 +1,16 @@
+//apply from:"../build_libs.gradle"
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile libs.appcompat_v7
+    compile libs.recyclerview_v7
+    compile libs.constraint_layout
+    compile libs.adapter_helper
+    testCompile libs.junit
+    compile libs.kotlin_stdlib
+    compile libs.kotlinx_coroutines
+    compile libs.anko
+    compile libs.dagger2
+    compile libs.kotlin_stdlib
+    kapt libs.dagger2_processor
+}

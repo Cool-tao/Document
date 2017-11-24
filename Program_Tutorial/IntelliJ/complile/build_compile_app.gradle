@@ -1,0 +1,31 @@
+//apply from:"../build_libs.gradle"
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile libs.junit
+    compile libs.design
+    compile libs.cardview_v7
+    compile libs.appcompat_v7
+    compile libs.recyclerview_v7
+    compile libs.constraint_layout
+
+    compile libs.kotlin_stdlib
+    compile libs.kotlinx_coroutines
+    compile libs.anko
+
+    compile libs.dagger2
+    kapt libs.dagger2_processor
+
+    compile libs.rxandroid2
+    compile libs.rxjava2
+    compile libs.rxlifecycle2
+
+    compile libs.retrofit2
+    compile libs.retrofit2_converter
+    compile libs.retrofit2_adapter
+
+    compile libs.glide
+
+    compile libs.adapter_helper
+
+
+}
