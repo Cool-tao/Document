@@ -1,14 +1,15 @@
-```
 package org.alex.util;
 
 import java.math.BigDecimal;
+import java.text.DecimalFormat;
 
 /**
  * 作者：Alex
  * 时间：2017/9/2 00:14
  * 简述：
  */
-@SuppressWarnings({"WeakerAccess", "unused"})
+@java.lang.SuppressWarnings("SameParameterValue")
+@SuppressWarnings({"WeakerAccess", "ResultOfMethodCallIgnored", "SameParameterValue"})
 public class MathUtil {
 
     /**
@@ -39,84 +40,60 @@ public class MathUtil {
         return new BigDecimal(sourceNum).divide(new BigDecimal(1), postDotLength, BigDecimal.ROUND_DOWN).doubleValue();
     }
 
-    /**
-     * 截取， 只展示 length 个小数点；如果 不够小数位，补 0
-     */
+
     public static String decimalFormat(String sourceNum) {
-        return decimalFormat(sourceNum, "0.00", 2);
+        return decimalFormat(sourceNum, "0.00", 1, 2);
     }
 
-    /**
-     * 截取， 只展示 length 个小数点；如果 不够小数位，补 0
-     */
     public static String decimalFormat(String sourceNum, String defaultValue) {
-        return decimalFormat(sourceNum, defaultValue, 2);
+        return decimalFormat(sourceNum, defaultValue, 1, 2);
     }
 
     /**
      * 截取， 只展示 length 个小数点；如果 不够小数位，补 0
      */
-    public static String decimalFormat(String sourceNum, String defaultValue, int length) {
-        if (isEmpty(sourceNum)) {
-            return defaultValue;
-        }
-        char firstChar = sourceNum.charAt(0);
-        if (sourceNum.charAt(0) < '0' || firstChar > '9') {
-            return defaultValue;
-        }
-        StringBuilder trailBuilder = new StringBuilder();
-        for (int i = 0; i < length + 2; i++) {
-            trailBuilder.append("0");
-        }
-        int indexDot = sourceNum.indexOf('.');
-        if (indexDot >= 0) {
-            sourceNum += trailBuilder.toString();
-        }
-        if (indexDot < 0) {
-            indexDot = 1;
-            sourceNum += ("." + trailBuilder.toString());
-        }
-        return sourceNum.substring(0, indexDot + length + 1);
+    public static String decimalFormat(String sourceNum, String defaultValue, int postDotLength) {
+        return decimalFormat(sourceNum, defaultValue, 1, postDotLength);
     }
 
-    public static double string2Double(Object sourceNum, double defaultValue) {
+    /**
+     * 截取， 只展示 length 个小数点；如果 不够小数位，补 0
+     * 1：new DecimalFormat("00.000").format(pi) //结果：03.142
+     * 2：new DecimalFormat("##.###").format(pi) //结果：3.142
+     */
+    public static String decimalFormat(String sourceNum, String defaultValue, int preDotLength, int postDotLength) {
+        double defaultValueDouble = string2Double(defaultValue, 0D);
+        sourceNum = string2Double(sourceNum, defaultValueDouble) + "";
+        double doubleValue = new BigDecimal(sourceNum).divide(new BigDecimal(1), postDotLength, BigDecimal.ROUND_DOWN).doubleValue();
+        return new DecimalFormat(stringRepeat("0", preDotLength) + "." + stringRepeat("0", postDotLength)).format(doubleValue);
+    }
+
+    public static double string2Double(String sourceNum, double defaultValue) {
         double num = defaultValue;
         try {
-            num = Double.valueOf(sourceNum.toString());
+            num = Double.valueOf(sourceNum);
         } catch (Exception ignored) {
 
         }
         return num;
     }
 
-    public static int string2Int(Object sourceNum, int defaultValue) {
+    public static int string2Int(String sourceNum, int defaultValue) {
         int num = defaultValue;
         try {
-            num = Integer.valueOf(sourceNum.toString());
+            num = Integer.valueOf(sourceNum);
         } catch (Exception ignored) {
 
         }
         return num;
     }
 
-    public static long string2Long(Object sourceNum, long defaultValue) {
-        long num = defaultValue;
-        try {
-            num = Long.valueOf(sourceNum.toString());
-        } catch (Exception ignored) {
-
+    private static String stringRepeat(String placeholder, int repeatCount) {
+        StringBuilder builder = new StringBuilder(repeatCount + 2);
+        for (int i = 0; i < repeatCount; i++) {
+            builder.append(placeholder);
         }
-        return num;
-    }
-
-    public static float string2Float(Object sourceNum, float defaultValue) {
-        float num = defaultValue;
-        try {
-            num = Float.valueOf(sourceNum.toString());
-        } catch (Exception ignored) {
-
-        }
-        return num;
+        return builder.toString();
     }
 
 
@@ -128,5 +105,3 @@ public class MathUtil {
         return !isEmpty(text);
     }
 }
-
-```
