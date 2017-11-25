@@ -38,6 +38,9 @@ AMS抽象出来的一个“任务”的概念，是记录ActivityRecord的栈，
 
 App 与 ActivityManagerService 通过 Binder 进行 IPC 通信，ActivityManagerService (SystemServer进程) 与 Zygote 通过 Socket 进行 IPC 通信。  
 
+#### 其他   
+[点击Launcher中，App的图标后，发生了什么](launcher/Launcher_Click_App_Icon_Process.md)   
+
 
 > 参考 
 
