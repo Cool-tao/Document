@@ -10,12 +10,10 @@ Java中存储键值对的数据类型都实现了这个接口，表示“映射�
 分别用来获取键对应的值以及向映射表中插入键值对。
 
 - Set<E>  
-无序、不可重复的集合，  
-它所支持的核心操作有add(E e),remove(Object o), contains(Object o);  
-分别用于添加元素，删除元素以及判断给定元素是否存在于集中。
+无序、不可重复的集合；查询效率低，删除和插入效率高；     
 
 - List<E>  
-有序、可以重复的集合；  
+有序、可以重复的集合；查询效率高，删除和插入效率低；      
 
 
 - Queue<E>  
@@ -29,34 +27,34 @@ Java集合框架中表示堆栈的数据类型，堆栈是一种“后进先出�
 - [继承于实现的比较](Compare/Collection_MapTableSet_02.md)、
 
 > 学习集合框架源码
-[ArrayList](List_ArrayList.md)  
-[LinkedList](List_LinkedList.md)    
-[HashMap](Map_HashMap.md)  
-[LinkedHashMap](Map_LinkedHashMap.md)
-[TreeMap](Map_TreeMap.md)
-LinkedTreeMap
-LinkedHashTreeMap
-ConcurrentHashMap
-ConcurrentSkipListMap
-IdentityHashMap
-WeakHashMap
-WeakClassHashMap
-EnumMap
+[ArrayList](List_ArrayList.md)    
+[LinkedList](List_LinkedList.md)      
+[HashMap](Map_HashMap.md)    
+[LinkedHashMap](Map_LinkedHashMap.md)    
+[TreeMap](Map_TreeMap.md)    
+LinkedTreeMap  
+LinkedHashTreeMap  
+ConcurrentHashMap  
+ConcurrentSkipListMap  
+IdentityHashMap  
+WeakHashMap  
+WeakClassHashMap  
+EnumMap  
 
-- Hashtable
-- IdentityHashtable
+Hashtable  
+IdentityHashtable  
 
-- TreeSet
-- //RegularEnumSet
-- //JumboEnumSet
-- HashSet
-- LinkedHashSet
-- CopyOnWriteArraySet
-- ConcurrentSkipListSet
-- BitSet
+TreeSet  
+//RegularEnumSet  
+//JumboEnumSet  
+HashSet  
+LinkedHashSet  
+CopyOnWriteArraySet  
+ConcurrentSkipListSet  
+BitSet  
 
-- Stack
-- ArrayDeque
-- PriorityQueue
-- ConcurrentLinkedDeque
+Stack  
+ArrayDeque  
+PriorityQueue  
+ConcurrentLinkedDeque  
 
