@@ -1,6 +1,6 @@
 ####  Android  
 
-Art和Dalvik对比；  
+Jvm、Dalvik、Art 对比；  
 如何保持应用的稳定性；  
 App启动流程，从点击桌面开始；  
 

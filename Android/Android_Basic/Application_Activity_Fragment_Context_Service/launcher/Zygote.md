@@ -1,6 +1,6 @@
 ###### Zygote 进程
 
-Android是基于Linux System的，当你的手机开机的时候，Linux的内核加载完成之后就会启动一个叫“init“的进程。  
+[Android是基于Linux System的，当你的手机开机的时候，Linux的内核加载完成之后就会启动一个叫“init“的进程](fork_Zygote.md)，   
 在Linux System里面，所有的进程都是由init进程fork出来的，zygote进程也不例外。  
 
 所以当系统里面的第一个zygote进程运行之后，在这之后再开启App，就相当于开启一个新的进程。  
