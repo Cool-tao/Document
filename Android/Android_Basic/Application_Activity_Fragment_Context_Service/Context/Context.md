@@ -10,13 +10,16 @@ Context;
         ContextThemeWrapper;  
             Activity;  
 ```
+具体的context的功能都是ContextImpl去实现的；  
+
 
 #### 在 Activity、Service中   
 
 getApplication();  
 getApplicationContext();  
 getBaseContext();  
-其中，getApplication  与 getApplicationContext 是同一个对象，hashCode结果是一样的；   
+其中，getApplication  与 getApplicationContext 是同一个对象，都是Application的引用；   
+getBaseContext 得到的是 ContextImpl的引用；  
 
 #### 在Fragment中  
 
