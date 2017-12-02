@@ -1,10 +1,10 @@
 ####  Android  
 
-Art和Dalvik对比；  
-如何保持应用的稳定性；  
+Jvm、Dalvik、Art和对比；  
+如何保持应用的稳定性、低耗电；  
 App启动流程，从点击桌面开始；  
+Application 的 Context 和 Activity 的 Context；  
 
-ApplicationContext和ActivityContext；  
 横竖屏切换的时候，Activity 各种情况下的生命周期；  
 Fragment生命周期；  
 Fragment状态保存；  

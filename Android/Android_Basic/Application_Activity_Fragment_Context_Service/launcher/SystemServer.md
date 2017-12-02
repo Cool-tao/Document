@@ -5,6 +5,15 @@ ActivityManagerService、PackageManagerService、WindowManagerService等等。
 
 是在 ZygoteInit.main()方法里 调用 startSystemServer 方法 fork 了 SystemServer；  
 
+SyetemServer在启动时做了如下工作：   
+1.启动Binder线程池，这样就可以与其他进程进行通信。   
+2.创建SystemServiceManager用于对系统的服务进行创建、启动和生命周期管理。   
+3.启动各种系统服务。  
 
-> 参考
-- http://blog.csdn.net/qq_23547831/article/details/51105171
+
+> 参考  
+
+http://blog.csdn.net/qq_23547831/article/details/51105171    
+http://blog.csdn.net/itachi85/article/details/55053356  
+
+
