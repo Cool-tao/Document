@@ -17,6 +17,7 @@ https://github.com/Kotlin/kotlin-coroutines/blob/master/kotlin-coroutines-inform
 https://github.com/Kotlin/kotlinx.coroutines/blob/master/reactive/coroutines-guide-reactive.md  
 [介绍基于JVM的协程机制](https://kotlinlang.org/docs/tutorials/coroutines-basic-jvm.html)   
 http://kotlinlang.org/docs/reference/coroutines.html  
+[关联生命周期](https://github.com/Kotlin/kotlinx.coroutines/blob/master/coroutines-guide.md#cancellation-via-explicit-job)  
 
 - 其他  
 

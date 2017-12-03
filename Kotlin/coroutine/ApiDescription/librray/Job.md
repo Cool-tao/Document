@@ -7,5 +7,6 @@ Job是协程创建的后台任务的概念，它持有该协程的引用。Job�
 ● Completed (final state)  已结束（最终状态）  非激活态  已完成  
 
 [job.join函数](Job_join.md)；  
-
+[cancel](Job_cancel.md)；  
+cancelAndJoin = cancel + join；  
 

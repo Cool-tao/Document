@@ -1,9 +1,9 @@
 ##### CoroutineDispatcher  
 
-协程启动选项，是一个抽象类，其子类：  
-● Unconfined    和当前线程，保持一致；
-● CommonPool    线程池，工作线程；  
-● HandlerContext   利用Handler实现的，Android的UI线程；  
+协程启动选项，是一个抽象类，其子类：    
+● Unconfined    和当前线程，保持一致；  
+● CommonPool    线程池，工作线程；    
+● HandlerContext   利用Handler实现的，Android的UI线程；    
 
 > CommonPool  
 
