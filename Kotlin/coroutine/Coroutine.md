@@ -2,8 +2,8 @@
 
 [引入gradle](UaseCase/CS_Gradle.md)  
 [入门示例 01](UaseCase/CS_HelloWorld_001.md)  
-[顺序执行 ](UaseCase/CS_Order_001.md)  
-[并发执行 ](UaseCase/CS_Order_002.md)  
+[顺序执行](UaseCase/CS_Order_001.md)  
+[并发执行](UaseCase/CS_Order_002.md)  
 [API描述](ApiDescription/api_description.md)  
 [概念描述](Concept/Concept.md)  
 
