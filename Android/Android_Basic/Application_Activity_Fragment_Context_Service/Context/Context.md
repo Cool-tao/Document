@@ -1,5 +1,6 @@
 #### 对Context的认识  
-
+Application、Service 中的Context，即getApplicationContext，被当作应用；  
+Activity中的Context，即activity.this，被当作视图；  
 Context是一个抽象类，类继承结构图：  
 ```
 Context;    
@@ -37,6 +38,8 @@ public void onReceive(Context context, Intent intent) {
 }
 ```
  
+
+![Context](../ImageFiles/context_001.png)  
 
 
 
