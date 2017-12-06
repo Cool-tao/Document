@@ -1,12 +1,4 @@
-###### Android语法
-
-[干货集中营](blog_comprehensive.md)  
-[优秀的开发者](library_developer.md)  
-[面试题收藏](library_interview.md)  
-[自定义控件相关知识](library_view.md)  
-[开源App](library_open_app.md)  
-[热门框架源码解读](resource_open_framework.md)  
-
+###### 未整理分类
 
 > 断点续传
 - http://blog.csdn.net/shimiso/article/details/6763664

@@ -42,6 +42,9 @@ public void onReceive(Context context, Intent intent) {
 ![Context](../ImageFiles/context_001.png)  
 
 
+>  参考 
+
+http://www.jianshu.com/p/46c35c5079b4   
 
 
 
