@@ -57,7 +57,9 @@ http://www.flysnow.org/categories/Android/page/2/
 - 吧主        
 http://blog.csdn.net/xiaole0313
 - 刘望舒  
-http://liuwangshu.cn/system/
+http://liuwangshu.cn/system/  
+http://blog.csdn.net/itachi85?viewmode=contents  
+
 
 
 
