@@ -86,6 +86,8 @@ http://blog.csdn.net/itachi85/article/details/78569299
 - Android系统启动流程（四）Launcher启动过程与系统启动流程  
 http://blog.csdn.net/itachi85/article/details/56669808  
 
+http://www.jianshu.com/p/19e95bc40e37  
+http://www.jianshu.com/p/f6234a975048  
 
 
 

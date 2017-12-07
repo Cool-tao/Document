@@ -75,6 +75,9 @@ http://lruheng.com/archives/
 - SayHiCoder    
 http://blog.csdn.net/u012721933?viewmode=contents
 
+- 吴晓龙同学  
+http://wuxiaolong.me/  
+
 - 写代码的猴子    
 http://jaeger.itscoder.com/
 
