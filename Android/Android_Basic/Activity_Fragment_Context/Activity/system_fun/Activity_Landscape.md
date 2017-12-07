@@ -1,4 +1,5 @@
 ##### 横屏透明的Activity
+
 ```
  <activity
             android:name="com.ubisys.ubisyssafety.activity.DialogInfoActivity"
