@@ -21,6 +21,9 @@ https://juejin.im/user/587377ec61ff4b005c4d4189
 - 陈宇明    
 http://blog.csdn.net/cym492224103
 
+- 程序亦非猿  
+http://yifeiyuan.me/  
+
 - Devlight    
 https://github.com/Devlight
 
@@ -101,6 +104,9 @@ http://blog.csdn.net/zxt0601
 
 - 张拭心    
 http://blog.csdn.net/u011240877/article/list/3
+
+-  张明云  
+http://zmywly8866.github.io/  
 
 
 
