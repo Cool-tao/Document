@@ -7,7 +7,8 @@
 如果A已经在栈顶，不会触发onCreate方法，会按顺序触发onPause、onNewIntent、onResume 方法；  
 
 ● singleTask  栈内复用模式  
-如果A已经在栈顶，不会触发onCreate方法，会按顺序触发onPause、onNewIntent、onResume 方法；  
+如果A不在栈内，会触发onCreate创建新的实例；  
+如果A已经在栈内，不会触发onCreate方法，会按顺序触发onPause、onNewIntent、onResume 方法；  
 如果A不在栈顶，一定会清空A之上所有的元素；  
 
 ● singleInstance  独栈模式  
