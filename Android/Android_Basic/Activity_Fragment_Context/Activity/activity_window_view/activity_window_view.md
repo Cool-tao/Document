@@ -6,7 +6,7 @@
 在它上面可以增加更多其他的Window，如dialog等；  
 
 [三者，是怎样关联的](awv_001.md)  
-  
+
 DecorView  
 Window  
 PhoneWindow  
@@ -29,3 +29,5 @@ Activity的启动需要通过AMS完成；Window的添加过程需要通过Window
 > 参考  
 
 http://www.jianshu.com/p/5297e307a688  
+http://www.cnblogs.com/wangle12138/p/7810552.html  
+

@@ -1,4 +1,4 @@
-> [图片缩放、查看大图](image_media_picker/ClickForLargerImage.md)、
+> [图片缩放、查看大图](image_media_picker/ClickForLargerImage.md)、  
 [相机](image_media_picker/Camera.md)、
 [摄影-拍摄视频](image_media_picker/VideoRecorder.md)、
 [播放器页面](image_media_picker/MediaView.md)、  
