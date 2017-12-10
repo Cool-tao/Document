@@ -45,9 +45,11 @@ http://blog.csdn.net/lmj623565791
 - Gavin.Liu    
 http://gavinliu.cn/categories/Android-Notes/
 
+- 郭林  
+http://blog.csdn.net/guolin_blog?viewmode=contents  
+
 - Hpw123    
 http://hpw123.win/2016/12/30/Glide%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/
-
 
 - 看书的小蜗牛   
 https://juejin.im/user/574e3ff35bbb500057b708b2
