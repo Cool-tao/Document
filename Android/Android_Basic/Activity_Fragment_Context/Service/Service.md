@@ -9,7 +9,8 @@
 
 > Service的详细了解  
 
-将一个普通的Service转换成远程Service，只需要在注册Service添加属性 android:process=":remote" 即可；  
+[远程Service](RemoteService/RemoteService.md)： 将一个普通的Service转换成远程Service，只需要在注册Service添加属性 android:process=":remote" 即可；  
+[Service与Thread](Service_Thread.md)  
 [服务的生命周期](Service_lifecycle.md)；  
 [向Service传递参数](fun/start_params.md)    
 [onDestroy](fun/onDestroy.md)  
