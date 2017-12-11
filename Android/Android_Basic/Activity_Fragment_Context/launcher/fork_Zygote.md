@@ -1,6 +1,6 @@
 #### 当按下电源键  
 
-cpu上电，引导芯片的代码  开始从预定义的地方开始执行程序，加载引导程序 Bootloader 到ram中运行；  
+cpu上电，引导芯片的预设代码开始执行，加载引导程序 Bootloader 到ram中运行；  
 Bootloader负责初始化硬件资源和加载 linux kernel，然后将控制权交给 linux kernel。    
 linux kernel 得到控制权后，调用下列一系列函数：  
 
