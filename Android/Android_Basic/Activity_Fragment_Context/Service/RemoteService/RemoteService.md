@@ -2,7 +2,8 @@
 
 ● 什么是远程服务  
 远程服务也被称作为 独立的进程（pid不一样），不受其他进程、主进程的影响；  
-
+将一个普通的Service转换成远程Service，只需要在注册Service添加属性 android:process=":remote" 即可；  
+当然，是以 : 开头，后面是名字，可以不交remote；  
 MainActivity  
 ```
 override fun onCreate(savedInstanceState: Bundle?) {
