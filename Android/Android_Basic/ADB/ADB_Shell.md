@@ -3,8 +3,17 @@
 ● 查看栈顶的Activity  
 adb shell dumpsys activity top  
 
+● 计算MainActivity启动时间  
+adb shell am start -W com.alex.andfun.basic/com.alex.andfun.basic.MainActivity  
+如果只关心某个应用自身启动耗时，参考TotalTime；  
+如果关心系统启动应用耗时，参考WaitTime；  
+如果关心应用有界面Activity启动耗时，参考ThisTime；  
+
 ● 查看连接设备  
 adb devices  
+
+● 查看adb 版本信息  
+adb version  
 
 ● 查看进程  
 adb shell ps  
