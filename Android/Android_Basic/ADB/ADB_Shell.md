@@ -15,11 +15,20 @@ adb devices
 ● 查看adb 版本信息  
 adb version  
 
+● 进入shell环境  
+adb shell   
+
 ● 查看进程  
-adb shell ps  
+adb shell  
+ps  
+// 结果
 USER    PID    PPID    VSIZE    RSS    WCHAN    PC    NAME    
 
-● 杀死进程  
+● 查看指定包名的进程  
+adb shell   
+ps|grep com.alex.andfun.baisc  
+
+● 按照包名 杀死进程  
 adb shell am force-stop com.alex.andfun.basic  
 
 ● 列出app包名列表  
