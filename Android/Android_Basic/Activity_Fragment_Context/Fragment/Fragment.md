@@ -10,4 +10,5 @@
 >  参考  
 
 http://www.jianshu.com/p/825eb1f98c19  
+https://github.com/AlanCheen/Android-Resources/blob/master/Fragment.md  
 

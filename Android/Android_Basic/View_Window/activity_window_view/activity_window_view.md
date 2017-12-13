@@ -1,18 +1,19 @@
 #### 对Activity、Window、View的认识  
 
-[Activity、Window、View层级嵌套结构](../../ImageFiles/awv_001.jpg)    
+[Activity、Window、View层级嵌套结构](../../Activity_Fragment_Context/ImageFiles/awv_001.jpg)    
 
 每一个Activity都包含了唯一一个PhoneWindow，这个就是Activity根Window；  
 在它上面可以增加更多其他的Window，如dialog等；  
 
-[三者，是怎样关联的](awv_001.md)  
-
-DecorView  
-Window  
-PhoneWindow  
 ● 为什么要设计Activity、View、Window？  
-Activity就像工匠，Window就像是窗户，View就像是窗花，LayoutInflater像剪刀，Xml配置像窗花图纸。  
-Android根据他们不同的职能让他们各斯其活，同时也相互配合展示给我们灵活、精致的界面。  
+[三者，是怎样关联的](awv_001.md)  
+[Activity存在的必要](Necessity_Activity.md)  
+DecorView  
+[Window](Necessity_Window.md)    
+PhoneWindow  
+WindowManagerService  
+WindowManager  
+
 
 ● Window是什么？它的职能是什么？  
 Activity要管理View需要通过Window来间接管理的。Window通过addView()、removeView()、updateViewLayout()这三个方法来管理View的。  
@@ -26,8 +27,12 @@ View通过WindowManager的addView()、removeView()、updateViewLayout()对View�
 Window的添加过程以及Activity的启动流程都是一次IPC的过程。    
 Activity的启动需要通过AMS完成；Window的添加过程需要通过WindowSession完成。  
 
+WindowManager  
+WindowManager为每个Window创建Surface对象，然后应用就可以通过这个Surface来绘制任何它想要绘制的东西。而对于WindowManager来说，这只不过是一块矩形区域而已。  
+
 > 参考  
 
 http://www.jianshu.com/p/5297e307a688  
 http://www.cnblogs.com/wangle12138/p/7810552.html  
+http://blog.csdn.net/huachao1001/article/details/51866287  
 

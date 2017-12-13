@@ -15,6 +15,9 @@ adb devices
 ● 查看adb 版本信息  
 adb version  
 
+● 退出当前环境  
+exit  
+
 ● 进入shell环境  
 adb shell   
 
