@@ -9,3 +9,12 @@
 ● 对于Bitmap或者本地的Drawable，最好先压缩处理在展示，或者用Glide等开源框架做处理；  
 ● 循环语句里面，不要重复造对象的引用，字符串拼接最好要使用StringBuild；  
 ● HashMap、ArrayList 初始化时，最好预估计其容量，扩容也是比较耗时的；  
+
+> 参考  
+
+https://www.jianshu.com/p/d5a843cb7ab1  
+http://landerlyoung.github.io/blog/2014/10/31/androidzhong-de-wakelockshi-yong/  
+http://www.jianshu.com/p/09d878e4c6ab  
+http://blog.csdn.net/wh_19910525/article/details/8287202  
+http://blog.csdn.net/airk000/article/details/9121003  
+
