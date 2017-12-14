@@ -89,9 +89,6 @@ http://jaeger.itscoder.com/
 xiaanming    
 http://blog.csdn.net/xiaanming
 
-严振杰    
-http://blog.csdn.net/yanzhenjie1003
-
 Yann Badoual  badoualy    
 https://github.com/badoualy
 
@@ -100,6 +97,12 @@ http://yifeng.studio/
 
 一片枫叶_刘超  
 http://blog.csdn.net/qq_23547831  
+
+严振杰    
+http://blog.csdn.net/yanzhenjie1003
+
+袁辉辉  
+http://gityuan.com/archive/  
 
 云少嘎嘎嘎    
 http://blog.chinaunix.net/uid/20771867/abstract/1.html?cid=10099

@@ -54,25 +54,25 @@ App 与 ActivityManagerService 通过 Binder 进行 IPC 通信，ActivityManager
 
 > 参考 
 
-- Activity启动过程全解析  
+Activity启动过程全解析  
 http://blog.csdn.net/zhaokaiqiang1992/article/details/49428287  
 
-- Android应用程序进程启动过程的源代码分析  
+Android应用程序进程启动过程的源代码分析  
 http://blog.csdn.net/luoshengyang/article/details/6747696  
 
-- Android应用程序启动过程源代码分析  
+Android应用程序启动过程源代码分析  
 http://blog.csdn.net/luoshengyang/article/details/6689748  
 
-- Android应用程序在新的进程中启动新的Activity的方法和过程分析  
+Android应用程序在新的进程中启动新的Activity的方法和过程分析  
 http://blog.csdn.net/luoshengyang/article/details/6720261  
 
--  Android应用程序的Activity启动过程简要介绍和学习计划  
+Android应用程序的Activity启动过程简要介绍和学习计划  
 http://blog.csdn.net/luoshengyang/article/details/6685853  
 
-- Android进程间通信（IPC）机制Binder简要介绍和学习计划  
+Android进程间通信（IPC）机制Binder简要介绍和学习计划  
 http://blog.csdn.net/luoshengyang/article/details/6618363  
 
-- Android系统启动流程（四）Launcher启动过程与系统启动流程  
+Android系统启动流程（四）Launcher启动过程与系统启动流程  
 http://blog.csdn.net/itachi85/article/details/56669808  
 http://blog.csdn.net/itachi85/article/details/64123035  
 http://blog.csdn.net/itachi85/article/details/64243223  
@@ -80,14 +80,15 @@ http://blog.csdn.net/itachi85/article/details/69388942
 http://blog.csdn.net/itachi85/article/details/72825768  
 http://blog.csdn.net/itachi85/article/details/73065603  
 
-- Android深入四大组件（六）Android8.0 根Activity启动过程（前篇）    
+Android深入四大组件（六）Android8.0 根Activity启动过程（前篇）    
 http://blog.csdn.net/itachi85/article/details/78569299  
 
-- Android系统启动流程（四）Launcher启动过程与系统启动流程  
+Android系统启动流程（四）Launcher启动过程与系统启动流程  
 http://blog.csdn.net/itachi85/article/details/56669808  
 
 http://www.jianshu.com/p/19e95bc40e37  
 http://www.jianshu.com/p/f6234a975048  
 http://blog.csdn.net/qq_23547831/article/details/51224992  
 
-理解Android进程创建流程  http://gityuan.com/2016/03/26/app-process-create/  
+理解Android进程创建流程  
+http://gityuan.com/2016/03/26/app-process-create/  
