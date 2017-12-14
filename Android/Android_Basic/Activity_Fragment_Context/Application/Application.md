@@ -1,5 +1,6 @@
 ##### Application   
 
+[Application在哪里初始化](../launcher/ActivityManagerService.md)  
 [Application内存回调](Application_MemoryCallback.md)    
 
 >  参考 

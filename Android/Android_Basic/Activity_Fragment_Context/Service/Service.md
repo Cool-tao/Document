@@ -25,4 +25,4 @@
 全面剖释 Service 服务  https://www.cnblogs.com/leslies2/p/5401813.html  
 耍流氓的方式保活Service  http://www.jianshu.com/p/28c5377c77c4   
 启动前台服务，国内产商的配合程度  http://www.jianshu.com/p/76af1e7503a5  
-
+Process(进程)  https://github.com/AlanCheen/Android-Resources/blob/master/Process.md  

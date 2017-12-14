@@ -1,4 +1,4 @@
-###### Launcher 启动流程
+##### Launcher 启动流程
 
 应用程序进程具有两个特点：  
 一是进程的入口函数是ActivityThread.main，  
@@ -90,4 +90,4 @@ http://www.jianshu.com/p/19e95bc40e37
 http://www.jianshu.com/p/f6234a975048  
 http://blog.csdn.net/qq_23547831/article/details/51224992  
 
-
+理解Android进程创建流程  http://gityuan.com/2016/03/26/app-process-create/  
