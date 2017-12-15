@@ -5,9 +5,11 @@
 在Android系统中，所有的应用程序进程以及系统服务进程SystemServer，都是由Zygote进程fork出来的，都是zygote的子进程。  
 
 ◆ Zygote启动流程就讲到这，Zygote进程共做了如下几件事：   
-◐ 创建DVM并为DVM注册JNI.   
-◐ 通过JNI调用ZygoteInit的main函数进入Zygote的Java框架层。   
-◐ 通过registerZygoteSocket函数创建服务端Socket，并通过runSelectLoop函数等待ActivityManagerService的请求来创建新的应用程序进程。   
+◐ 解析init.zygote.rc中的参数，创建AppRuntime并调用AppRuntime.start()方法；  
+◐ 调用AndroidRuntime的startVM()方法创建虚拟机，再调用startReg()注册JNI函数；     
+◐ 通过JNI方式调用ZygoteInit.main()，第一次进入Java世界；      
+◐ registerZygoteSocket()建立socket通道，zygote作为通信的服务端，用于响应客户端请求；   
+◐ preload()预加载通用类、drawable和color资源、openGL以及共享库以及WebView，用于提高app启动效率；  
 ◐ 启动SystemServer进程。  
 
 

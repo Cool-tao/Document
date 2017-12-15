@@ -11,8 +11,8 @@
 [ (AIndexActivity.kt:17) #onCreate] 执行了  
 [ (AIndexActivity.kt:29) #onStart] 执行了  
 [ (AIndexActivity.kt:34) #onResume] 执行了  
-[ (MainActivity.kt:58) #onSaveInstanceState](LC_onSaveInstanceState.md) 执行了  
-[ (MainActivity.kt:48) #onStop](LC_onStop.md) 执行了  
+[ (MainActivity.kt:58) #onSaveInstanceState](lc_onSaveInstanceState.md) 执行了  
+[ (MainActivity.kt:48) #onStop](lc_onStop.md) 执行了  
 
 > 关闭 新页面
 

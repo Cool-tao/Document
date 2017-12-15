@@ -39,6 +39,13 @@ AMS抽象出来的一个“任务”的概念，是记录ActivityRecord的栈，
 App 与 ActivityManagerService 通过 Binder 进行 IPC 通信，ActivityManagerService (SystemServer进程) 与 Zygote 通过 Socket 进行 IPC 通信。  
 内核启动， fork Zygote 进程，Zygote 进程 fork SystemServer 进程， SystemServer fork ActivityManagerService 进程；  
 
+init进程	Init.main()  
+zygote进程	ZygoteInit.main()  
+app_process进程	RuntimeInit.main()  
+system_server进程	SystemServer.main()  
+app进程	ActivityThread.main()  
+
+
 #### Android系统启动流程：  
 1.启动电源以及系统启动， 当电源按下时引导芯片代码开始从预定义的地方（固化在ROM）开始执行。加载引导程序Bootloader到RAM，然后执行。   
 2.引导程序BootLoader ，引导程序BootLoader是在Android操作系统开始运行前的一个小程序，它的主要作用是把系统OS拉起来并运行。   

@@ -2,6 +2,7 @@
 
 在 SystemServer 进程开启的时候，就会初始化 ActivityManagerService；  
 ActivityManagerService是服务端对象，负责系统中所有 Activity 的生命周期；  
+创建ActivityManager、ProcessRecord、ServiceManager；  
 
 
 > createSystemContext  

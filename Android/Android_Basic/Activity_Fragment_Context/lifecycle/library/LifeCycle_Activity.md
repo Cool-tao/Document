@@ -1,7 +1,9 @@
 ###### Activity 生命周期
 
-- [onSaveInstanceState](LC_onSaveInstanceState.md)   
-- [onStop](LC_onStop.md) 
+[onCreate](lc_onCreate.md)  
+[onSaveInstanceState](lc_onSaveInstanceState.md)     
+[onStop](lc_onStop.md)   
+
 
 > 细节描述
 

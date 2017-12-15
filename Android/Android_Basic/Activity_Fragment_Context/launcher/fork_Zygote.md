@@ -3,15 +3,10 @@
 cpu上电，芯片上的预设代码开始执行，加载引导程序 Bootloader 到ram中运行；  
 Bootloader负责初始化硬件资源和加载 linux kernel，然后将控制权交给 linux kernel。    
 linux kernel 得到控制权后，调用下列一系列函数：  
-page_address_init();//页表地址初始化   
-sched_init();   
-page_alloc_init();// 初始化内存分配 ★   
-init_IRQ();//中断向量初始化   
-softirq_init();//软中断初始化   
-console_init();//终端初始化   
-calibrate_delay();   
-vfs_caches_init();// 初始化文件系统 ★   
-rest_init();// fork init进程，init进程会创建android的Zygote进程 ★  
+初始化内存分配 
+初始化文件系统   
+加载硬件驱动    
+fork init进程，init进程会创建android的Zygote进程  
 
 [fork_linux kernel](../ImageFiles/launcher_001.png)  
 
