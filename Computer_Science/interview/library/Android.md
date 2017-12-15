@@ -23,6 +23,13 @@ Binder机制及底层实现；
 
 Serializable 和Parcelable 的区别；  
 
+ArrayMap<Int, Int>  
+SparseArray<Int>  
+SparseBooleanArray  
+SparseIntArray  
+SparseLongArray  
+LongSparseArray<Int>  
+
 多线程断点续传原理；  
 
 OkHttp；

@@ -22,9 +22,9 @@ Java集合框架中的队列接口，代表了“先进先出”队列。支持a
 - Stack<E>  
 Java集合框架中表示堆栈的数据类型，堆栈是一种“后进先出”的数据结构。支持push(E item), pop()等操作。
 
-> 用法比较
-- [用法比较](Compare/Collection_MapTableSet_01.md)、
-- [继承于实现的比较](Compare/Collection_MapTableSet_02.md)、
+● 简单比较  
+[用法比较](Compare/Collection_MapTableSet_01.md)、  
+[继承于实现的比较](Compare/Collection_MapTableSet_02.md)、  
 
 > 学习集合框架源码  
 
