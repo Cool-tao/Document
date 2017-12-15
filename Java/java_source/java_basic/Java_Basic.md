@@ -47,6 +47,8 @@ clone(), equals(), hashCode(), toString(), notify(), notifyAll(), wait(), finali
 [接口 和 抽象类](JB_Interface_AbstractClass.md)  
 [对Java中面向对象的认识](Jav_OOP.md)  
 [对finalize方法的认识](java_finalize.md)  
+[java位运算](java_bit_operation.md)  
+
 
 
 
