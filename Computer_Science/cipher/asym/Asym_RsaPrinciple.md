@@ -16,8 +16,8 @@
 ● p是大于1的整数，则p和p-1构成互质关系，比如57和56。  
 ● p是大于1的奇数，则p和p-2构成互质关系，比如17和15。    
 
-[欧拉函数](asym/oula_function.md)  
-[欧拉定理](asym/oula_theorem.md)   
+[欧拉函数](oula_function.md)  
+[欧拉定理](oula_theorem.md)   
 [模反元素]()
 > 参考 
 

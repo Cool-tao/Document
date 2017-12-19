@@ -1,8 +1,8 @@
 #### Cipher 
 
 主要分为对称加密和非对称加密  
-[对称加密](SymmetricCiphetr.md)  
-[非对称加密RSA原理](Asym_RsaPrinciple.md)    
+[对称加密](sym/SymmetricCipher.md)  
+[非对称加密RSA原理](asym/Asym_RsaPrinciple.md)    
 
 ◆ 比较一下  
 ◑ 对称加密：  
