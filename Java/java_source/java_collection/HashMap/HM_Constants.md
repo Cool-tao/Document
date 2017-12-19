@@ -20,7 +20,7 @@ capacity就是指HashMap中桶的数量。默认值为16。一般第一次扩容
 
 > threshold
   
-threshold表示当HashMap的size大于threshold时会执行resize操作。   
+threshold表示当HashMap的元素的个数大于threshold时会执行resize操作。   
 threshold=capacity*loadFactor
 
 1. 默认容量
