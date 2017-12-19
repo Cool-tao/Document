@@ -22,3 +22,5 @@ CodeKK    http://codekk.com/open-source-project-analysis
 https://github.com/opendigg/awesome-github-android-ui  
 https://github.com/Arisono/android-bookmark-shares  
 https://github.com/jiang111/awesome-android-tips  
+https://github.com/ZhaoKaiQiang/AndroidDifficultAnalysis  
+
