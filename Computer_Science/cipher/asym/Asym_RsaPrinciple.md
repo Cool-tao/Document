@@ -19,15 +19,37 @@
 ● p是大于1的奇数，则p和p-2构成互质关系，比如17和15。   
 
 ◆ 同余   
-两个整数a、b， a mod n = b mod n，则称a，b对于模m同余，记作: a ≡ b (mod m)；  
+两个整数a、b， a mod n = b mod n，则称a，b对于模n同余，记作: a ≡ b (mod n)；  
+◆ 费马小定理   
+如果p是质数，且gcd(a, p) = 1，那么 a ^ (p-1) mod p = 1 mod p，记作  a ≡ 1 (mod p)；
 
 
 [欧拉函数](euler_function.md)  
-[欧拉定理](euler_theorem.md)   
-[模反元素]()
+◆ 欧拉定理  
+定理：  
+（1）若n是素数p的k次幂，φ(n)=p^k-p^(k-1)=(p-1)p^(k-1)，因为除了p的倍数外，其他数都跟n互质 ；    
+（2）欧拉函数是积性函数——若m，n互质，φ(m*n)=φ(m)φ(n)；    
+特殊性质：  
+1）当n为奇数时，φ(2n)=φ(n)；    
+2）p是素数，φ(p) = p - 1，φ(p)称为p的欧拉值；  
+
+如果两个正整数a和n互质，则n的欧拉函数 φ(n) 可以让下面的等式成立：  
+![euler_100](../ImageFiles/euler_100.png)    
+也就是说，a的φ(n)次方被n除的余数为1。或者说，a的φ(n)次方减去1，可以被n整除。  
+
+欧拉定理有一个特殊情况:  
+假设正整数a与质数p互质，因为质数p的φ(p)等于p-1，则欧拉定理可以写成  
+![euler_103](../ImageFiles/euler_103.png)     
+
+◆ 名词解释  
+gcd  最大公约数（greatest common divisor）  
+
+
 > 参考 
 
 
 欧拉函数  http://blog.csdn.net/wangjian8006/article/details/7833319  
 https://www.kancloud.cn/kancloud/rsa_algorithm/48493  
+http://blog.csdn.net/jiange_zh/article/details/49339289  
+http://blog.csdn.net/q376420785/article/details/8557266  
 

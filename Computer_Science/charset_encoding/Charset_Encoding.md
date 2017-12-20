@@ -55,7 +55,9 @@ GB2312字符集暗示了文件肯定是ANSI编码的，从而配合字符集正�
 
 
 > 参考
-- http://hippo-jessy.com/2017/01/17/Charset-and-Encoding/
-- http://www.cnblogs.com/skynet/archive/2011/05/03/2035105.html
+
+http://hippo-jessy.com/2017/01/17/Charset-and-Encoding/   
+http://www.cnblogs.com/skynet/archive/2011/05/03/2035105.html   
+
 
 
