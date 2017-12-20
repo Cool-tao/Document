@@ -1,44 +1,44 @@
 ###### 集合框架的用法比较
 
-##### HashMap
+◆ HashMap
 键值对，一组key、value元素；  
 key、value 都可以为空（允许多个不同的key，value为空；）；  
 key相同，value会被覆盖；  
 迭代时，按照key的hashCode顺序；  
 
-##### Hashtable
+◆ Hashtable
 键值对，一组key、value元素；  
 key 和 value，均不可以为空（ hashtable.put(null,"AA");     hashtable.put("AA",null);  都会抛异常）；    
 
-##### TreeMap  
+◆ TreeMap  
 键值对，一组key、value元素；  
 只允许value为空（treeMap.put(null, "AA"); 会抛异常）；  
 迭代时，按照key的自然语言升序；  
 
-##### LinkedHashMap  
+◆ LinkedHashMap  
 键值对，一组key、value元素；  
 key、value 都可以为空（允许多个不同的key，value为空；）；  
 key相同，value会被覆盖；  
 迭代时，可以按照存入时的顺序，也可以按照LRU算法；  
 
-##### HashSet
+◆ HashSet
 不是键值对，只有一个元素；  
 允许放入 null；  
 放入重复元素，会被覆盖；  
 迭代时，按照hashCode顺序；  
 
-##### LinkedHashSet  
+◆ LinkedHashSet  
 不是键值对，只有一个元素；  
 允许放入 null；  
 放入重复元素，会被覆盖；  
 迭代时，按照存入的顺序；  
 
-##### TreeSet  
+◆ TreeSet  
 不是键值对，只有一个元素；  
 不能放入 null（treeSet.add(null); 会抛异常）；  
 迭代时，按照自然语言升序；  
 
-##### ConcurrentHashMap
+◆ ConcurrentHashMap
 键值对，一组key、value元素；  
 key 和 value，均不可以为空（ concurrentHashMap.put(null,"AA");     concurrentHashMap.put("AA",null);  都会抛异常）；  
 

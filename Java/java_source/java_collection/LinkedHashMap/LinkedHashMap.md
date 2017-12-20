@@ -11,9 +11,9 @@
 - accessOrder 为 false ，迭代entrySet ，get操作，都是按照Put的顺序操作；  
 
 > LinkedHashMap 的实现
-- [简单示例](LinkedHashMap/LHM_Sample.md)
-- [怎么实现存取有序](LinkedHashMap/LHM_AccessOrderByPut.md)
-- [怎么实现LRU](LinkedHashMap/LHM_AccessOrderByLRU.md)
+- [简单示例](LHM_Sample.md)
+- [怎么实现存取有序](LHM_AccessOrderByPut.md)
+- [怎么实现LRU](LHM_AccessOrderByLRU.md)
  
  > 参考
  - http://blog.csdn.net/ns_code/article/details/37867985

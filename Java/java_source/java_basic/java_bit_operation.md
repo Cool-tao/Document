@@ -1,11 +1,15 @@
 #### java 位运算  
 
+
 ● 二进制表示    
 Integer.toBinaryString(0)  
 
 ● 取反运算（~）   
 Integer.toBinaryString(~0) = 11111111111111111111111111111111  （32个1）  
 
+● 按位异或 （^）   
+相异为1，相同为0；  
+     
 ● 左移运算（<<）
 二进制位全部左移若干位（左边的二进制丢弃，右边补零）  
 Integer.toBinaryString(1 << 1)  =  10  

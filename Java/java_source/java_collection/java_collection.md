@@ -30,12 +30,12 @@ Java集合框架中表示堆栈的数据类型，堆栈是一种“后进先出�
 
 [ArrayList](List_ArrayList.md)    
 [LinkedList](List_LinkedList.md)      
-[HashMap](Map_HashMap.md)    
-[LinkedHashMap](Map_LinkedHashMap.md)    
+[HashMap](HashMap/HashMap.md)    
+[LinkedHashMap](LinkedHashMap/LinkedHashMap.md)    
 [TreeMap](Map_TreeMap.md)    
 LinkedTreeMap  
 LinkedHashTreeMap  
-ConcurrentHashMap  
+[ConcurrentHashMap](Map_ConcurrentHashMap.md)  
 ConcurrentSkipListMap  
 IdentityHashMap  
 WeakHashMap  
@@ -59,3 +59,10 @@ ArrayDeque
 PriorityQueue  
 ConcurrentLinkedDeque  
 
+
+- https://m.th7.cn/show/4/201706/1185867.html#
+- http://blog.csdn.net/seu_calvin/article/details/52653711
+- http://blog.csdn.net/zhangerqing/article/details/8193118
+- http://www.cnblogs.com/beatIteWeNerverGiveUp/p/5709841.html
+- http://blog.csdn.net/paincupid/article/details/47746341
+- https://juejin.im/post/593e5364ac502e006c0c7690
