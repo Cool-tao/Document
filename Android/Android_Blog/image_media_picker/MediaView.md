@@ -13,3 +13,4 @@ https://github.com/lipangit/jiecaovideoplayer
 
 https://github.com/brucetoo/ListVideoPlay  
 https://github.com/yqritc/Android-ScalableVideoView  
+https://github.com/CarGuo/GSYVideoPlayer  
