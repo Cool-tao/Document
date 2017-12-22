@@ -20,3 +20,4 @@ https://github.com/lexluthors/VerticalSeekbar
 ◆ SeekBar-气泡  
 https://github.com/AnderWeb/discreteSeekBar  
 https://github.com/ITheBK/RangeBarVertical  
+https://github.com/warkiz/IndicatorSeekBar  
