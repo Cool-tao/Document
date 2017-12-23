@@ -30,10 +30,26 @@ scheme://authority/path1/path2/path3?id = 1&name = mingming&old#fragment
 其中"path"和"query"可都不要：scheme://authority#fragment  
 其中"query"和"fragment"可都不要：scheme://authority/path  
 "path","query","fragment"都不要：scheme://authority  
-等等……
+等等……  
 ◆ 通配符：  
 * 匹配任意长度的任何有效字符的字符串   
 content://com.example.app.provider/*   表示 匹配provider的任何内容  
 
 ＃ 匹配任意长度的数字字符的字符串  
-content://com.example.app.provider/table/#   表示 匹配provider中的table表的所有行  
+content://com.example.app.provider/table/#   表示 匹配provider中的table表的所有行    
+
+1...通话记录  
+1.1...Uri uri = Uri.parse("content://call_log/calls");  
+1.2...Cursor cursor = resolver.query(uri, new String[]{"_id","number","date"}, null, null, null);  
+
+2...手机短信  
+2.1...Uri uri = Uri.parse("content://sms");  //查询所有字段   
+2.2...Cursor cursor = resolver.query(uri, new String[]{"_id","address","date","body"}, null, null, null);  
+
+3...通讯记录  
+3.1.1...Uri uri = Uri.parse("content://com.android.contacts/contacts"); //读取所有字段  
+3.1.2...Cursor cursor = resolver.query(uri, new String[]{"_id","display_name"}, null, null, null); //  
+3.2.1...Uri uri = Uri.parse("content://com.android.contacts/raw_contacts");    
+3.2.1.1...Uri uri = RawContacts.CONTENT_URI;			//利用系统常量，获得Uri  
+3.2.2...Cursor cursor = resolver.query(uri, new String[]{"_id","display_name"}, null, null, null);  
+3.3.1...Uri uriForData = Uri.parse("content://com.android.contacts/data");  

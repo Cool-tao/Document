@@ -32,4 +32,8 @@ vnd.android.cursor.dir/vnd.yourcompanyname.contenttype
 content://com.example.transportationprovider/trains   
 // 则ContentProvider会通过ContentProvider.geType(url)返回以下MIME类型  
 vnd.android.cursor.dir/vnd.example.rail  
+"vnd.android.cursor.item/email_v2"							邮箱  
+"vnd.android.cursor.item/phone_v2"						手机号  
+"vnd.android.cursor.item/name"									姓名  
+"vnd.android.cursor.item/postal-address_v2"		通信地址  
 

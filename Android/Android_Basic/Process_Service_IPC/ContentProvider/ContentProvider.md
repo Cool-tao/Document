@@ -4,6 +4,10 @@
 内容提供者，只是适合于多进程模式下的，中间层、数据的搬运工，并不是数据源本身，数据源本身可能是db、file等；  
 内容提供者，基于Binder实现；  
 
+[ContentProvider初始化](function/InitFun.md)  
+[ContentProvider  Insert](function/Insert.md)  
+
+
 ◆ 相关知识  
 [统一资源标识符 URI](library/URI.md)    
 [MIME数据类型](library/MIME.md)    
