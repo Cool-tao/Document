@@ -1,5 +1,12 @@
 #### Fragment重叠异常  
 
+重叠？  
+假设Activity被回收了，再回到这个Activity时， 还会再次走onCreate；  
+Fragment也会走onCreate，但是Fragment的属性mHidden没有被保存， 也就是Fragment还会被show出来，  
+上述两个条件，会导致，多造了Fragment， 并展示出来了；  
+
+
+◆ Activity  
 ```
 @Override
 protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +33,16 @@ protected void onCreate(Bundle savedInstanceState) {
                 .add(R.id,container,hideFragment,hideFragment.getClass().getName())
                 .hide(hideFragment)
                 .commit();
+    }
+}
+```  
+
+◆ Fragment  
+```
+override fun onCreateData(bundle: Bundle?) {
+    fragmentManager?.beginTransaction()?.let {
+        it.hide(this)
+        it.commitAllowingStateLoss()
     }
 }
 ```
