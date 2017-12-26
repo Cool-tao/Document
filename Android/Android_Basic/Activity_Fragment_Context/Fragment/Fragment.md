@@ -2,6 +2,7 @@
 
 [setRetainInstance](function/setRetainInstance.md)  
 [getActivity()空指针问题](function/getActivity.md)  
+[commit](function/commit.md)  
 [Fragment重叠异常](solution/solution_001.md)  
 [onCreateView](solution/solution_onCreateView.md)  
 [onResume和UserVisible的问题](solution/solution_onResumeVisibility.md)  
@@ -11,5 +12,7 @@
 http://www.jianshu.com/p/825eb1f98c19  
 https://github.com/AlanCheen/Android-Resources/blob/master/Fragment.md    
 https://github.com/JustKiddingBaby/FragmentRigger  
+http://blog.csdn.net/u011240877/article/details/78132990#fragment-的使用  
+
 
 

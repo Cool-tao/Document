@@ -10,7 +10,6 @@ https://github.com/hehonghui/android-tech-frontier/tree/master/androidweekly
 https://github.com/hehonghui/android-tech-frontier  
 https://github.com/Lafree317/ShareAndroidResource  
 https://github.com/ZQiang94/Andriod-collect-blogs/blob/master/README.md  
-
 Android Blog 周刊     http://www.androidblog.cn/  
 看源社区    http://www.see-source.com/androidwidget/list.html?type=20  
 CTOLib代码库  https://www.ctolib.com/android/  
