@@ -2,7 +2,6 @@
 
 深入理解Android：Wi-Fi、NFC和GPS卷（完整版）  
 https://www.kancloud.cn/alex_wsc/android-wifi-nfc-gps/413031  
-
 https://github.com/ddwhan0123/Useful-Open-Source-Android  
 https://github.com/XXApple/AndroidLibs  
 http://www.mobile-open.com/2015/84227.html  
@@ -23,5 +22,6 @@ https://github.com/Arisono/android-bookmark-shares
 https://github.com/jiang111/awesome-android-tips  
 https://github.com/ZhaoKaiQiang/AndroidDifficultAnalysis  
 https://github.com/LittleFriendsGroup/AndroidSdkSourceAnalysis/tree/master/article  
+https://github.com/GcsSloop/AndroidNote  
 
 
