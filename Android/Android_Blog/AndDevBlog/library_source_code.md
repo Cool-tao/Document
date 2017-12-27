@@ -3,8 +3,8 @@
 
 ◆ Android 类索引表  
 https://developer.android.google.cn/reference/packages.html  
-support库 介绍  
-https://developer.android.google.cn/topic/libraries/support-library/features.html#v7-cardview  
+support库 介绍  https://developer.android.google.cn/topic/libraries/support-library/features.html#v7-cardview  
+Api指南  https://developer.android.google.cn/guide/index.html  
 
 ◆ 官方源码  
 http://androidxref.com/  

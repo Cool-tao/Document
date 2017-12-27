@@ -9,6 +9,11 @@
 
 ◆ DataBinding教程  
 https://developer.android.google.cn/topic/libraries/data-binding/index.html  
+https://developer.android.google.cn/topic/libraries/architecture/index.html  
+https://developer.android.google.cn/topic/libraries/architecture/lifecycle.html
+https://developer.android.google.cn/topic/libraries/architecture/livedata.html  
+https://developer.android.google.cn/topic/libraries/architecture/saving-states.html  
+https://developer.android.google.cn/topic/libraries/architecture/viewmodel.html  
 https://github.com/LyndonChin/MasteringAndroidDataBinding  
 https://github.com/LyndonChin/MasteringAndroidDataBinding/blob/master/README.md  
 http://yanghui.name/blog/2016/02/17/data-binding-guide/  
