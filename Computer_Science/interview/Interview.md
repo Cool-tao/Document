@@ -18,6 +18,7 @@ https://github.com/karmalove/AndroidInterview
 https://github.com/JackyAndroid/AndroidInterview-Q-A  
 http://www.jianshu.com/nb/3450453  
 http://www.jianshu.com/p/1e415787efc1  
+https://github.com/kdn251/interviews/blob/master/README-zh-cn.md  
 
 
 
