@@ -25,3 +25,29 @@ HashMap的做法是，根据key生成的hash值，与哈希表的length做位运
 ● 如果是数据量较大，例如超过1K，还是用HashMap做，更加合理一些；  
 ● 同样也不是线程安全的；  
 
+◆ ArrayMap、SparseArray与HashMap的put测试    
+arrayMap 100 次实验， 每put 10 次，平均耗时：42 微秒  
+hashMap 100 次实验， 每put 10 次，平均耗时：21 微秒  
+
+arrayMap 100 次实验， 每put 100 次，平均耗时：153 微秒  
+hashMap 100 次实验， 每put 100 次，平均耗时：95 微秒  
+
+arrayMap 100 次实验， 每put 1000 次，平均耗时：959 微秒  
+hashMap 100 次实验， 每put 1000 次，平均耗时：764 微秒  
+
+arrayMap 100 次实验， 每put 1W 次，平均耗时：7 ms  
+hashMap 100 次实验， 每put 1W 次，平均耗时：2 ms  
+
+arrayMap 100 次实验， 每put 10W 次，平均耗时：441 ms  
+hashMap 100 次实验， 每put 10W 次，平均耗时：26 ms  
+
+arrayMap 1 次实验， 每put 100W 次，平均耗时：79578 ms  
+hashMap 1 次实验， 每put 100W 次，平均耗时：861 ms  
+
+
+
+
+
+
+
+
