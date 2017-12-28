@@ -45,10 +45,10 @@ Java虚拟机栈，通常意义上说就是 Java方法的栈帧；
 
 
 
-> 参考
-- http://www.importnew.com/17770.html
-- http://www.cnblogs.com/dingyingsi/p/3760447.html
-- http://www.cnblogs.com/dingyingsi/p/3760730.html
-- https://github.com/LRH1993/android_interview/blob/master/java/virtual-machine/Garbage-Collector.md
+◆ 参考  
+http://www.importnew.com/17770.html  
+http://www.cnblogs.com/dingyingsi/p/3760447.html  
+http://www.cnblogs.com/dingyingsi/p/3760730.html  
+https://github.com/LRH1993/android_interview/blob/master/java/virtual-machine/Garbage-Collector.md  
+http://blog.csdn.net/ns_code/article/details/17565503  
 
-- 深入理解java虚拟机第三版

@@ -24,3 +24,5 @@ JVM怎么判断对象是否已死？
 什么是线程池，如何使用；  
 Java设计模式；  
 
+https://nezha.github.io/%E7%AC%94%E8%AE%B0/2017-12-11-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-Java%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C/  
+

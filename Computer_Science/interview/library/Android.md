@@ -43,8 +43,7 @@ EventBus；
 组件化；  
 
 
-> 参考  
-
+◆ 参考  
 https://github.com/JackyAndroid/AndroidInterview-Q-A  
 https://github.com/francistao/LearningNotes  
 https://github.com/leerduo/InterviewQuestion  
@@ -55,6 +54,13 @@ http://www.jianshu.com/p/735be5ece9e8?utm_campaign=hugo&utm_medium=reader_share&
 https://github.com/Freelander/Android_Data  
 http://www.jianshu.com/nb/3450453  
 https://github.com/LRH1993/android_interview  
+https://juejin.im/post/59e54b9051882578cb511f00  
+http://blog.csdn.net/axi295309066/article/details/51275470  
+https://www.jianshu.com/p/b5ba11275a6d  
+https://www.jianshu.com/p/dfa6d4caedad  
+https://www.jianshu.com/p/3df3d2974234    
+https://www.jianshu.com/p/a22450882af2  
+
 
 
 

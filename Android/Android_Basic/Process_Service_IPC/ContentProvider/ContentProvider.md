@@ -28,3 +28,6 @@ http://www.cnblogs.com/fsjohnhuang/p/4280369.html
 http://blog.csdn.net/whyrjj3/article/details/7852800  
 ◑ ContentObserver：  
 http://blog.csdn.net/qinjuning/article/details/7047607  
+
+◑ 其他：  
+http://blog.csdn.net/coder_pig/article/details/47858489  
