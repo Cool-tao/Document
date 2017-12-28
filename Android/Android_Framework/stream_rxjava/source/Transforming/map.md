@@ -1,10 +1,12 @@
 #### map  
 
-public interface Function<T, R>  
-public final <R> Observable<R> map(Function<? super T, ? extends R> mapper)  
-从方法签名上看，map做的事情是，Observable<T>  to Observable<R>  
-
+apply方法法人入口参数是T， 出口参数是R   
+所以map做的事情是，T  to R  
 ```
+public interface Function<T, R> {
+    R apply(@NonNull T t) throws Exception;
+}
+
 @CheckReturnValue
 @SchedulerSupport(SchedulerSupport.NONE)
 public final <R> Observable<R> map(Function<? super T, ? extends R> mapper) {

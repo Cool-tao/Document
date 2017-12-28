@@ -1,7 +1,7 @@
 ### Scheduler  
 
-subscribeOn的调用切换之前的线程。  
-observeOn的调用切换之后的线程。  
+subscribeOn 切换的是 调用subscribeOn之前的线程。  
+observeOn 切换的是 调用observeOn之后的线程。  
 observeOn之后，不可再调用subscribeOn 切换线程。  
 
 只有第一subscribeOn() 起作用（所以多个 subscribeOn() 无意义）；  
