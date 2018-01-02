@@ -1,5 +1,7 @@
 #### interval  
 
+间隔重复（频率限定），类似于计数器（不会停下来）；  
+
 ```
 Observable.interval(1000, TimeUnit.MILLISECONDS)
         .compose(RxHelper.schedulersTransformer())
