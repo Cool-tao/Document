@@ -4,3 +4,6 @@
 ActivityThread要创建或暂停某个Activity时，都需要通过Instrumentation来进行具体的操作。  
 
 
+Instrumentation#newActivity();  
+Instrumentation#newApplication();  
+

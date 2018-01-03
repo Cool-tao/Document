@@ -4,8 +4,7 @@
 一是进程的入口函数是ActivityThread.main，  
 二是进程天然支持Binder进程间通信机制；  
 
-> 简单描述    
-
+◆ 简单描述    
 [init 进程](launcher/fork_Zygote.md)  
 [Zygote 进程](launcher/Zygote.md)  
 [SystemServer 进程](launcher/SystemServer.md)  
@@ -21,9 +20,7 @@ ApplicationThread，用来实现ActivityManagerService与ActivityThread之间的
 ApplicationThreadProxy  
 是ApplicationThread在服务器端的代理，负责和客户端的ApplicationThread通讯。AMS就是通过该代理与ActivityThread进行通信的。
 
-Instrumentation  
-每一个应用程序只有一个Instrumentation对象，每个Activity内都有一个对该对象的引用。Instrumentation可以理解为应用进程的管家，  
-ActivityThread要创建或暂停某个Activity时，都需要通过Instrumentation来进行具体的操作。
+[Instrumentation](launcher/Instrumentation.md)  
 
 ActivityStack  
 Activity在AMS的栈管理，用来记录已经启动的Activity的先后关系，状态信息等。通过ActivityStack决定是否需要启动新的进程。
@@ -43,15 +40,10 @@ app_process进程	RuntimeInit.main()
 system_server进程	SystemServer.main()  
 app进程	ActivityThread.main()  
 
-
-#### Android系统启动流程：  
-
-#### 其他   
 [点击Launcher中，App的图标后，发生了什么](launcher/Launcher_Click_App_Icon_Process.md)   
 
 
-> 参考 
-
+◆ 参考   
 Activity启动过程全解析  
 http://blog.csdn.net/zhaokaiqiang1992/article/details/49428287  
 
