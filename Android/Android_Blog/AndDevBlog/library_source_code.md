@@ -14,4 +14,5 @@ https://github.com/aosp-mirror/platform_frameworks_base
 https://github.com/AlanCheen/Android-Resources  
 https://github.com/AlanCheen/ReadingNotes  
 https://github.com/RTFSC-Android/RTFSC  
+https://github.com/LittleFriendsGroup/AndroidSdkSourceAnalysis  
 
