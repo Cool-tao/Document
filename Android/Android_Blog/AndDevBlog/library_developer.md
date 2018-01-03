@@ -86,6 +86,9 @@ http://blog.csdn.net/u012721933?viewmode=contents
 wangle12138  
 http://www.cnblogs.com/wangle12138/  
 
+weishu  
+http://weishu.me/archives/  
+
 吴晓龙同学  
 http://wuxiaolong.me/  
 
