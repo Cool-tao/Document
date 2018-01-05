@@ -18,3 +18,6 @@ https://github.com/JulienGenoud/android-percent-support-lib-sample
 
 ◆ 圆形布局   
 https://github.com/GcsSloop/rclayout  
+
+◆ 气泡背景   
+https://github.com/xujiaji/HappyBubble  
