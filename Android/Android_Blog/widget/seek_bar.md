@@ -21,4 +21,6 @@ https://github.com/lexluthors/VerticalSeekbar
 https://github.com/AnderWeb/discreteSeekBar  
 https://github.com/ITheBK/RangeBarVertical  
 https://github.com/warkiz/IndicatorSeekBar  
+https://github.com/Jay-Goo/RangeSeekBar  
+
 
