@@ -10,6 +10,7 @@ https://github.com/AlexMofer/TagTabStrip
 https://github.com/romandanylyk/PageIndicatorView  
 https://github.com/hackware1993/MagicIndicator  
 https://github.com/H07000223/FlycoTabLayout  
+https://github.com/romandanylyk/PageIndicatorView  
 
 
 ◆ Tabs  
