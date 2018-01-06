@@ -31,8 +31,8 @@
 [take](source/Filtering/take.md)  
 [takeLast](source/Filtering/takeLast.md)  
 ◆ Conditional and Boolean  
-[any](source/Conditional/any.md)   
-[all](source/Conditional/all.md)   
+[any](source/ConditionalAndBoolean/any.md)   
+[all](source/ConditionalAndBoolean/all.md)   
 
 ◆ ErrorHandling  
 [retry_BiPredicate](source/ErrorHandling/retry_BiPredicate.md)  
