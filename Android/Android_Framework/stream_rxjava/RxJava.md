@@ -16,10 +16,24 @@
 [flatMap](source/Transforming/flatMap.md)  
 [groupBy](source/Transforming/groupBy.md)  
 [map](source/Transforming/map.md)  
+[scan](source/Transforming/scan.md)  
 [switchMap](source/Transforming/switchMap.md)  
+[window](source/Transforming/window.md)  
 ◆ Filtering  
 [debounce](source/Filtering/debounce.md)  
+[elementAt](source/Filtering/elementAt.md)  
+[filter](source/Filtering/filter.md)  
+[first](source/Filtering/first.md)  
+[firstElement](source/Filtering/firstElement.md)   
+[sample](source/Filtering/sample.md)  
+[skip](source/Filtering/skip.md)  
+[skipLast](source/Filtering/skipLast.md)  
 [take](source/Filtering/take.md)  
+[takeLast](source/Filtering/takeLast.md)  
+◆ Conditional and Boolean  
+[any](source/Conditional/any.md)   
+[all](source/Conditional/all.md)   
+
 ◆ ErrorHandling  
 [retry_BiPredicate](source/ErrorHandling/retry_BiPredicate.md)  
 ◆ 高级操作符  

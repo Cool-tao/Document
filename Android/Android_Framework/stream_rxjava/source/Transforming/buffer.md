@@ -10,3 +10,12 @@ onNext：1, 2, 3, 4
 onNext：4, 5, 6, 7    
 onNext：7    
 
+```
+.buffer(4)
+    .subscribe(new LiteObserver<List<Long>>() {
+        @Override
+        public void onNext(List<Long> result) {
+            
+        }
+    });
+```
