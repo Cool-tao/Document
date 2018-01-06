@@ -31,11 +31,14 @@
 [take](source/Filtering/take.md)  
 [takeLast](source/Filtering/takeLast.md)  
 ◆ Conditional and Boolean  
-[any](source/Conditional/any.md)   
 [all](source/Conditional/all.md)   
-
+[amb](source/Conditional/amb.md)  
+[any](source/Conditional/any.md)   
 ◆ ErrorHandling  
-[retry_BiPredicate](source/ErrorHandling/retry_BiPredicate.md)  
+[retry_BiPredicate](source/ErrorHandling/retry_BiPredicate.md)
+◆ Combining  
+[merge](source/Combining/merge.md)     
+
 ◆ 高级操作符  
 [生命周期](lifecycle/Lifecycle.md)  
 
