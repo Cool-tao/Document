@@ -34,6 +34,13 @@
 [all](source/Conditional/all.md)   
 [amb](source/Conditional/amb.md)  
 [any](source/Conditional/any.md)   
+[contains](source/Conditional/contains.md)    
+[defaultIfEmpty](source/Conditional/defaultIfEmpty.md)  
+[sequenceEqual](source/Conditional/sequenceEqual.md)  
+[skipUntil](source/Conditional/skipUntil.md)  
+[skipWhile](source/Conditional/skipWhile.md)  
+[takeUntil](source/Conditional/takeUntil.md)  
+[takeWhile](source/Conditional/takeWhile.md)  
 ◆ ErrorHandling  
 [retry_BiPredicate](source/ErrorHandling/retry_BiPredicate.md)
 ◆ Combining  
