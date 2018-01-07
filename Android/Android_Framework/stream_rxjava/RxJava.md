@@ -11,6 +11,7 @@
 [timer](source/Creating/timer.md)  
 ◆ Utility  
 [subscribeOn  observeOn](source/Utility/Scheduler.md)  
+[timeout](source/Utility/timeout.md)  
 ◆ Transforming  
 [buffer](source/Transforming/buffer.md)  
 [flatMap](source/Transforming/flatMap.md)  
@@ -44,12 +45,18 @@
 ◆ ErrorHandling  
 [retry_BiPredicate](source/ErrorHandling/retry_BiPredicate.md)
 ◆ Combining  
+[combineLatest](source/Combining/combineLatest.md)  
+[join](source/Combining/join.md)  
 [merge](source/Combining/merge.md)     
+[zip](source/Combining/zip.md)  
+◆ Mathematical  
+[reduce](source/Mathematical/reduce.md)  
+[count](source/Mathematical/count.md)  
 
 ◆ 高级操作符  
 [生命周期](lifecycle/Lifecycle.md)  
 
-◆  参考  
+◆ 参考  
 http://rxmarbles.com/  
 http://reactivex.io/documentation/operators.html#creating  
 http://gank.io/post/560e15be2dca930e00da1083  
@@ -62,6 +69,7 @@ http://mp.weixin.qq.com/s?__biz=MzIwMzYwMTk1NA==&mid=2247484203&idx=1&sn=6c98747
 
 http://blog.csdn.net/u014165119/article/details/52582782  
 https://www.jianshu.com/p/90e9434b8590  
+http://blog.csdn.net/xiechengfa/article/details/51821030  
 
 
 

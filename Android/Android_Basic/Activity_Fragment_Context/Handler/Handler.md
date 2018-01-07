@@ -18,5 +18,6 @@ Message 的 callback 是一个 Runnable 对象,实际上是 handler 的 post 方
 
 http://wangkuiwu.github.io/2014/08/26/MessageQueue/  
 http://blog.csdn.net/lmj623565791/article/details/38377229  
+https://zhuanlan.zhihu.com/p/29929031  
 
 
