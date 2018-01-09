@@ -11,6 +11,7 @@
 [ActivityManagerService](launcher/ActivityManagerService.md)  
 [Launcher](launcher/Launcher.md)  
 [点击Launcher中，App的图标后，发生了什么](launcher/Launcher_Click_App_Icon.md)   
+[startActivity](launcher/startActivity.md)  
 ActivityThread  
 App的真正入口，当开启App之后，会调用main()开始运行，开启消息循环队列，这就是传说中的UI线程或者叫主线程。与ActivityManagerServices配合，一起完成Activity的管理工作。  
 
