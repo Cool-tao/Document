@@ -12,3 +12,6 @@
 
 ◆ 参考  
 https://github.com/LRH1993/android_interview/blob/master/android/advance/app-launch.md  
+https://github.com/yipianfengye/androidSource/blob/master/14%20activity%E5%90%AF%E5%8A%A8%E6%B5%81%E7%A8%8B.md  
+http://gityuan.com/2016/03/12/start-activity/    
+

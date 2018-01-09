@@ -1,4 +1,7 @@
 #### Binder  
+为了能够实现各种进程之间的通讯，Android系统采用了自己的进程间通讯方式Binder机制。  
+其中主要涉及到了四种角色：Binder Client，Binder Server，Binder Manager， Binder driver。  
+
 
 ◆ 参考  
 http://www.jianshu.com/p/4ee3fd07da14  
