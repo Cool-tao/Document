@@ -51,6 +51,9 @@ http://gavinliu.cn/categories/Android-Notes/
 郭林  
 http://blog.csdn.net/guolin_blog?viewmode=contents  
 
+工匠若水  
+http://blog.csdn.net/yanbober/article/list/1  
+
 Hpw123    
 http://hpw123.win/2016/12/30/Glide%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/
 
