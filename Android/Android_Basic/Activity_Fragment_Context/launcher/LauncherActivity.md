@@ -11,7 +11,7 @@ ActivityStackSupervisor # startHomeActivity 方法 →
 因为是隐式的启动Activity，所以启动的Activity就是在AndroidManifest.xml中配置catogery的值为：   
 ```
 <activity
-    android:name="Launcher"
+    android:name="LauncherActivity"
     android:configChanges="orientation|keyboardHidden"
     android:screenOrientation="portrait"
     android:windowSoftInputMode="adjustResize|stateHidden">

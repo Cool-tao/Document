@@ -9,7 +9,7 @@
 [Zygote 进程](launcher/Zygote.md)  
 [SystemServer 进程](launcher/SystemServer.md)  
 [ActivityManagerService](launcher/ActivityManagerService.md)  
-[Launcher](launcher/Launcher.md)  
+[LauncherActivity](launcher/LauncherActivity.md)  
 [点击Launcher中，App的图标后，发生了什么](launcher/Launcher_Click_App_Icon.md)   
 [startActivity](launcher/startActivity.md)  
 ActivityThread  
