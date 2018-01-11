@@ -18,5 +18,8 @@ Android 安全逆向：篡改你的位置信息
 https://my.oschina.net/u/1433837/blog/1488881  
 
 SharedPreferences  
-https://github.com/grandcentrix/tray  
+https://github.com/grandcentrix/tray    
+
+https://github.com/PopFisher/FingerprintRecognition  
+
 
