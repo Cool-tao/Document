@@ -1,22 +1,23 @@
-###### 通知对话框
+### 通知对话框
+
+◆ Dialog   
+https://github.com/H07000223/FlycoDialog_Master  
+
+◆ Notification  
+https://github.com/burgessjp/MeiZhuNotification  
+https://github.com/nshmura/strictmode-notifier  
+https://github.com/wenmingvs/NotifyUtil  
+https://github.com/liuguangqiang/CookieBar  
 
 
-> Dialog
-- https://github.com/H07000223/FlycoDialog_Master
+◆ PopupWindow  
+https://github.com/kakajika/RelativePopupWindow  
+https://github.com/ViHtarb/Tooltip  
+https://github.com/dupengtao/BubbleTextView  
+https://github.com/PopFisher/SmartPopupWindow    
 
-> Notification
-- https://github.com/burgessjp/MeiZhuNotification
-- https://github.com/nshmura/strictmode-notifier
-- https://github.com/wenmingvs/NotifyUtil
-- https://github.com/liuguangqiang/CookieBar
+◆ Snackbar  
+https://github.com/nispok/snackbar  
+https://github.com/soarcn/UndoBar  
+https://github.com/onivas/LSnackbars    
 
-
-> PopupWindow
-- https://github.com/kakajika/RelativePopupWindow
-- https://github.com/ViHtarb/Tooltip
-- https://github.com/dupengtao/BubbleTextView
-
-> Snackbar
-- https://github.com/nispok/snackbar
-- https://github.com/soarcn/UndoBar
-- https://github.com/onivas/LSnackbars
