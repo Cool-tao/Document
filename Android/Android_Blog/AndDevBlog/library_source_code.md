@@ -16,8 +16,8 @@ https://github.com/AlanCheen/ReadingNotes
 https://github.com/LittleFriendsGroup/AndroidSdkSourceAnalysis  
 https://github.com/RTFSC-Android/RTFSC  
 https://github.com/yipianfengye/androidSource  
-
-http://blog.csdn.net/column/details/androidframeworks.html  
 https://github.com/ZhaoKaiQiang/AndroidDifficultAnalysis  
 https://github.com/iwannabetop/Awesome-Android-Learning-Guide  
+♬ --------------- 不看了 ↑  
+
 

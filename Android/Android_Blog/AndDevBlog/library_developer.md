@@ -1,13 +1,7 @@
-###### 优秀的开发者
+#### 优秀的开发者
 
-Adrián Lomas    
-https://github.com/glomadrian?language=java&tab=stars
-
-ANLY    
-http://blog.lmj.wiki/
-
-阿拉神农  
-http://blog.csdn.net/Innost/article/list/2
+jwasham（谷歌求职）  
+https://github.com/jwasham/coding-interview-university/blob/master/translations/README-cn.md  
 
 吧主        
 http://blog.csdn.net/xiaole0313
@@ -38,6 +32,9 @@ http://blog.csdn.net/lzyzsd/
 
 大精-wing    
 http://androidwing.net/
+
+邓凡平（阿拉神农）  
+http://blog.csdn.net/Innost/article/list/2
 
 飞雪无情的博客       
 http://www.flysnow.org/categories/Android/page/2/
@@ -135,4 +132,6 @@ http://dandanlove.com/
 http://zmywly8866.github.io/  
 
 
+◆ 废弃，不用看了    
+http://blog.lmj.wiki/archives/page/10/  
 
