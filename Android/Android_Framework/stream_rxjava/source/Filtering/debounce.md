@@ -2,6 +2,7 @@
 
 如果有多个事件被发射，那么在timeout之内的两个事件A  B，会发生替换的现象；  
 也就是说，观察者最终收到的事件是B，接收不到事件A；  
+如果在 timeout 内， 所有的连续事件 的时间间隔 都比较小， 下游将不会收到事件；  
 ```
 public static void main(String[] args) {
     ObservableOnSubscribe<?> source = new ObservableOnSubscribe<Object>() {

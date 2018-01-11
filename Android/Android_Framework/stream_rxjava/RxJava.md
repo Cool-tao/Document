@@ -22,6 +22,7 @@
 [window](source/Transforming/window.md)  
 ◆ Filtering  
 [debounce](source/Filtering/debounce.md)  
+[throttle](source/Filtering/throttle.md)  
 [elementAt](source/Filtering/elementAt.md)  
 [filter](source/Filtering/filter.md)  
 [first](source/Filtering/first.md)  
