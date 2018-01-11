@@ -5,6 +5,8 @@ https://github.com/SouthernBox/ParallaxRecyclerView
 ◆ 视觉差HeadView  
 https://github.com/huyongli/UCIndexAnimation  
 https://github.com/BCsl/UcMainPagerDemo  
+https://github.com/developer-shivam/FeaturedRecyclerView  
+
 
 ◆ 下拉放大  
 https://github.com/jeasonlzy/PullZoomView  

@@ -10,6 +10,7 @@ https://github.com/mcxtzhang/SwipeDelMenuLayout
 
 ◆ 拖动排序  
 https://github.com/AleBarreto/DragRecyclerView  
+https://github.com/jakebonk/BoardView  
 
 ◆ 流式拖动排序  
 https://github.com/whilu/AndroidTagView  
