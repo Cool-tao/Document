@@ -1,5 +1,5 @@
 ###### Handler  
-
+[一个Handler的标准写法](fun/handler_fun.md)  
 首先需要了解几个类： Handler  Looper  Message  MessageQueue   
 
 创建 handler 的时候会调用looper.prepare()来创建一个 looper，  
@@ -14,8 +14,7 @@ next 操作是一个阻塞操作,当没有消息的时候 next 方法会一直�
 Message 的 callback 是一个 Runnable 对象,实际上是 handler 的 post 方法所传递的 Runnable 参数.其次是检查 mCallback 是 否为 null,不为 null 就调用 mCallback 的handleMessage 方法来处理消息.
 
 
-> 参考  
-
+◆ 参考  
 http://wangkuiwu.github.io/2014/08/26/MessageQueue/  
 http://blog.csdn.net/lmj623565791/article/details/38377229  
 https://zhuanlan.zhihu.com/p/29929031  
