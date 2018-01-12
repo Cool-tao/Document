@@ -1,81 +1,21 @@
 #### 优秀的开发者
 
-jwasham（谷歌求职）  
 https://github.com/jwasham/coding-interview-university/blob/master/translations/README-cn.md  
-
-crazysunj  
-http://crazysunj.com/  
-
-承香墨影      
-https://juejin.im/user/587377ec61ff4b005c4d4189
-
-陈宇明    
-http://blog.csdn.net/cym492224103
-
-程序亦非猿  
-http://yifeiyuan.me/  
-
-Devlight    
-https://github.com/Devlight
-
-Developer_Kale    
-http://www.cnblogs.com/tianzhijiexian/
-
-大头鬼Bruce    
-http://blog.csdn.net/lzyzsd/
-
-大精-wing    
-http://androidwing.net/
-
-邓凡平（阿拉神农）  
-http://blog.csdn.net/Innost/article/list/2
-
-飞雪无情的博客       
-http://www.flysnow.org/categories/Android/page/2/
-
-鸿洋_    
-http://blog.csdn.net/lmj623565791
-
-Gavin.Liu    
-http://gavinliu.cn/categories/Android-Notes/
-
-郭林  
-http://blog.csdn.net/guolin_blog?viewmode=contents  
-
-工匠若水  
+http://blog.csdn.net/Innost/article/list/2  
 http://blog.csdn.net/yanbober/article/list/1  
-
-Hpw123    
-http://hpw123.win/2016/12/30/Glide%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/
-
-看书的小蜗牛   
-https://juejin.im/user/574e3ff35bbb500057b708b2
-
-laoyuyu    
-http://www.laoyuyu.me/
-
-lightSky    
-http://www.lightskystreet.com/
-
-
-刘望舒  
+http://hpw123.win/archives/  
+https://juejin.im/user/574e3ff35bbb500057b708b2  
 http://liuwangshu.cn/system/  
 http://blog.csdn.net/itachi85?viewmode=contents  
+https://mrfu.me/  
+http://codemx.cn/archives/    
 
-MrFu    
-https://mrfu.me/
-
-墨香    
-http://www.codemx.cn/2017/01/10/FrameCollection/
-
-亓斌    
-http://blog.csdn.net/qibin0506?viewmode=contents
 
 ruheng  
 http://lruheng.com/archives/    
 
 SayHiCoder    
-http://blog.csdn.net/u012721933?viewmode=contents
+http://blog.csdn.net/u012721933?viewmode=contents  
 
 wangle12138  
 http://www.cnblogs.com/wangle12138/  
@@ -87,34 +27,34 @@ http://weishu.me/archives/
 http://wuxiaolong.me/  
 
 写代码的猴子    
-http://jaeger.itscoder.com/
+http://jaeger.itscoder.com/  
 
 xiaanming    
-http://blog.csdn.net/xiaanming
+http://blog.csdn.net/xiaanming  
 
 Yann Badoual  badoualy    
-https://github.com/badoualy
+https://github.com/badoualy  
 
 亦枫    
-http://yifeng.studio/
+http://yifeng.studio/  
 
 一片枫叶_刘超  
 http://blog.csdn.net/qq_23547831  
 
 严振杰    
-http://blog.csdn.net/yanzhenjie1003
+http://blog.csdn.net/yanzhenjie1003  
 
 袁辉辉  
 http://gityuan.com/archive/  
 
 云少嘎嘎嘎    
-http://blog.chinaunix.net/uid/20771867/abstract/1.html?cid=10099
+http://blog.chinaunix.net/uid/20771867/abstract/1.html?cid=10099  
 
 张旭童    
-http://blog.csdn.net/zxt0601
+http://blog.csdn.net/zxt0601  
 
 张拭心    
-http://blog.csdn.net/u011240877/article/list/3
+http://blog.csdn.net/u011240877/article/list/3  
 
 张涛 开源实验室  
 https://kymjs.com/column/  
@@ -128,9 +68,18 @@ http://zmywly8866.github.io/
 
 ◆ 开发总结      
 http://www.jianshu.com/u/383970bef0a0  
+https://juejin.im/user/587377ec61ff4b005c4d4189  
+http://blog.csdn.net/qibin0506?viewmode=contents  
+
 ◆ 一般化      
 http://blog.csdn.net/xiaole0313
 ◆ 废弃，不用看了    
 http://blog.lmj.wiki/archives/page/10/  
-
-
+http://blog.csdn.net/cym492224103  
+http://yifeiyuan.me/  
+http://www.cnblogs.com/tianzhijiexian/  
+http://blog.csdn.net/lzyzsd/  
+http://androidwing.net/   
+http://gavinliu.cn/categories/Android-Notes/  
+http://www.laoyuyu.me/archives/  
+http://www.lightskystreet.com/categories/Android/  

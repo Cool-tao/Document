@@ -9,5 +9,6 @@ http://blog.csdn.net/column/details/15318.html
 https://github.com/android-cn/android-open-project-analysis/tree/master/tool-lib/image-cache/glide    
 https://github.com/soulrelay/ImageLoaderUtil  
 https://github.com/hss01248/ImageLoader  
+http://blog.csdn.net/guolin_blog/article/details/53759439  
 
 
