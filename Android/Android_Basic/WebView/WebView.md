@@ -16,3 +16,6 @@ public class JsCallFunction {
 webView.loadUrl("javascript:paramsFromMobile('"+info+"')");  
 ◆ 清除 音视频等缓存  
 webView.loadUrl("about:blank");
+
+◆ 参考  
+https://www.jianshu.com/p/345f4d8a5cfa  

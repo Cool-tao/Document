@@ -3,12 +3,6 @@
 jwasham（谷歌求职）  
 https://github.com/jwasham/coding-interview-university/blob/master/translations/README-cn.md  
 
-吧主        
-http://blog.csdn.net/xiaole0313
-
-Carson_Ho  
-http://www.jianshu.com/u/383970bef0a0  
-
 crazysunj  
 http://crazysunj.com/  
 
@@ -132,6 +126,10 @@ http://dandanlove.com/
 http://zmywly8866.github.io/  
 
 
+◆ 开发总结      
+http://www.jianshu.com/u/383970bef0a0  
+◆ 一般化      
+http://blog.csdn.net/xiaole0313
 ◆ 废弃，不用看了    
 http://blog.lmj.wiki/archives/page/10/  
 
