@@ -3,4 +3,4 @@
 [Activity、Fragment生命周期相关知识](Activity_Fragment_Context/lifecycle/Lifecycle.md)  
 [ImageView相关](ImageView/ImageView.md)    
 [Dialog、PopupWindow、Toast](Dialog_PopupWindow_Toast/Dialog_PopupWindow_Toast.md)  
-[apk打包流程](other/apk_build.md)    
+[apk打包流程](Other/apk_build.md)    
