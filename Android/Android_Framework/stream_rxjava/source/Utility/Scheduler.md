@@ -8,6 +8,13 @@ observeOn之后，不可再调用subscribeOn 切换线程。
 observeOn() 可以使用多次，每个 observeOn() 将导致一次线程切换()，都是影响其后的操作的线程；  
 不论是 subscribeOn() 还是 observeOn()，每次线程切换如果不受到下一个 observeOn() 的干预，线程将不再改变，不会自动切换到其他线程。  
 如果没有调用过observableOn，那么所有的操作，都是受subscribeOn的影响，也就是第一次调用subscribeOn的影响；  
+◆ 对应类    
+Schedulers#io = IoScheduler  
+Schedulers#newThread = NewThreadScheduler    
+Schedulers#computation = ComputationScheduler    
+Schedulers#trampoline = TrampolineScheduler    
+Schedulers#single = SingleScheduler    
+
 ◆ 示例  
 只有第一subscribeOn() 起作用（所以多个 subscribeOn() 无意义）；  
 ```
