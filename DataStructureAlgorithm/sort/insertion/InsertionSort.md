@@ -1,7 +1,6 @@
-###### 直接插入排序 算法
+### 直接插入排序 算法
 
-> 描述
-
+◆ 描述  
 ```
 选择array[0]，把它作为pivot，
 然后开始用  array[i]和pivot作比较，i in 1..array.size-1
@@ -41,6 +40,5 @@ for  i in 1.. array.size-1
     for j i..downTo 0
 ```
 
-> 基本算法思路
-
+◆ 基本算法思路  
 在 for j 中不断 用  array[i] 和 array[0] .. array[i-1]  进行 比较 和交换
