@@ -1,6 +1,6 @@
 ### 优秀的开发者  
 https://github.com/jwasham/coding-interview-university/blob/master/translations/README-cn.md  
-http://blog.csdn.net/Innost/article/list/2  
+http://blog.csdn.net/Innost/article/list/1  
 http://blog.csdn.net/yanbober/article/list/1  
 http://hpw123.win/archives/  
 https://juejin.im/user/574e3ff35bbb500057b708b2  

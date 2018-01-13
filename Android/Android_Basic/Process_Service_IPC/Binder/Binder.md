@@ -1,6 +1,17 @@
-#### Binder  
-为了能够实现各种进程之间的通讯，Android系统采用了自己的进程间通讯方式Binder机制。  
-其中主要涉及到了四种角色：Binder Client，Binder Server，Binder Manager， Binder driver。  
+### Binder  
+bindService、startActivity、sendBroadcast等操作都会用到Binder；  
+Binder机制主要涉及到了四种角色：Client，Server，Service Manager， Binder driver。  
+[BinderDriver](BinderDriver.md)  
+[ServiceManager](ServiceManager.md)  
+
+BinderProxy 继承自 Java 层的IBinder接口，  BpBinder 继承自 Native 层的接口；  
+BpBinder 是由ProcessState创建的， BinderProxy是由javaObjectForIBinder函数通过JNI的NewObject() 创建的；  
+BpBinder 是Native层的代理，又由javaObjectForIBinder函数转化成Java层的BinderProxy；  
+
+Process 负责打开 Binder Device驱动设备，进行mmap等准备工作；  
+IPCThreadState 负责Binder驱动的具体命令的通信；  
+在getService()场景中，调用者从Java层的IBinder.transact()开始，层层往下调用到 IPCThreadState.transact()，  
+然后通过waitForResponse进入主循环，直到ServiceManager恢复后，才结束，之后将结果回传给Java层；  
 
 
 ◆ 参考  

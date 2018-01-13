@@ -1,4 +1,13 @@
 ### startActivity  
+◆ 概述  
+主要经历 Activity.startActivity → ContextImpl.execStartActivity → Instrumentation.startActivity → ActivityManagerService   
+最后startActivity的任务还是交给了ActivityManagerService，经历了一系列
+ActivityManagerService.startActivity →  
+ActivityManagerService.startActivityAsUser →  
+ActivityStack.startActivityMayWait →  
+ActivityStack.startActivityLocked →  
+ActivityStack.startActivityUncheckedLocked →  
+
 ◆ Activity#startActivity  
 ```
 @Override
@@ -244,3 +253,4 @@ if (prev.app != null && prev.app.thread != null) {
 ```
 ◆ 参考 
 https://github.com/yipianfengye/androidSource/blob/master/14%20activity%E5%90%AF%E5%8A%A8%E6%B5%81%E7%A8%8B.md
+深入理解Android内核设计思想  
