@@ -1,0 +1,6 @@
+#### 代理模式(Proxy)  
+
+接口 Interface、实现类 A、代理类Proxy；  
+实现类A，实现接口Interface，重写对应方法；    
+代理类Proxy内部持有A类的对象；  
+代理类Proxy实现接口Interface，但是没有给出具体的实现方法，而是调用A类的对象，完成相应的功能；  
