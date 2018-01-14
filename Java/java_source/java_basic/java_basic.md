@@ -11,3 +11,4 @@ clone(), equals(), hashCode(), toString(), notify(), notifyAll(), wait(), finali
 [对象引用](library/Reference.md)  
 [java位运算](library/BitOperation.md)  
 [泛型](library/Genericity.md)  
+[克隆](library/clone.md)  

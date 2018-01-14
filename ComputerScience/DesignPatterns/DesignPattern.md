@@ -7,9 +7,9 @@
 [建造者](creational/BuilderPattern.md)  
 [原型模式](creational/PrototypePattern.md)  
 ◆ 结构型模式（Structural Pattern）    
-[适配器模式](structural/AdapterPattern.md)    
+[适配器模式](structural/Adapter.md)    
 [桥接模式](structural/Bridge.md)  
-[装饰者模式](DesignPattern.md)  
+[装饰者模式](structural/Decorator.md)  
 [代理模式](structural/Proxy.md)  
 [组合模式](structural/Composite.md)  
 [外观模式](structural/Facade.md)  
