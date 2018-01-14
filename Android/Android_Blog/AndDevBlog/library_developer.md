@@ -23,6 +23,7 @@ http://www.jianshu.com/u/383970bef0a0
 https://juejin.im/user/587377ec61ff4b005c4d4189  
 http://blog.csdn.net/qibin0506?viewmode=contents  
 http://yifeng.studio/archives/  
+https://github.com/CymChad/BRVAHST  
 ◆ 一般化      
 http://blog.csdn.net/xiaole0313  
 http://wuxiaolong.me/archives/index.html  

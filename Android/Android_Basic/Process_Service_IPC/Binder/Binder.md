@@ -24,5 +24,7 @@ http://blog.csdn.net/luoshengyang/article/details/6618363
 http://blog.csdn.net/universus/article/details/6211589  
 https://github.com/francistao/LearningNotes/blob/master/Part1/Android/Binder%E6%9C%BA%E5%88%B6.md  
 http://hpw123.win/2017/01/04/Binder%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/  
+https://www.jianshu.com/p/1eff5a13000d  
+
 
 
