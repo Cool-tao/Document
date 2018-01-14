@@ -45,7 +45,7 @@ di = 伪随机数
 在java8中HashMap在put元素时，遇到hash相同，但是equals是false时，也就是遇到哈希冲突的时候，采用链地址法；   
 在[关于哈希表的基本知识](Hash_Node.md)中，我们知道哈希表存放的箱子呢，是有指针元素的，在遇到冲突的时候，  
 会把新的元素放在下一指针的节点上，构成简单链表，如果单一哈希值下的冲突较多，  
-[详见HashMap相关知识](../../../Java/java_source/java_collection/HashMap/HashMap.md)
+[详见HashMap相关知识](../../../../Java/java_source/java_collection/HashMap/HashMap.md)
 - 可以对哈希表扩容 ：    
 同样的，老数组中的每个箱子会 重新经过哈希函数，算出新的索引值，放在数组的对应位置；  
 - 也可以将哈希值对应的链表树化，变成红黑树；

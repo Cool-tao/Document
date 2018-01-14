@@ -2,9 +2,7 @@
 
 [数据结构基本概念](DataStructure/data_structrue.md)
 
-[简单的数组处理代码](simple/SimpleTest.kt)
-
-[二分法查找](search/binarysearch/BinarySearch.md)
+[简单的数组处理代码](simple/SimpleTest.kt) 
 
 [Lru算法](lru/Lru.md)
 
