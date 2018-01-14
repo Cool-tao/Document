@@ -1,5 +1,6 @@
-###### 集合框架的用法比较
-
+### 集合框架的用法比较  
+Tree 不允许 key为空；  
+Concurrent 涉及 key，key不允许为空； 涉及value，value不允许为空；  
 ◆ HashMap
 键值对，一组key、value元素；  
 key、value 都可以为空（允许多个不同的key，value为空；）；  
