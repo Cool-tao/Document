@@ -67,7 +67,7 @@ interface Mutable<E> {
     fun foo(): E
 }
 
-// in 逆变  超类
-// out 协变 子类
-// 不变  
 ```
+// in 逆变  超类  
+// out 协变 子类  
+// 不变    
