@@ -1,5 +1,6 @@
 ### Binder Driver  
 Binder Driver会将自己注册成misc device，并向上层提供一个/dev/binder 节点，Binder节点对应的不是硬件设备，而是运行于内核态；  
+Binder Driver的代码位于linux目录的drivers/misc/binder.c中；  
 可以提供open(), ioctl(), mmap() 等常见的文件操作；  
 ◆ binder_open  
 上层进程在访问Binder驱动是，首先就需要打开/dev/binder 节点，也就是利用binder_open() 函数；  
