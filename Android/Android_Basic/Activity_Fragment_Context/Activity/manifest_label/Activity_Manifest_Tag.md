@@ -1,4 +1,4 @@
-###### 清单文件Activity标签属性
+### 清单文件Activity标签属性
 
 ● android:allowTaskReparenting   
 这个属性用来标记一个Activity实例在当前应用退居后台后，是否能从启动它的那个task移动到有共同affinity的task，  
