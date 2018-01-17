@@ -1,4 +1,4 @@
-###### 设备参数
+### 设备参数
 - 01 Build.BOARD+"="+
 - 02 Build.BOOTLOADER+"="+
 - 03 Build.BRAND+"="+

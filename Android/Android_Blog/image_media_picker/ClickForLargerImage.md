@@ -1,4 +1,4 @@
-#### 点击查看大图
+### 点击查看大图
 https://github.com/dmallcott/DismissibleImageView   
 https://github.com/imablanco/Zoomy   
 https://github.com/nshmura/SnappyImageViewer   

@@ -1,4 +1,4 @@
-###### 富文本编辑器
+### 富文本编辑器
 
 https://github.com/zzhoujay/RichText  
 https://github.com/SufficientlySecure/html-textview  

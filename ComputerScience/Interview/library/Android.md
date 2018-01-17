@@ -1,4 +1,4 @@
-####  Android  
+###  Android  
 
 Jvm、Dalvik、Art和对比；  
 如何保持应用的稳定性、低耗电；  
@@ -8,11 +8,13 @@ Application 的 Context 和 Activity 的 Context；
 横竖屏切换的时候，Activity 各种情况下的生命周期；  
 Fragment生命周期；  
 Fragment状态保存；  
+Fragment getActivity 为什么会 null；  
 ViewPager使用细节，如何设置成每次只初始化当前的Fragment，其他的不初始化；  
 
 SP是进程同步的吗?有什么方法做到同步；   
 
 Handler机制及底层实现；  
+Handler.postDelay 一定能收到吗？  
 Service 的生命周期；  
 BroadcastReceiver；  
 Binder机制及底层实现；  
@@ -31,7 +33,7 @@ SparseLongArray
 LongSparseArray<Int>  
 
 多线程断点续传原理；  
-
+网络请求，怎么打包数据；  
 OkHttp；
 RxJava；  
 Retrofit；  
