@@ -1,4 +1,4 @@
-#### Activity启动模式  
+### Activity启动模式  
 
 ● standard  默认值，多实例模式    
 
@@ -32,7 +32,7 @@ public static final int SING_TASK = Intent.FLAG_ACTIVITY_SINGLE_TOP | Intent.FLA
 
 比如说原来栈中情况是A,B,AppCon,D,在D中启动B(加入该flag),中间过程是A,B,C依次destory,    
 D先onPause,随后BonCreate,onStart,onResume.D再onStop,onDestory.最后只有一个B在栈底.(无论taskAffinity..?)  
-public static final int CLEAR_TASK = 0X00008000 | Intent.FLAG_ACTIVITY_NEW_TASK;  
+public static final int CLEAR_TASK = Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK;
 
 比如说原来栈中情况是A,B,AppCon,D,在D中启动B(加入该flag)，栈中的情况会是A,AppCon,D,B.(调用onNewIntent())  
 public static final int REORDER_2_FRONT = Intent.FLAG_ACTIVITY_REORDER_TO_FRONT | Intent.FLAG_ACTIVITY_NEW_TASK;  
