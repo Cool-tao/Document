@@ -6,7 +6,7 @@ ActivityManagerService 集中管理所有进程的内存资源分配，所有进
 ◑ ActivityManagerService#performAppGcsLocked  
 ◑ ActivityManagerService#performAppGcsIfAppropriateLocked  
 ◑ ActivityManagerService#releaseActivityInstance  
-
+◑ ActivityStackSupervisor#activityIdleInternalLocked  
 ◆ ActivityManagerService#trimApplications  
 （1） 当程序执行到 trimApplications() 之后，首先检查 mRemovedProcesses 列表中的进程。  
 mRemovedProcesses 列表中主要包含了 crash 的进程、5 秒内没有响应并被用户选在强制关闭的进程、以及应用开发这调用 killBackgroundProcess 想要杀死的进程。  
