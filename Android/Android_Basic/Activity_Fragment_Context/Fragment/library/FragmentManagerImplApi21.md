@@ -6,37 +6,30 @@ ACTIVITY_CREATED = 2; // The activity has finished its creation.
 STOPPED = 3;          // Fully created, not started.  
 STARTED = 4;          // Created and started, not resumed.  
 RESUMED = 5;          // Created started and resumed.  
-◑ FragmentManagerImpl#dispatchCreate  
-```
-public void dispatchCreate() {
-    mStateSaved = false;
-    moveToState(Fragment.CREATED, false);
-}
-```
-◑ FragmentManagerImpl#dispatchDestroy  
-```
-public void dispatchDestroy() {
-    mDestroyed = true;
-    execPendingActions();
-    moveToState(Fragment.INITIALIZING, false);
-    mActivity = null;
-    mContainer = null;
-    mParent = null;
-}
-```  
 分析：  
-onCreate onStart onResume;  f.mState = 1、4、5；   
-onPause onStop onDestroy;  f.mState = 4、3、0；  
 ![Fragment状态变迁图](../ImageFiles/f_mState_001.jpg)  
+activity.onCreate → fragmentManagerImpl.dispatchCreate  
 
+第一次进来  dispatchCreate() f.mState = 0，newState = 1；  
+第一次进来  dispatchActivityCreated() f.mState = 1，newState = 2；  
+第一次进来  dispatchStart() f.mState = 2，newState = 4；  
+第一次进来  dispatchResume() f.mState = 4，newState = 5；  
+
+被回收时  dispatchPause() f.mState = 5，newState = 4；  
+被回收时  dispatchStop() f.mState = 4，newState = 3；  
+被回收时  dispatchDestroyView() f.mState = 3，newState = 1；  
+被回收时  dispatchDestroy() f.mState = 1，newState = 0；  
+  
+重启二次进来  dispatchCreate() f.mState = 0，newState = 1；  
+重启二次进来  dispatchActivityCreated() f.mState = 1，newState = 2；  
+重启二次进来  dispatchStart() f.mState = 2，newState = 4；  
+重启二次进来  dispatchResume() f.mState = 4，newState = 5；   
 ◑ FragmentManagerImpl#moveToState  
 ```
 void moveToState(Fragment f, int newState, int transit, int transitionStyle, boolean keepActive) {
-    // onAttach → onCreate → onStart → onResume  的过程 
+    // ... 首次创建 或者 内存重启
     if (f.mState < newState) {
         switch (f.mState) {  
-            // newState 是 1， f.mState 是 0 ，case 到内存重启；
-            // 之前被迫 执行 onDestroy ，虽然是 内存重启了，Fragnemt 内部保存了mState，
             case Fragment.INITIALIZING:
                 if (f.mSavedFragmentState != null) {
                     f.mSavedViewState = f.mSavedFragmentState.getSparseParcelableArray(FragmentManagerImpl.VIEW_STATE_TAG);
@@ -56,7 +49,7 @@ void moveToState(Fragment f, int newState, int transit, int transitionStyle, boo
                 if (f.mParentFragment == null) {
                     mActivity.onAttachFragment(f);
                 }
-                // 如果 fragment.setRetainInstance(true) 则在重启的时候，跳过 onCreate 方法
+                // 如果 fragment.setRetainInstance(true) ，则跳过 onCreate 方法
                 if (!f.mRetaining) {
                     f.performCreate(f.mSavedFragmentState);
                 }
@@ -105,7 +98,7 @@ void moveToState(Fragment f, int newState, int transit, int transitionStyle, boo
                 }
         }
     } else if (f.mState > newState) {
-        // onResume → onPause → onStop → onDestroy的过程
+        // ... 被回收
         switch (f.mState) {
             case Fragment.RESUMED:
                 if (newState < Fragment.RESUMED) {
