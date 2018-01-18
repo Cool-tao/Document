@@ -1,4 +1,4 @@
-###### App假装进程包活
+### App假装进程包活
 ```
 /*我能做到的，仅仅是让App存活的稍微久一点，仅此而已*/
 /*android:alwaysRetainTaskState="true" 只在 入口在 Activity 有效*/
