@@ -1,4 +1,4 @@
-###### Handler  
+### Handler  
 [一个Handler的标准写法](fun/handler_fun.md)  
 首先需要了解几个类： Handler  Looper  Message  MessageQueue   
 

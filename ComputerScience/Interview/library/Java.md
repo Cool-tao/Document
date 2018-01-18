@@ -8,6 +8,7 @@ ThreadLocal；
 ReentrantLock；  
 String、StringBuilder、StringBuffer；  
 String 为什么要设计成不可变的；  
+Java集合类图；  
 泛型；  
 抽象类与接口；  
 equals、hashCode；  
