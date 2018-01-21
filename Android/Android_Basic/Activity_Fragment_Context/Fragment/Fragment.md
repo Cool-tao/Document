@@ -1,5 +1,4 @@
 ### Fragment  
-
 [setRetainInstance](function/setRetainInstance.md)  
 [FragmentManagerImpl，Api21](library/FragmentManagerImplApi21.md)  
 [getActivity()空指针问题，Api21](function/getActivityApi21.md)  
@@ -7,7 +6,7 @@
 [Fragment重叠异常](solution/solution_001.md)  
 [onCreateView](solution/solution_onCreateView.md)  
 [onResume和UserVisible的问题](solution/solution_onResumeVisibility.md)  
-
+[attach 与 detach](function/attach_detach.md)  
 ◆  参考  
 http://www.jianshu.com/p/825eb1f98c19  
 https://github.com/AlanCheen/Android-Resources/blob/master/Fragment.md    
@@ -20,6 +19,4 @@ https://www.jianshu.com/p/38f7994faa6b
 https://www.jianshu.com/p/9dbb03203fbc  
 https://www.jianshu.com/p/78ec81b42f92  
 https://www.jianshu.com/p/c12a98a36b2b  
-
-
 
