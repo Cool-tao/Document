@@ -1,4 +1,5 @@
 ### 优秀的开发者  
+http://wangkuiwu.github.io/categories/  
 https://github.com/jwasham/coding-interview-university/blob/master/translations/README-cn.md  
 http://blog.csdn.net/Innost/article/list/1  
 http://blog.csdn.net/yanbober/article/list/1  

@@ -16,6 +16,11 @@
 (01) Java层，创建Looper对象，Looper的构造函数中会创建消息队列MessageQueue的对象。MessageQueue的作用存储消息队列，用来管理消息的。  
 (02) C++层，消息队列创建时，会调用JNI函数，初始化NativeMessageQueue对象。NativeMessageQueue则会初始化Looper对象。  
 Looper的作用就是，当Java层的消息队列中没有消息时，就使Android应用程序主线程进入等待状态，而当Java层的消息队列中来了新的消息后，就唤醒Android应用程序的主线程来处理这个消息。  
+◆ enqueueMessage  
+(01) 消息队列为空。 这时候应用程序的主线程一般就是处于空闲等待状态了，这时候就要唤醒它。   
+(02) 消息队列非空。 这时候就不需要唤醒应用程序的主线程了，因为这时候它一定是在忙着处于消息队列中的消息，因此不会处于空闲等待的状态。  
+在添加完消息之后，如果主线程需要唤醒，则调用nativeWake()。nativeWake()是个JNI函数，它对应的实现是frameworks/base/core/jni/android_os_MessageQueue.cpp中的android_os_MessageQueue_nativeWake()。  
+
 
 创建 handler 的时候会调用looper.prepare()来创建一个 looper，  
 handler 通过 send 发送消息 (sendMessage) ,当然 post 一系列方法最终也是通过 send 来实现的，    
@@ -34,5 +39,3 @@ http://wangkuiwu.github.io/2014/08/26/MessageQueue/
 http://blog.csdn.net/lmj623565791/article/details/38377229  
 https://zhuanlan.zhihu.com/p/29929031  
 http://hpw123.win/2017/01/04/Handler%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/  
-
-
