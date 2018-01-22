@@ -1,0 +1,12 @@
+### Client获取远程服务   
+Client要和某个Server通信，需要先获取到该Server的远程服务。那么Client是如何获取到Server的远程服务的呢？  
+Client首先会向Binder驱动发起获取服务的请求。Binder驱动在收到该请求之后也是该请求转发给ServiceManager进程。  
+ServiceManager在收到Binder驱动转发的请求之后，会从"Binder引用组成的单链表"中找到要获取的Server的相关信息。  
+至于ServiceManager是如何从单链表中找到需要的Server的呢？答案是Client发送的请求数据中，会包括它要获取的Server的服务名；  
+而ServiceManager正是根据这个服务名来找到Server的。  
+接下来，ServiceManager通过Binder驱动将Server信息反馈给Client的。它反馈的信息是Server对应的Binder实体的Binder引用信息。  
+而Client在收到该Server的Binder引用信息之后，就根据该Binder引用信息创建一个Server对应的远程服务。  
+这个远程服务就是Server的代理，Client通过调用该远程服务的接口，就相当于在调用Server的服务接口一样；  
+因为Client调用该Server的远程服务接口时，该远程服务会对应的通过Binder驱动和真正的Server进行交互，从而执行相应的动作。  
+
+
