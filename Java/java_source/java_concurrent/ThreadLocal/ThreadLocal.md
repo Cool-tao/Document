@@ -1,4 +1,4 @@
-###### 
+###  ThreadLocal  
 
 当使用ThreadLocal维护变量时，ThreadLocal为每个使用该变量的线程提供独立的变量副本，所以每一个线程都可以独立地改变自己的副本，而不会影响其它线程所对应的副本。  
 
@@ -16,3 +16,4 @@ ThreadLocal 在类中通常定义为静态类变量。
 ◆ 参考  
 https://my.oschina.net/xianggao/blog/392440?fromerr=CLZtT4xC
 http://blog.csdn.net/lufeng20/article/details/24314381  
+https://juejin.im/post/5a64a581f265da3e3b7aa02d  
