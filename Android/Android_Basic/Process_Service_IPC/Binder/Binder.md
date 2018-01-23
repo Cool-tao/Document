@@ -21,6 +21,7 @@ IPCThreadState 负责Binder驱动的具体命令的通信；
 
 
 ◆ 参考  
+http://wangkuiwu.github.io/2014/09/01/Binder-Introduce/  
 http://www.jianshu.com/p/4ee3fd07da14  
 https://www.jianshu.com/p/4ee3fd07da14  
 http://blog.csdn.net/universus/article/details/6211589###;  

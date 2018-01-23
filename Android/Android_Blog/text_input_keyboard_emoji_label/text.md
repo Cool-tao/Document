@@ -1,11 +1,10 @@
-###### 文本
+### 文本相关
 
 ◆ 文本点击  
 https://github.com/wangshaolei/AutoSpannableTextView  
 
 ◆ 文字变换特效  
 https://github.com/hanks-zyh/HTextView  
-
 
 ◆ 中文排版  
 https://github.com/bluejamesbond/TextJustify-Android  
