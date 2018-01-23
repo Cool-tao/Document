@@ -3,9 +3,13 @@
 RAM可以分为用户空间 和 内核空间，每一个进程只能运行在自己的工作空间，当然是在用户空间分配的，要想跨进程通信，只能通过内核空间；  
 bindService、startActivity、sendBroadcast等操作都会用到Binder；  
 Binder机制主要涉及到了四种角色：Client，Server，Service Manager， Binder driver。  
-[BinderDriver](BinderDriver.md)  
-[ServiceManager](ServiceManager.md)  
-[Binder协议](BinderProtocol.md)  
+[BinderDriver](library/BinderDriver.md)  
+[ServiceManager](library/ServiceManager.md)  
+[Binder协议](library/BinderProtocol.md)  
+[Binder实体](library/BinderEntity.md)  
+[Binder引用](library/BinderReference.md)  
+[Server注册到ServiceManager中](library/RegisterService.md)  
+[Client获取远程服务](library/GetService.md)    
 BinderProxy 继承自 Java 层的IBinder接口，  BpBinder 继承自 Native 层的接口；  
 BpBinder 是由ProcessState创建的， BinderProxy是由javaObjectForIBinder函数通过JNI的NewObject() 创建的；  
 BpBinder 是Native层的代理，又由javaObjectForIBinder函数转化成Java层的BinderProxy；  

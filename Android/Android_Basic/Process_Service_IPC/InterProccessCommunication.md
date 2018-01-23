@@ -7,6 +7,7 @@
 socket作为一个通用接口，传输效率低、开销大，主要用在跨网络的进程间通信和本机上的低速通信；  
 ◑ 消息队列和管道  
 消息队列和管道通信，采用存储 - 转发方式，即数据先从发送方缓存区拷贝到内核开辟的缓存区中，然后再从内核缓存区拷贝到接收方缓存区，至少有两次拷贝过程；   
+而采用Binder机制的话，则只需要经过1次内存拷贝即可！ 即，从发送方的缓存区拷贝到内核的缓存区，而接收方的缓存区与内核的缓存区是映射到同一块物理地址的；  
 ◑ 共享内存  
 共享内存虽然无需拷贝，但控制复杂，难以使用；  
 ◆ 安全考虑 
@@ -24,3 +25,4 @@ http://blog.csdn.net/luoshengyang/article/details/6618363
 http://www.cnblogs.com/innost/archive/2011/01/09/1931456.html  
 http://gityuan.com/2015/10/31/binder-prepare/  
 http://blog.csdn.net/universus/article/details/6211589  
+http://wangkuiwu.github.io/2014/09/01/Binder-Introduce/  
