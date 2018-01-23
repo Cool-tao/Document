@@ -1,8 +1,8 @@
 ### onSaveInstanceState
 
-##### 为什么 在 onStop 之前执行了 onSaveInstanceState
+为什么 在 onStop 之前执行了 onSaveInstanceState  
 
-> ActivityThread::4132  handleStopActivity 方法
+◆ ActivityThread::4132  handleStopActivity 方法  
 ```
 private void handleStopActivity(IBinder token, boolean show, int configChanges, int seq) {
     ActivityClientRecord r = mActivities.get(token);
@@ -18,7 +18,7 @@ private void handleStopActivity(IBinder token, boolean show, int configChanges, 
 }   
 ```
 
-> ActivityThread::4041  performStopActivityInner 方法
+◆ ActivityThread::4041  performStopActivityInner 方法  
 ```
 private void performStopActivityInner(ActivityClientRecord r,
     StopInfo info, boolean keepShown, boolean saveState, String reason) {
@@ -33,8 +33,7 @@ private void performStopActivityInner(ActivityClientRecord r,
     }
 }
 ```
-> ActivityThread::4768  callCallActivityOnSaveInstanceState 方法
-
+◆ ActivityThread::4768  callCallActivityOnSaveInstanceState 方法  
 ```
 private void callCallActivityOnSaveInstanceState(ActivityClientRecord r) {
     r.state = new Bundle();
@@ -49,15 +48,14 @@ private void callCallActivityOnSaveInstanceState(ActivityClientRecord r) {
 }
 ```
 
-> Instrumentation::1384  callActivityOnSaveInstanceState 方法
-
+◆ Instrumentation::1384  callActivityOnSaveInstanceState 方法  
 ```
 public void callActivityOnSaveInstanceState(Activity activity, Bundle outState) {
     activity.performSaveInstanceState(outState);
 }
 ```
 
-> Activity::1494  performSaveInstanceState 方法
+◆ Activity::1494  performSaveInstanceState 方法  
 ```
 final void performSaveInstanceState(Bundle outState) {
     onSaveInstanceState(outState);

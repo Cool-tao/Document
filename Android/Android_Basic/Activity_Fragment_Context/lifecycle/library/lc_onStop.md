@@ -1,13 +1,9 @@
-##### onStop
+### onStop
+结论  
+执行onStop之前一定会 执行 onSaveInstanceState  
 
-##### 结论
-
-执行onStop之前一定会 执行 onSaveInstanceState
-
-
-##### 为什么 会执行 onStop
-
-> ActivityThread::1584  handleMessage 方法
+◆ 为什么 会执行 onStop  
+◆ ActivityThread::1584  handleMessage 方法  
 ```
 public void handleMessage(Message msg) {
     ..
@@ -21,9 +17,7 @@ public void handleMessage(Message msg) {
     }
 }
 ```
-
-> ActivityThread::4132  handleStopActivity 方法
-
+◆ ActivityThread::4132  handleStopActivity 方法  
 ```
 private void handleStopActivity(IBinder token, boolean show, int configChanges, int seq) {
     ActivityClientRecord r = mActivities.get(token);
@@ -38,7 +32,7 @@ private void handleStopActivity(IBinder token, boolean show, int configChanges, 
     performStopActivityInner(r, info, show, true, "handleStopActivity");
 }
 ```
-> ActivityThread::4041  performStopActivityInner 方法
+◆ ActivityThread::4041  performStopActivityInner 方法  
 ```
 private void performStopActivityInner(ActivityClientRecord r,
         StopInfo info, boolean keepShown, boolean saveState, String reason) {

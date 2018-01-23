@@ -1,4 +1,4 @@
-##### Activity 生命周期 内存重启
+### Activity 生命周期 内存重启
 
 ①Activity从被装载到运行。则执行顺序为：onCreate() -> onStart()-> onResume();    
 这是个典型过程，发生在Activity被系统装载运行时。    
