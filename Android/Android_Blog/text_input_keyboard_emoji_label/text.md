@@ -9,6 +9,9 @@ https://github.com/hanks-zyh/HTextView
 ◆ 中文排版  
 https://github.com/bluejamesbond/TextJustify-Android  
 https://github.com/ufo22940268/android-justifiedtextview  
+使用中  https://github.com/androiddevelop/AlignTextView  
+https://github.com/yellowcath/MTextView  
+
 
 ◆ AutoSize  
 https://github.com/erchenger/SizeAdjustingTextView  

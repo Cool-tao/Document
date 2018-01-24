@@ -1,0 +1,12 @@
+### Binder通讯模型  
+(01) Server进程启动之后，会进入中断等待状态，等待Client的请求。  
+(02) 当Client需要和Server通信时，会将请求发送给Binder驱动。  
+(03) Binder驱动收到请求之后，会唤醒Server进程。  
+(04) 接着，Binder驱动还会反馈信息给Client，告诉Client：它发送给Binder驱动的请求，Binder驱动已经收到。  
+(05) Client将请求发送成功之后，就进入等待状态。等待Server的回复。   
+(06) Binder驱动唤醒Server之后，就将请求转发给Server进程。  
+(07) Server进程解析出请求内容，并将回复内容发送给Binder驱动。  
+(08) Binder驱动收到回复之后，唤醒Client进程。  
+(09) 接着，Binder驱动还会反馈信息给Server，告诉Server：它发送给Binder驱动的回复，Binder驱动已经收到。  
+(10) Server将回复发送成功之后，再次进入等待状态，等待Client的请求。  
+(11) 最后，Binder驱动将回复转发给Client。  
