@@ -1,4 +1,4 @@
-###### 分代收集算法  
+### 分代收集算法  
 
 Java虚拟机的堆内存共划分为：年轻代（Young Generation）、年老代（Tenured Generation）、持久代（Permanent Generation）;    
 年轻代和年老代的划分，对垃圾回收影响比较大；  

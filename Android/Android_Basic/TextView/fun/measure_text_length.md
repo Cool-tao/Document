@@ -1,6 +1,14 @@
 ### 测量文本宽度-长度  
+在5.5英寸 1080P的手机上，  
+中文标点符号 都是48px；  
+汉字都是48px；  
+英文' 是8px；  
+英文, 是9px；  
+空格  是12px；  
+英文. 是13px；  
+英文a是26px；    
+英文A是32px；  
 ```
-
 public class EllipsizeTextView extends android.support.v7.widget.AppCompatTextView {
     private String endCharSeq = "...";
     private int maxLine = 1;
