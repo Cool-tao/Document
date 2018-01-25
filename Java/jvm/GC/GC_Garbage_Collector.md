@@ -32,7 +32,7 @@
 HotSpot虚拟机中默认Eden和Survivor的大小比例是8：1。  
 
 
-[4.分代收集算法](GC_Garbage_Collector_Generation.md)    
+[分代收集算法](GC_Garbage_Collector_Generation.md)    
 
 一般是把Java堆分为新生代和老年代，这样就可以根据各个年代的特点采用最适当的收集算法。  
 在新生代中，每次垃圾收集时都发现有大批对象死去，只有少量存活，那就选用复制算法。  
