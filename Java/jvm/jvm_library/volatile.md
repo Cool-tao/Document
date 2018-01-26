@@ -1,4 +1,4 @@
-###### volatile 关键字
+### volatile 关键字
 
 Java语言是支持多线程的，为了解决线程并发的问题，在语言内部引入了 同步块 和 volatile 关键字机制。  
 Java语言中的 volatile 变量可以被看作是一种“程度较轻的 synchronized”，与 synchronized 块相比，volatile 变量所需的编码较少，并且运行时开销也较少，  
@@ -35,4 +35,3 @@ volatile 操作不会像锁一样造成阻塞，因此，在能够安全使用 v
 https://github.com/LRH1993/android_interview/blob/master/java/concurrence/volatile.md  
 http://www.cnblogs.com/dolphin0520/p/3920373.html  
 http://www.importnew.com/27002.html  
-https://juejin.im/post/5a69f60d5188257350516be8  
