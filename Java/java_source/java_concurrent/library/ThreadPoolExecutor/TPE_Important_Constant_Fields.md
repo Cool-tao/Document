@@ -1,4 +1,4 @@
-#### ThreadPoolExecutor 的重要常量
+### ThreadPoolExecutor 的重要常量
 
 private final BlockingQueue<Runnable> workQueue;  //任务缓存队列，用来存放等待执行的任务  
 private final ReentrantLock mainLock = new ReentrantLock();  //线程池的主要状态锁，对线程池状态（比如线程池大小  、runState等）的改变都要使用这个锁  
@@ -13,10 +13,8 @@ private volatile ThreadFactory threadFactory;   //线程工厂，用来创建�
 private int largestPoolSize;   //用来记录线程池中曾经出现过的最大线程数   
 private long completedTaskCount;   //用来记录已经执行完毕的任务个数  
 
-##### 重点解释一下corePoolSize、maximumPoolSize、largestPoolSize三个变量      
-
+◆ 重点解释一下corePoolSize、maximumPoolSize、largestPoolSize 三个变量  
 corePoolSize在很多地方被翻译成核心池大小，其实我的理解这个就是线程池的大小。  
-
 假如有一个工厂，工厂里面有10个工人，每个工人同时只能做一件任务。  
 因此只要当10个工人中有工人是空闲的，来了任务就分配给空闲的工人做；  
 当10个工人都有任务在做时，如果还来了任务，就把任务进行排队等待；  
