@@ -31,4 +31,4 @@ LogTrack.e("false = "+Boolean.valueOf("false").hashCode());
 ```
 
 [apache.HashCodeBuilder自定义Entity的hashCode](Entity_hashCode_Apache.md)  
-[IDE自动生成的hashCode]()  
+[IDE自动生成的hashCode](Entity_hashCode_IDE.md)  
