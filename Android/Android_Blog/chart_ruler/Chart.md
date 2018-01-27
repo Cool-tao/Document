@@ -1,56 +1,56 @@
-###### 图形图表-仪表盘-刻度盘-尺子
-> 仪表盘
-- https://github.com/HotBitmapGG/CreditSesameRingView
-- https://github.com/zhangke3016/CircleLoading
-- https://github.com/ldoublem/AlpayRing
-- https://github.com/BCsl/CursorWheelLayout
-- https://github.com/woxingxiao/DashboardView
-- https://github.com/harjot-oberai/Croller
-- https://github.com/dalong982242260/AndroidDashboardView
-- https://github.com/Paroca72/sc-widgets
+### 图形图表-仪表盘-刻度盘-尺子
+◆ 仪表盘    
+https://github.com/HotBitmapGG/CreditSesameRingView  
+https://github.com/zhangke3016/CircleLoading  
+https://github.com/ldoublem/AlpayRing  
+https://github.com/BCsl/CursorWheelLayout  
+https://github.com/woxingxiao/DashboardView  
+https://github.com/harjot-oberai/Croller  
+https://github.com/dalong982242260/AndroidDashboardView  
+https://github.com/Paroca72/sc-widgets  
 
-> 图形图表
-- https://github.com/Nightonke/CoCoin
-
-
-> MPAndroidChart
-- https://github.com/PhilJay/MPAndroidChart
-- https://jitpack.io/com/github/PhilJay/MPAndroidChart/v2.2.2/javadoc/
-
-> AChartEngine
-- http://repository-achartengine.forge.cloudbees.com/snapshot/org/achartengine/achartengine/1.2.0/
-- http://www.codeceo.com/article/android-achartengine.html
-
-> XCL-Charts
-- https://github.com/xcltapestry/XCL-Charts
-- http://blog.csdn.net/xcl168/article/details/42318669
+◑ 图形图表  
+https://github.com/Nightonke/CoCoin  
 
 
-> hellocharts-android
-- https://github.com/lecho/hellocharts-android
+◑ MPAndroidChart  
+https://github.com/PhilJay/MPAndroidChart  
+https://jitpack.io/com/github/PhilJay/MPAndroidChart/v2.2.2/javadoc/  
 
-> WilliamChart
-- https://github.com/diogobernardino/WilliamChart
+◑ AChartEngine  
+http://repository-achartengine.forge.cloudbees.com/snapshot/org/achartengine/achartengine/1.2.0/  
+http://www.codeceo.com/article/android-achartengine.html  
 
-> AndroidCharts
-- https://github.com/HackPlan/AndroidCharts
+◑ XCL-Charts  
+https://github.com/xcltapestry/XCL-Charts  
+http://blog.csdn.net/xcl168/article/details/42318669  
 
-> EazeGraph
-- https://github.com/blackfizz/EazeGraph
+◑ hellocharts-android  
+https://github.com/lecho/hellocharts-android  
 
-> desCharts
-- https://github.com/bradipao/desCharts
+◑ WilliamChart  
+https://github.com/diogobernardino/WilliamChart  
 
-> android-DecoView-charting
-- https://github.com/bmarrdev/android-DecoView-charting
+◑ AndroidCharts  
+https://github.com/HackPlan/AndroidCharts  
 
-> 曲线图
-- https://github.com/robinhood/spark
+◑ EazeGraph  
+https://github.com/blackfizz/EazeGraph  
 
-> 仿QQ健康
-- https://github.com/keyboard3/SelfViewDemo
+◑ desCharts  
+https://github.com/bradipao/desCharts  
 
+◑ android-DecoView-charting  
+https://github.com/bmarrdev/android-DecoView-charting  
 
+◑ 曲线图  
+https://github.com/robinhood/spark  
+
+◑ 仿QQ健康    
+https://github.com/keyboard3/SelfViewDemo  
+
+◑ 仿Github贡献表格  
+https://github.com/barryhappy/TContributionsView  
 
 
 
