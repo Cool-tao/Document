@@ -43,6 +43,8 @@ TreeSet
 //JumboEnumSet  
 HashSet  
 LinkedHashSet  
+◑ CopyOnWriteArrayList  
+很适合处理处理，读取频繁，但很少有写操作；  
 CopyOnWriteArraySet  
 ConcurrentSkipListSet  
 BitSet  
@@ -59,3 +61,7 @@ http://blog.csdn.net/zhangerqing/article/details/8193118
 http://www.cnblogs.com/beatIteWeNerverGiveUp/p/5709841.html  
 http://blog.csdn.net/paincupid/article/details/47746341  
 https://juejin.im/post/593e5364ac502e006c0c7690  
+http://blog.csdn.net/tsyj810883979/article/details/6891540  
+http://blog.csdn.net/tsyj810883979/article/details/6892575  
+http://blog.csdn.net/tsyj810883979/article/details/6897043  
+
