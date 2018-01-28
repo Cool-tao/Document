@@ -1,4 +1,4 @@
-###### java 集合框架
+### java 集合框架
 
 [Collection系列图](ImageFiles/Collection_001.png)、 [Map系列图](ImageFiles/Collection_002.png)  
 
