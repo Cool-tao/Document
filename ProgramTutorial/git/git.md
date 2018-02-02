@@ -4,8 +4,7 @@ fatal: The remote end hung up unexpectedly
 fatal: early EOF 
 fatal: index-pack failed
 ```
-git config --global http.postBuffer 524288000  
-git config --list  
+[clone_error](library/clone_error_EOF.md)  
 
 
 ◆ 参考  
