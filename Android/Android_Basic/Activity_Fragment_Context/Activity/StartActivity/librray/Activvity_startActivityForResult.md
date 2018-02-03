@@ -12,7 +12,6 @@ Instrumentation.ActivityResult ar =  mInstrumentation.execStartActivity(
     requestCode, 
     options);   
 
-    
 ```
 [mInstrumentation.execStartActivity](Instrumentation_execStartActivity.md)  
   
