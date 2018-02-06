@@ -1,5 +1,5 @@
 ### IntelliJ key map for mac 
-
+¡
 Completion 提示补全  保留 Basic 去掉 SmartType，修改成  control + space    
 运行 control + R 
 最近浏览  Command +E  

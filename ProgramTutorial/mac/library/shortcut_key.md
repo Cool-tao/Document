@@ -27,7 +27,7 @@
 清空废纸篓  shift + option + command + delete  
 新建finder窗口  command + N  
 新建文件夹  shift + command + N  
-将文件移至废纸篓  Command + Delete  
+删除文件  Command + Delete  
 剪切  Command + Option + V  
 打开当前所登录用户帐户的个人文件夹  Shift + Command + H    
 前往目标文件夹  Shift + Command + G   
@@ -38,6 +38,7 @@
 删除光标右边的字符  fn + Delete  
 单词左右跳转 option + 左右  
 行home end 跳转  command + 左右  
+页home end 跳转  fn + command + 左右  
 字母删除 delete  
 向左，单词删除  option + delete  
 向上滚动一页（Page Up）fn + ↑  
