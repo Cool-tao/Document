@@ -13,3 +13,6 @@ export PATH=$PATH:$GRADLE_HOME/bin
 source .bash_profile  
 gradle -version  
 
+
+使用gradle  
+./gradlew buildJar  

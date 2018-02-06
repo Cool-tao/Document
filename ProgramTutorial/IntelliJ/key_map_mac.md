@@ -1,5 +1,4 @@
 ### IntelliJ key map for mac 
-¡
 Completion 提示补全  保留 Basic 去掉 SmartType，修改成  control + space    
 运行 control + R 
 最近浏览  Command +E  
@@ -11,7 +10,8 @@ Completion 提示补全  保留 Basic 去掉 SmartType，修改成  control + sp
 定位行号  	command + L  
 跳转到父类 command + U  
 显示类的继承关系  control + H  
-
+打开调用处  command + 触板单击    
+查找调用处  command + option + 触板单击  
 ◆ 编辑代码  
 参数提示 command + P  
 多行注释 command + option + /  
