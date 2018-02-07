@@ -1,6 +1,7 @@
 ### 文本相关  
 
 [测量文本宽度-长度](fun/measure_text_length.md)  
+[设置删除线](fun/set_dash_line.md)  
 [StaticLayout](library/StaticLayout.md)  
 StaticLayout 静态Label，如TextView  
 DynamicLayout 编辑框，如EditText  

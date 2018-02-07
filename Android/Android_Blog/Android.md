@@ -89,7 +89,6 @@
 [动态权限](theme_style_statusbar/permissions.md)、
 [屏幕截图](theme_style_statusbar/capture_screen_shot.md)、
 [状态栏](theme_style_statusbar/status_bar.md)、
-[未分类](theme_style_statusbar/UnSort.md)
 
 
 > [RxJava相关](framework_architecture/rxjava.md)、
@@ -107,7 +106,6 @@
 [音频框架](framework_architecture/audio.md)、
 [框架](framework_architecture/framework.md)、
 [架构与组件化 ](framework_architecture/ArchitectureComponents.md)、
-[未分类](framework_architecture/UnSortFramework.md)
 
 > [jni部分](jni_md/jni_manual.md) 
 
