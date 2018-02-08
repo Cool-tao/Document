@@ -22,3 +22,9 @@ Completion 提示补全  保留 Basic 去掉 SmartType，修改成  control + sp
 生成变量  option + 回车  
 大小写转换  command + shift + U  
 使用gSonFormat，插入 get、set等  command + N  
+查看文档  F1  
+自动优化导包  Control + Option + O  
+查看当前方法的调用结构  Control + Option + H   
+
+◆ http://blog.csdn.net/shulianghan/article/details/47321177  
+
