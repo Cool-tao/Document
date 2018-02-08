@@ -14,8 +14,8 @@ Completion 提示补全  保留 Basic 去掉 SmartType，修改成  control + sp
 查找调用处  command + option + 触板单击  
 ◆ 编辑代码  
 参数提示 command + P  
-多行注释 command + option + /  
-单行注释 command + /  
+多行注释 control + shift + /  
+单行注释 command  + /  
 抽取方法  command + option + M  
 抽取变量  command + option + V  
 抽取字段  command + option + F  
