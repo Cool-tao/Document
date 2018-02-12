@@ -19,3 +19,4 @@ https://github.com/itext/itextpdf
 https://github.com/falnatsheh/MarkdownView  
 https://github.com/zzhoujay/RichText  
 https://github.com/mukeshsolanki/MarkdownView-Android  
+https://github.com/zzhoujay/Markdown  

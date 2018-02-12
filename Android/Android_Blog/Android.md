@@ -36,7 +36,6 @@
 [复选框-单选按钮](view_render_animation/check_box.md)、
 [跑马灯](view_render_animation/marquee.md)、
 [动画库](view_render_animation/animation.md)、
-[未分类](view_render_animation/UnSort.md)、
 
 
 > [状态切换、播放器按钮](widget/state_switch.md)、
@@ -83,6 +82,7 @@
 
 > [菜单](menu_sheet/Menu.md)、
 [BottomSheet](menu_sheet/BottomSheet.md)
+[悬浮窗](menu_sheet/float_window_view.md)  
 
 
 > [主题-皮肤](theme_style_statusbar/Skin_Theme.md)、

@@ -55,3 +55,5 @@ https://github.com/viniciusmo/android-text-to-speech
 ◆ 内存泄露检测  
 https://github.com/markzhai/AndroidPerformanceMonitor  
 
+◆ View转Bitmap
+https://github.com/vipulasri/Layout-to-Image
