@@ -4,10 +4,11 @@ TCP-IP协议族，主要分4层，数据链路层 → 网络层 → 传输层 �
 [应用层](internet_protocol/ApplicationLayer.md)  
 [传输层](internet_protocol/TransportLayer.md)  
 [网络层](internet_protocol/InternetLayer.md)  
-[链路层](internet_protocol/DataLinkLayer.md)  
+[数据链路层](internet_protocol/DataLinkLayer.md)  
 ◆ 词条  
 [TCP](internet_protocol/tcp.md)  
 [IP](internet_protocol/ip.md)  
+[HTTP](Http/Http.md)  
 ◆ 参考  
 http://blog.csdn.net/goodboy1881/article/details/665041  
 http://blog.csdn.net/goodboy1881/article/details/668556  
