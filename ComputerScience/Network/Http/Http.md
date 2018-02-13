@@ -15,3 +15,5 @@ HTTP 是一种不保存状态，即无状态（stateless）协议。 HTTP 协议
 ●不验证通信方的身份，因此有可能遭遇伪装  
 ●无法证明报文的完整性，所以有可能已遭篡改  
 
+◆ 词条  
+MIME   Multipurpose Internet Mail Extension  数据格式（多用途因特网邮件扩展）  

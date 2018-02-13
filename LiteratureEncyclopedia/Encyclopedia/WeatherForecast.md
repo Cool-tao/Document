@@ -3,6 +3,7 @@
 http://www.weather.com.cn/data/cityinfo/101010100.html  
 http://www.weather.com.cn/data/sk/101010100.html   
 
+百度 http://www.weather.com.cn/data/cityinfo 城市编码  
 城市列表  
 
 全国各城市代码如下： 
