@@ -3,7 +3,7 @@
 锁定屏幕  control + command + Q  
 当前窗口全屏  control + command + F  
 最近访问应用列表，类似于win的 alt + tab ： command + tab  
-隐藏所有窗口，快速回到桌面  command ＋ f3  F11  
+隐藏所有窗口，快速回到桌面  command ＋ F3  w  
 打开强关任务栏，任务管理器   Command + Option + Esc  
 切换输入法  control + 空格，我改成了 control + shift + 空格  
 隐藏当前窗口  command + H，command + m  
