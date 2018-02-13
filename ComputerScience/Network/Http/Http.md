@@ -9,3 +9,9 @@ HTTP 是一种不保存状态，即无状态（stateless）协议。 HTTP 协议
 [一次完整的网络请求过程](library/a_complete_network_request_process.md)    
 [HTTP报文](library/Message.md)  
 [首部字段说明](library/HeadParams.md)  
+
+◆ HTTP 的缺点    
+●通信使用明文（不加密），内容可能会被窃听  
+●不验证通信方的身份，因此有可能遭遇伪装  
+●无法证明报文的完整性，所以有可能已遭篡改  
+
