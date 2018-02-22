@@ -45,7 +45,8 @@ startActivity(intent);
 <string name="android_host">router</string>
 <string name="android_port">9527</string>
 ```
-uri =  schema://host:port/path?key0=value0&key1=value1  
+uri =  schema://host:port/path?key0=value0&key1=value1   
+例如 andfun://router:9527/order   
 
 
 
