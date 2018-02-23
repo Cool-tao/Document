@@ -3,6 +3,8 @@
 [Element](library/Element.md)  
 [Retention](library/Retention.md)  
 [process](function/process.md)   
+[ParameterSpec](library/ParameterSpec.md)  
+[format](function/format.md)  
 @Inherited  
 该注解的字面意识是继承，但你要知道注解是不可以继承的。  
 当你的注解定义到类A上，此时，有个B类继承A，且没使用该注解。但是扫描的时候，会把A类设置的注解，扫描到B类上。  
@@ -16,6 +18,9 @@
 ```
 
 
+◆ 参考  
+https://github.com/square/javapoet  
+http://blog.csdn.net/crazy1235/article/details/51876192  
 https://joyrun.github.io/2016/07/19/AptHelloWorld/  
 http://blog.csdn.net/u010405231/article/details/52210401  
 https://www.race604.com/annotation-processing/  
