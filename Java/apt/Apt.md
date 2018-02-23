@@ -25,4 +25,5 @@ https://joyrun.github.io/2016/07/19/AptHelloWorld/
 http://blog.csdn.net/u010405231/article/details/52210401  
 https://www.race604.com/annotation-processing/  
 https://www.jianshu.com/p/1910762593be  
+https://juejin.im/post/5a311cf4f265da431c704dfe  
 https://github.com/aitorvs/auto-parcel/blob/master/compiler/src/main/java/com/aitorvs/autoparcel/internal/codegen/AutoParcelProcessor.java  

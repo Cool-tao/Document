@@ -1,6 +1,8 @@
 ◆ 展开与折叠的Layout  
 https://github.com/andyxialm/ExpandableLayout  
 https://github.com/SilenceDut/ExpandableLayout  
+https://github.com/florent37/ExpansionPanel  
+
 
 ◆ 斜线布局  
 https://github.com/IntruderShanky/Squint  
