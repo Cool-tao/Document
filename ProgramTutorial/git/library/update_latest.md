@@ -4,3 +4,4 @@ cd /Users/alex/WorkSpace/mtStudio/coolProject_android_retail
 
 git fetch  origin 分支名  
 
+
