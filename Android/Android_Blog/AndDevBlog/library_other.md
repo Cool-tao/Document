@@ -3,6 +3,7 @@
 ◆ 断点续传  
 http://blog.csdn.net/shimiso/article/details/6763664  
 http://blog.csdn.net/wwj_748/article/details/20146869  
+https://github.com/MindorksOpenSource/PRDownloader  
 
 ◆ Aop  
 https://eclipse.org/aspectj/  

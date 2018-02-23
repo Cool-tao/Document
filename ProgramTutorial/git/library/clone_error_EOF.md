@@ -1,16 +1,16 @@
 ### 错误信息  
 ```
-Cloning into '/Users/alex/WorkSpace/sourceTree/waimai_e_android'...
+Cloning into '/Users/alex/WorkSpace/sourceTree/coolProject_e_android'...
 fatal: The remote end hung up unexpectedly
 fatal: early EOF
 fatal: index-pack failed
 ```
 
 ◆ 解决办法  
-在sourceTree下 生成一个文件夹，与仓库名同名，waimai_e_android  
+在sourceTree下 生成一个文件夹，与仓库名同名，coolProject_e_android  
 ```
 cd /Users/alex/WorkSpace/sourceTree/  
-git clone -b feature/v4.12_retail --depth 1 http://zhangwenliang@git.sankuai.com/scm/~zhangwenliang/waimai_e_android.git
+git clone -b 分支名 --depth 1 http://git地址.git
 ```
 
 ◆ 网上见到的解决办法，注入此类，并不适合我  
@@ -34,8 +34,8 @@ git config --list
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [user]
-	name = zhangwenliang
-	email = zhangwenliang@bbq.com
+	name = alex
+	email = alex@oop.com
 [commit]
 	template = /Users/alex/.stCommitMsg
 [http]

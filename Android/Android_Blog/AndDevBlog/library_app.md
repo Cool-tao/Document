@@ -11,3 +11,6 @@ https://github.com/harjot-oberai/MusicDNA
 
  看书App  
 https://github.com/JustWayward/BookReader  
+
+浏览器  
+https://github.com/renjianan/SimpleBrowser  
