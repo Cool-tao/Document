@@ -56,3 +56,4 @@ https://www.jianshu.com/p/5c9f1e8894ec
 http://blog.csdn.net/eclipsexys/article/details/54425414  
 https://github.com/HujiangTechnology/gradle_plugin_android_aspectjx  
 https://www.jianshu.com/p/f90e04bcb326  
+https://www.jianshu.com/p/27b997677149  
