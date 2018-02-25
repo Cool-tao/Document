@@ -58,3 +58,8 @@ https://github.com/HujiangTechnology/gradle_plugin_android_aspectjx
 https://www.jianshu.com/p/f90e04bcb326  
 https://www.jianshu.com/p/27b997677149  
 https://www.aliyun.com/jiaocheng/8643.html  
+https://www.jianshu.com/p/6ccfa7b50f0e   
+https://www.jianshu.com/p/dca3e2c8608a  
+https://github.com/uPhyca/gradle-android-aspectj-plugin
+http://blog.csdn.net/woshimalingyi/article/details/51519851  
+http://blog.csdn.net/weelyy/article/details/78987087  
