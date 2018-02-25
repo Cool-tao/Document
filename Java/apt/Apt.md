@@ -27,3 +27,5 @@ https://www.race604.com/annotation-processing/
 https://www.jianshu.com/p/1910762593be  
 https://juejin.im/post/5a311cf4f265da431c704dfe  
 https://github.com/aitorvs/auto-parcel/blob/master/compiler/src/main/java/com/aitorvs/autoparcel/internal/codegen/AutoParcelProcessor.java  
+https://www.jianshu.com/p/6ccfa7b50f0e   
+https://www.jianshu.com/p/dca3e2c8608a  
