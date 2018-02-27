@@ -40,8 +40,7 @@ methodA(){
 
 
 ◆  参考  
-https://www.jianshu.com/p/5c9f1e8894ec  
-http://blog.csdn.net/eclipsexys/article/details/54425414  
+https://www.jianshu.com/p/5c9f1e8894ec（不看了）  
 https://github.com/HujiangTechnology/gradle_plugin_android_aspectjx  
 https://www.jianshu.com/p/f90e04bcb326  
 https://www.jianshu.com/p/27b997677149  
@@ -51,6 +50,9 @@ https://github.com/uPhyca/gradle-android-aspectj-plugin
 http://blog.csdn.net/woshimalingyi/article/details/51519851  
 http://blog.csdn.net/weelyy/article/details/78987087  
 http://blog.csdn.net/qq_25943493/article/details/52524573    
+http://blog.csdn.net/innost/article/details/49387395  
+https://www.jianshu.com/p/430f9ea1e80f  
+
 
 
 
