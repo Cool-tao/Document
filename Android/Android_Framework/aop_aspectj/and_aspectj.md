@@ -4,6 +4,9 @@
 
 [监控 某个Activity启动](library/sample_001.md)  
 
+[切入点 基本知识](library/join_point.md)  
+[切入点 示例介绍](library/join_point/jp_001.md)  
+
 假设插入的方法是 fooA;  目标方法是 funA;  
 call 和 execution  
 execution  插入的 代码，在目标 方法  内部， 形成  
@@ -34,21 +37,6 @@ methodA(){
 第一个『*』表示返回值，『*』表示返回值为任意类型  
 第二个『*』来进行通配，几个『*』没区别。  
 
-java.lang.String  匹配String类型  
-java.*.String  
-匹配java包下的任何“一级子包”下的String类型，如匹配java.lang.String，但不匹配java.lang.ss.String  
-
-java..*  
-匹配java包及任何子包下的任何类型,如匹配java.lang.String、java.lang.annotation.Annotation  
-
-java.lang.*ing  
-匹配任何java.lang包下的以ing结尾的类型  
-
-java.lang.Number+  
-匹配java.lang包下的任何Number的自类型，如匹配java.lang.Integer，也匹配java.math.BigInteger  
-
-
-com.alex.andfun..*.Activity+.onCreate  
 
 
 ◆  参考  
@@ -57,9 +45,14 @@ http://blog.csdn.net/eclipsexys/article/details/54425414
 https://github.com/HujiangTechnology/gradle_plugin_android_aspectjx  
 https://www.jianshu.com/p/f90e04bcb326  
 https://www.jianshu.com/p/27b997677149  
-https://www.aliyun.com/jiaocheng/8643.html  
 https://www.jianshu.com/p/6ccfa7b50f0e   
 https://www.jianshu.com/p/dca3e2c8608a  
 https://github.com/uPhyca/gradle-android-aspectj-plugin
 http://blog.csdn.net/woshimalingyi/article/details/51519851  
 http://blog.csdn.net/weelyy/article/details/78987087  
+http://blog.csdn.net/qq_25943493/article/details/52524573    
+
+
+
+
+

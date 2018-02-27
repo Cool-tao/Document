@@ -2,6 +2,8 @@
 
 [intellij gradle配置](../../Android/Android_Framework/aop_aspectj/library/and_build.md)  
 [aspect for android](../../Android/Android_Framework/aop_aspectj/and_aspectj.md)  
+execution：用于匹配方法执行的连接点；  
+within：用于匹配指定类型内的方法执行；  
 
 ◆  参考  
 http://www.eclipse.org/aspectj/doc/released/runtime-api/index.html  
@@ -9,5 +11,6 @@ https://eclipse.org/aspectj/doc/released/progguide/index.html
 
 https://fernandocejas.com/2014/08/03/aspect-oriented-programming-in-android/  
 http://jinnianshilongnian.iteye.com/blog/1415606  
-http://blog.csdn.net/qq_32719003/article/details/71404428  
-http://blog.csdn.net/qq_25943493/article/details/52524573  
+http://blog.csdn.net/zhengchao1991/article/details/53391244  
+http://blog.csdn.net/qwe6112071/article/details/50951720    
+http://blog.51cto.com/lavasoft/172292  
