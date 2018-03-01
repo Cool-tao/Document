@@ -13,6 +13,13 @@ compile files('libs/YibaAnalytics5.jar')
 
 compile是默认的那个，其含义是包含所有的依赖包，即在APK里，compile的依赖会存在。  
 provided的意思是提供编译支持，但是不会写入apk。  
+compile： main application
+androidTestCompile： test application
+debugCompile： debug Build Type  
+releaseCompile： release Build Type  
+因为要构建生成一个APK，必然会有相关联的 Build Type ，APK默认配置了两个(或者更多)编译配置：compile和<buildtype>Compile。  
+创建一个新的 Build Type 的时候会自动创建一个基于它名字的编译配置。   
+当一个debug版本需要一个自定义库(比如报告崩溃)，但是release版本不需要或者需要一个不同版本的库的时候，会显得非常有用。  
 
 ◆ 参考  
 http://www.cnblogs.com/zhaoyanjun/p/7603640.html  
