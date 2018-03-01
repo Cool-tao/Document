@@ -1,8 +1,9 @@
 ###  aspectj  
 
-[gradle配置](library/and_build.md)  
+使用原生aspectj 配置建麻烦，还有不兼容问题，建议使用hugo插件  
+[gradle配置 aspectj](library/and_build.md)  
+[gradle配置 hugo](library/and_build_hugo.md)  
 
-[监控 某个Activity启动](library/sample_001.md)  
 
 [切入点 基本知识](library/join_point.md)  
 [切入点 示例介绍](library/join_point/jp_001.md)  

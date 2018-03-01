@@ -26,5 +26,6 @@ Completion 提示补全  保留 Basic 去掉 SmartType，修改成  control + sp
 自动优化导包  Control + Option + O  
 查看当前方法的调用结构  Control + Option + H   
 批量选中  option + 触板选择  
+切换窗口  Command + ~ `     
 ◆ http://blog.csdn.net/shulianghan/article/details/47321177  
 

@@ -3,7 +3,9 @@
 ◆ gradle.properties  
 aspectj_version = 1.8.13  
 ◆ 全局的 gradle  
+/*aspectJ */   
 classpath "org.aspectj:aspectjtools:${aspectj_version}"  
+classpath "org.aspectj:aspectjweaver:${aspectj_version}"  
 ◆ 模块的 gradle  
 compile 'org.aspectj:aspectjrt:1.8.13'  
 ```

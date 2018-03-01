@@ -3,3 +3,8 @@
 wifi设置代理：127.0.0.1：8888  
 执行adb命令：  
 adb reverse tcp:8888 tcp:8888  
+
+设置过滤  
+[第一步](ImageFiles/charles_001.png)   
+[第二步](ImageFiles/charles_002.png)   
+

@@ -14,3 +14,6 @@ https://github.com/JustWayward/BookReader
 
 浏览器  
 https://github.com/renjianan/SimpleBrowser  
+
+github-client  
+http://frodoking.github.io/2016/06/07/android-github-client/  

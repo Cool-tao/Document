@@ -14,3 +14,5 @@ http://jinnianshilongnian.iteye.com/blog/1415606
 http://blog.csdn.net/zhengchao1991/article/details/53391244  
 http://blog.csdn.net/qwe6112071/article/details/50951720    
 http://blog.51cto.com/lavasoft/172292  
+http://www.cnblogs.com/yudy/archive/2012/03/22/2411175.html  
+https://www.ibm.com/developerworks/cn/java/j-lo-springaopcglib/?spm=5176.100239.blogcont7104.5.xUDMTR  

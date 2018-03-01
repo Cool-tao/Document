@@ -23,5 +23,7 @@ https://github.com/jiang111/awesome-android-tips
 https://github.com/ZhaoKaiQiang/AndroidDifficultAnalysis  
 https://github.com/LittleFriendsGroup/AndroidSdkSourceAnalysis/tree/master/article  
 https://github.com/GcsSloop/AndroidNote  
-
-
+https://github.com/GDGAhmedabad/Learning-Resources  
+http://www.technotalkative.com/  
+http://androidweekly.net/  
+http://frodoking.github.io/2016/03/01/android-weekly/  
