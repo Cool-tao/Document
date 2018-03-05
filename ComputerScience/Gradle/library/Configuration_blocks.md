@@ -1,0 +1,16 @@
+aaptOptions { }  
+adbOptions { }  
+buildTypes { }  
+compileOptions { }  
+dataBinding { }  
+defaultConfig { }  
+dexOptions { }   
+externalNativeBuild { }  
+jacoco { }  
+lintOptions { }  
+packagingOptions { }  
+productFlavors { }  
+signingConfigs { }  
+sourceSets { }  
+splits { }  
+testOptions { }  

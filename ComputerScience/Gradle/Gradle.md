@@ -1,12 +1,18 @@
 ### Gradle  
-
+[声明依赖项](library/dependencies.md)   
 常用  
 include ':app'  
 include ':libraries:someProject'  
-compile 'com.android.support:appcompat-v7:25.0.0'  
-compile project(':YibaAnalytics')  
-compile files('libs/YibaAnalytics5.jar')  
 
+[属性参考](library/BuildType_Properties.md)   
+[方法参考](library/BuildType_method.md)   
+[延伸方法](library/Configuration_blocks.md)  
+[AppExtension](library/AppExtension.md)  
+
+[applicationId 添加后缀](android/applicationIdSuffix.md)  
+[productFlavors 构建不同产品](android/productFlavors.md)  
+[sourceSets 修改源集](android/sourceSets.md)  
+[signingConfigs 签名工具](android/signingConfigs.md)   
 [repositories](library/repositories.md)  
 [gradle 常见命令](library/cmd_gradle.md)  
 [添加 aar](library/compile_aar.md)   
