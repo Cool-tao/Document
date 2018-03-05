@@ -15,6 +15,7 @@ http://blog.csdn.net/hubinqiang/article/details/73012336?utm_source=tuicool&utm_
 https://github.com/bufferapp/clean-architecture-components-boilerplate  
 https://github.com/CameloeAnthony/AndroidArchitectureCollection  
 https://github.com/Juude/Awesome-Android-Architecture  
+https://github.com/luckybilly/CC  
 
 ◆ 组件化  
 竹格子  
