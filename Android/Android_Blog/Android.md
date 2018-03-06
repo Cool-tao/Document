@@ -10,7 +10,6 @@
 [拍照-摄像-剪裁-图片选择器](image_media_picker/ImagePicker.md)、  
 [截图、拍摄、滤镜、水印](image_media_picker/image_media.md)、
 [二维码扫描](image_media_picker/QRCode.md)、
-[贴纸相机、水印](image_media_picker/Sticker.md)、
 [图片剪裁](image_media_picker/cropper.md)、
 [图片处理](image_media_picker/ImageEditor.md)、
 
