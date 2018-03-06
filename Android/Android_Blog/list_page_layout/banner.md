@@ -10,3 +10,4 @@ https://github.com/pinguo-zhouwei/MZBannerView
 https://github.com/rbro112/Android-Indefinite-Pager-Indicator  
 https://github.com/renjianan/RecyclerBanner  
 https://github.com/zjw-swun/RecyclerViewCardGallery  
+https://github.com/pinguo-zhouwei/MZBannerView  

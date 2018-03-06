@@ -20,6 +20,8 @@ https://github.com/LightSun/android-drag-FlowLayout
 https://github.com/jiang111/IndexRecyclerView  
 https://github.com/YoKeyword/IndexableRecyclerView  
 https://github.com/S64/android-sticky-recycler    
+https://github.com/zaaach/CityPicker  
+
 ◆ 通讯录样式水平的   
 https://github.com/timehop/sticky-headers-recyclerview  
 
