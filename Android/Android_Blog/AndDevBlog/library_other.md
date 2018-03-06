@@ -63,8 +63,11 @@ https://github.com/vipulasri/Layout-to-Image
 ◆ 数据库  
 https://github.com/square/sqldelight
 
-反编译工具  
+◆ 反编译工具  
 https://github.com/Jermic/Android-Crack-Tool/releases  
 
-注解式 框架  
+◆ 注解式 框架  
 https://github.com/androidannotations/androidannotations/wiki/Cookbook  
+
+◆ 模拟内存不足  
+https://github.com/happylishang/RogueKiller  
