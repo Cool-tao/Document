@@ -2,6 +2,7 @@
 
 [ADB环境变量](ADB_Config.md)  
 [常见命令](ADB_Shell.md)  
+[模拟器debug掉线]()  
 
 
 > 参考  

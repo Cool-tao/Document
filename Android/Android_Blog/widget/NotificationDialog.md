@@ -14,7 +14,9 @@ https://github.com/liuguangqiang/CookieBar
 https://github.com/kakajika/RelativePopupWindow  
 https://github.com/ViHtarb/Tooltip  
 https://github.com/dupengtao/BubbleTextView  
-https://github.com/PopFisher/SmartPopupWindow    
+https://github.com/PopFisher/SmartPopupWindow   
+https://github.com/zyyoona7/EasyPopup  
+ 
 
 ◆ Snackbar  
 https://github.com/nispok/snackbar  
