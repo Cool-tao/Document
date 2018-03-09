@@ -10,5 +10,6 @@ https://github.com/android-cn/android-open-project-analysis/tree/master/tool-lib
 https://github.com/soulrelay/ImageLoaderUtil  
 https://github.com/hss01248/ImageLoader  
 http://blog.csdn.net/guolin_blog/article/details/53759439  
+https://github.com/ladingwu/ImageLoaderFramework  
 
 
