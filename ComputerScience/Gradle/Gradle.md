@@ -16,6 +16,7 @@ include ':libraries:someProject'
 [repositories](library/repositories.md)  
 [gradle 常见命令](library/cmd_gradle.md)  
 [添加 aar](library/compile_aar.md)   
+[自定义Plugin](plugin/plugin.md)   
 
 compile是默认的那个，其含义是包含所有的依赖包，即在APK里，compile的依赖会存在。  
 provided的意思是提供编译支持，但是不会写入apk。  
