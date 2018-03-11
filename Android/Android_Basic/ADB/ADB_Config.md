@@ -1,4 +1,4 @@
-#### ADB环境变量  
+### ADB环境变量  
 
 ● 没有环境变量  
 C:\Users\alex_>adb  
