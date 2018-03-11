@@ -13,11 +13,15 @@ android {
       demo {
         // Assigns this product flavor to the 'version' flavor dimension.
         dimension 'version'
+        packageName "com.example.flavor1"
+        versionCode 20
         ...
     }
 
       full {
         dimension 'version'
+        packageName "com.example.flavor2"
+        minSdkVersion 14
         ...
       }
 
@@ -92,3 +96,29 @@ if (CommonConfig.Test_me_flavor == BuildConfig.me_flavor) {
 
 }
 ```   
+```
+flavorDimensions "brand","college","mobile"
+    productFlavors {
+        common {
+            applicationId "com.alex.myapplication"
+            dimension "brand"
+        }
+        baidu {
+            applicationId "com.alex.myapplication"
+            dimension "brand"
+        }
+        qihu {
+            applicationId "com.alex.myapplication"
+            dimension "college"
+        }
+        wandoujia {
+            applicationId "com.alex.myapplication"
+            dimension "mobile"
+        }
+        yingyongbao {
+            applicationId "com.alex.myapplication"
+            dimension "mobile"
+        }
+
+    }
+```

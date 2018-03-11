@@ -49,45 +49,36 @@ Sets the root of the source sets to a given path. All entries of the source set 
 ```
 android {
   ...
+  
+  sourceSets.jnidebug.setRoot('foo/jnidebug')
   sourceSets {
-    // Encapsulates configurations for the main source set.
     main {
-      // Changes the directory for Java sources. The default directory is
-      // 'src/main/java'.
-      java.srcDirs = ['other/java']
-
-      // If you list multiple directories, Gradle uses all of them to collect
-      // sources. Because Gradle gives these directories equal priority, if
-      // you define the same resource in more than one directory, you get an
-      // error when merging resources. The default directory is 'src/main/res'.
-      res.srcDirs = ['other/res1', 'other/res2']
-
-      // Note: You should avoid specifying a directory which is a parent to one
-      // or more other directories you specify. For example, avoid the following:
-      // res.srcDirs = ['other/res1', 'other/res1/layouts', 'other/res1/strings']
-      // You should specify either only the root 'other/res1' directory, or only the
-      // nested 'other/res1/layouts' and 'other/res1/strings' directories.
-
-      // For each source set, you can specify only one Android manifest.
-      // By default, Android Studio creates a manifest for your main source
-      // set in the src/main/ directory.
-      manifest.srcFile 'other/AndroidManifest.xml'
-      ...
+    aidl.srcDirs = ['src']
+    assets.srcDirs = ['assets']
+     java.srcDirs = ['other/java']
+     java.srcDirs = ['src']
+     renderscript.srcDirs = ['src']
+     res.srcDirs = ['other/res1', 'other/res2']
+     res.srcDirs = ['res']
+     resources.srcDirs = ['src']
+     manifest.srcFile 'other/AndroidManifest.xml'
+     manifest.srcFile 'AndroidManifest.xml'
     }
-
-    // Create additional blocks to configure other source sets.
+    main {
+        java {
+            srcDir 'src/java'
+        }
+        resources {
+            srcDir 'src/resources'
+        }
+        
+    }
+    main.java.srcDirs = ['src/java']
+    main.resources.srcDirs = ['src/resources']
     androidTest {
-
-      // If all the files for a source set are located under a single root
-      // directory, you can specify that directory using the setRoot property.
-      // When gathering sources for the source set, Gradle looks only in locations
-      // relative to the root directory you specify. For example, after applying the
-      // configuration below for the androidTest source set, Gradle looks for Java
-      // sources only in the src/tests/java/ directory.
       setRoot 'src/tests'
-      ...
-      
     }
+    androidTest.setRoot('tests')
   }
 }
 
