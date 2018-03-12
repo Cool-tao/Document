@@ -21,15 +21,14 @@ task makeJar(type: Jar) {
     baseName 'alex_tools'
     version = "1.0.0"
     from('build/intermediates/classes/debug/')
-    into( 'build/libs')
+//    into( 'build/libs')
     exclude('android/')
     exclude('**/BuildConfig.class')
     exclude('**/BuildConfig\$*.class')
     exclude('**/R.class')
+    exclude('**/R\$*.class')
     exclude('com/**')
     exclude('io/**')
-    exclude('**/*.MF')
-    exclude('**/R\$*.class')
     include('/org/alex/util/**/*.class')
     include('/org/alex/okhttp/**/*.class')
 }

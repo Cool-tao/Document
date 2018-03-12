@@ -23,6 +23,7 @@ include ':libraries:someProject'
 [添加 aar](library/compile_aar.md)   
 [自定义Plugin](plugin/plugin.md)   
 [task](library/task.md)  
+[make jar](task/makejar.md)  
 [基础 方法声明与使用](library/basic_method.md)  
 [基础 类声明与使用](library/basic_class.md)  
 assemble  组装项目的输出的任务  
