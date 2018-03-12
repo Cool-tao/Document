@@ -73,3 +73,5 @@ dependencies {
 }
 
 ```
+◆ 参考   
+http://kvh.io/cn/embrace-android-studio-maven-deploy.html  
