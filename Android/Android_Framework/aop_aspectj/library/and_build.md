@@ -7,7 +7,9 @@ aspectj_version = 1.8.13
 classpath "org.aspectj:aspectjtools:${aspectj_version}"  
 classpath "org.aspectj:aspectjweaver:${aspectj_version}"  
 ◆ 模块的 gradle  
-compile 'org.aspectj:aspectjrt:1.8.13'  
+ //  不能使用 aspectjtools 否则会，一直报  Could not determine java version from '191'.  
+//  implementation 'org.aspectj:aspectjtools:1.8.13'  
+implementation 'org.aspectj:aspectjrt:1.8.13'  
 ```
 android {
 
@@ -30,7 +32,7 @@ variants.all { variant ->
     JavaCompile javaCompile = variant.javaCompile
     javaCompile.doLast {
         String[] args = ["-showWeaveInfo",
-                         "-1.8",
+                         "-1.5",
                          "-inpath", javaCompile.destinationDir.toString(),
                          "-aspectpath", javaCompile.classpath.asPath,
                          "-d", javaCompile.destinationDir.toString(),
