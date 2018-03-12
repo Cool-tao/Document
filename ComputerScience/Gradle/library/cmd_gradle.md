@@ -1,4 +1,5 @@
 ### Gradle 常见命令  
+windows  gradlew;  mac  gradle  
 //构建  
 gradlew app:clean    //移除所有的编译输出文件，比如apk    
 

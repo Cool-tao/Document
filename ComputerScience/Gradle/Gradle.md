@@ -19,8 +19,8 @@
 [gradle 常见命令](library/cmd_gradle.md)  
 [添加 aar](library/compile_aar.md)   
 [自定义Plugin](plugin/plugin.md)   
-[task](library/task.md)  
-[make jar](task/makejar.md)  
+[task 示例1](task/task_sample_01.md)  
+[task make jar](task/makejar.md)  
 [基础 方法声明与使用](library/basic_method.md)  
 [基础 类声明与使用](library/basic_class.md)  
 ◆ 参考  
