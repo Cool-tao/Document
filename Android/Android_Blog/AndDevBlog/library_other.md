@@ -70,4 +70,14 @@ https://github.com/Jermic/Android-Crack-Tool/releases
 https://github.com/androidannotations/androidannotations/wiki/Cookbook  
 
 ◆ 模拟内存不足  
-https://github.com/happylishang/RogueKiller  
+https://github.com/happylishang/RogueKiller   
+
+◆ 函数调用顺序以及函数耗时  
+https://github.com/zjw-swun/AppMethodOrder   
+
+◆ 在手机端抓包  
+https://github.com/JZ-Darkal/AndroidHttpCapture    
+
+◆ UI库  
+https://github.com/material-components/material-components-android  
+

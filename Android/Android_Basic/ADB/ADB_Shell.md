@@ -9,6 +9,11 @@ adb shell am start -W com.alex.andfun.basic/com.alex.andfun.basic.MainActivity
 如果关心系统启动应用耗时，参考WaitTime；  
 如果关心应用有界面Activity启动耗时，参考ThisTime；  
 
+● 安装app  
+adb devices    
+adb -s emulator-5556 install    
+adb -s emulator-5556 install ebook.apk   
+
 ● 查看连接设备  
 adb devices  
 

@@ -12,3 +12,4 @@ http://www.jianshu.com/p/aad5aacd79bf
 https://www.jianshu.com/p/27c1554b7fee  
 http://frodoking.github.io/2015/03/12/android-okhttp/  
 https://juejin.im/post/581311cabf22ec0068826aff  
+http://www.open-open.com/lib/view/open1517362688550.html  

@@ -68,8 +68,7 @@ https://github.com/nanchen2251/RxJava2Examples
 http://blog.csdn.net/u014165119/article/details/52582782  
 https://www.jianshu.com/p/90e9434b8590  
 http://blog.csdn.net/xiechengfa/article/details/51821030  
-
-http://mp.weixin.qq.com/s?__biz=MzIwMzYwMTk1NA==&mid=2247484203&idx=1&sn=6c98747e0c2d3bd4a7001d2db45df6d8&chksm=96cda266a1ba2b7086f38adb26135009a59dd42c58be4f9c60ed0e56b37952b2d5919173d783&mpshare=1&scene=23&srcid=0503Ebcn1jR7ClZdRYwR8nxb#rd  
+https://github.com/uber/AutoDispose  
 
 
 
