@@ -19,4 +19,6 @@ https://www.jianshu.com/p/38f7994faa6b
 https://www.jianshu.com/p/9dbb03203fbc  
 https://www.jianshu.com/p/78ec81b42f92  
 https://www.jianshu.com/p/c12a98a36b2b  
+http://toughcoder.net/blog/2015/04/30/android-fragment-the-bad-parts/  
+
 

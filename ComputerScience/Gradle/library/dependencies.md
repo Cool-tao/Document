@@ -18,5 +18,7 @@ testCompile：编译测试代码时所需要的依赖。默认情况下，包含
 testRuntime：测试运行时期的依赖。默认情况下，包含了上面三个时期的依赖  
 branchOneCompile 'com.android.support:appcompat-v7:22.2.0'//只为branchOne添加这个依赖  
 
+api  自己用，也暴露给 别人用  
+implementation  仅仅自己用  
 
     

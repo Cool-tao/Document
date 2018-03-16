@@ -6,4 +6,6 @@
 ◆ 加载巨图  
 https://github.com/davemorrissey/subsampling-scale-image-view  
 
+◆ 图片选择 + 滤镜 + 贴纸    
+https://github.com/zxfnicholas/CameraSDK  
 

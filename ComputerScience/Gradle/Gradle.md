@@ -20,6 +20,7 @@
 [添加 aar](library/compile_aar.md)   
 [自定义 Plugin](plugin/plugin.md)   
 [自定义 localMaven](plugin/localMaven.md)   
+[自定义 localMaven 添加Java 文档](plugin/localMavenJavaDoc.md)   
 [task 示例1](task/task_sample_01.md)  
 [task make jar](task/makejar.md)  
 [基础 方法声明与使用](library/basic_method.md)  
