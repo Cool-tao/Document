@@ -5,7 +5,11 @@
 
     { "keys": ["alt+shift+up"], "command": "swap_line_up" },  // 向上 移动 当前行  
     { "keys": ["alt+shift+down"], "command": "swap_line_down" },  // 向下 移动 当前行 
-    
+
+    { "keys": ["super+shift+u"], "command": "upper_case" },  //  变为 大写
+    { "keys": ["super+u"], "command": "lower_case" }, //  变为 小写
+
 ]
+
 
 ```

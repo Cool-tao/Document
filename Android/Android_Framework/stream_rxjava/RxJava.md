@@ -55,7 +55,7 @@
 [count](source/Mathematical/count.md)  
 
 ◆ 高级操作符  
-[生命周期](lifecycle/Lifecycle.md)  
+[生命周期](rxLifecycle/Lifecycle.md)  
 
 ◆ 参考  
 http://rxmarbles.com/  
