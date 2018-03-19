@@ -1,6 +1,7 @@
 ###### Indicator-Tabs-Segment  
 
 https://github.com/Devlight/NavigationTabBar  
+https://github.com/armcha/LuseenBottomNavigation  
 
 ◆ Indicator  
 https://github.com/lightSky/InfiniteIndicator  
@@ -36,7 +37,7 @@ https://github.com/roughike/BottomBar
 https://github.com/Cleveroad/LoopBar  
 https://github.com/brucetoo/GradientTabStrip  
 https://github.com/shem8/customviewpager  
-
+https://github.com/armcha/PlayTabLayout 
 
 ◆ Segment  
 https://github.com/Kaopiz/android-segmented-control  
@@ -46,5 +47,7 @@ https://github.com/YinLiWisdom/Android-YLSegmentedControl
 
 ◆ FootBar  
 https://github.com/roughike/BottomBar  
+https://github.com/armcha/Space-Navigation-View  
+
 
 
