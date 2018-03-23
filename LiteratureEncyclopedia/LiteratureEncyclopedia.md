@@ -2,3 +2,5 @@
 
 http://www.wjszx.com.cn/  
 http://www.gushiwen.org/  
+http://m.gushiwen.org/view_47916.aspx  
+

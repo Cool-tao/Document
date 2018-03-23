@@ -52,7 +52,7 @@ https://github.com/leerduo/InterviewQuestion
 https://github.com/Mr-YangCheng/ForAndroidInterview  
 http://www.jianshu.com/p/89f19d67b348  
 https://github.com/suzeyu1992/repo  
-http://www.jianshu.com/p/735be5ece9e8?utm_campaign=hugo&utm_medium=reader_share&utm_content=note&utm_source=qq  
+https://www.jianshu.com/p/735be5ece9e8  
 https://github.com/Freelander/Android_Data  
 http://www.jianshu.com/nb/3450453  
 https://github.com/LRH1993/android_interview  
@@ -64,6 +64,8 @@ https://www.jianshu.com/p/3df3d2974234
 https://www.jianshu.com/p/a22450882af2  
 https://www.jianshu.com/p/fb815eaf628f  
 https://juejin.im/post/5aa721936fb9a028d4443d8b  
+http://blog.csdn.net/qian520ao/article/details/79601179  
+https://github.com/MindorksOpenSource/android-interview-questions  
 
 
 

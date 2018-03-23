@@ -13,3 +13,6 @@ https://github.com/brucetoo/ListVideoPlay
 https://github.com/yqritc/Android-ScalableVideoView  
 https://github.com/CarGuo/GSYVideoPlayer  
 
+◆ 音轨跳动   
+https://github.com/Taishi-Y/MusicIndicator  
+

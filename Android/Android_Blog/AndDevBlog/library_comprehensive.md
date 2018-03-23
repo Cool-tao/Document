@@ -27,3 +27,4 @@ https://github.com/GDGAhmedabad/Learning-Resources
 http://www.technotalkative.com/  
 http://androidweekly.net/  
 http://frodoking.github.io/2016/03/01/android-weekly/  
+https://github.com/aritraroy/UltimateAndroidReference  

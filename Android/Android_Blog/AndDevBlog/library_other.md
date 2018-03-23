@@ -32,6 +32,8 @@ https://github.com/PopFisher/FingerprintRecognition
 
 ◆ 蓝牙  
 https://github.com/dingjikerbo/BluetoothKit  
+https://github.com/Jasonchenlijian/FastBle  
+
 
 ◆ 作业调度  
 https://github.com/path/android-priority-jobqueue  
@@ -80,4 +82,12 @@ https://github.com/JZ-Darkal/AndroidHttpCapture
 
 ◆ UI库  
 https://github.com/material-components/material-components-android  
+
+◆ 开发技巧  
+https://github.com/nisrulz/android-tips-tricks  
+
+◆ 设备信息  
+https://github.com/nisrulz/easydeviceinfo  
+
+https://github.com/florent37/NoActivityResult  
 

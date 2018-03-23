@@ -1,6 +1,7 @@
 ### 架构与组件化 （Architecture and Components） 
 
 ◆ Easy Clean architecture on Android
+https://8thlight.com/blog/uncle-bob/2012/08/13/the-clean-architecture.html  
 
 http://www.jianshu.com/p/3edcf85539a6  
 http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0218/3979.html  
