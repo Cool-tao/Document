@@ -20,6 +20,7 @@ http://blog.csdn.net/u011240877/article/list/3
 http://dandanlove.com/  
 https://github.com/BeesAndroid/BeesAndroid  
 https://www.liaohuqiu.net/cn/  
+https://github.com/BeesAndroid/BeesAndroid  
 
 ◆ 开发总结  
 http://blog.csdn.net/zxt0601  
