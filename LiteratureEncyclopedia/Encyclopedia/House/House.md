@@ -11,6 +11,44 @@
 房价110W，首付30%，贷款77W，30年，月供4.1K；  
 房价100W，首付30%，贷款70W，30年，月供3.8K；  
 房子在130W以内，140W小心  
-[绍兴_柯桥区](library/KeQiao.md)    
-[绍兴_越城区](library/YueChengQu.md)    
+
+◆ 文象府  
+10000 元/m²  
+浙江省绍兴市柯桥区安昌镇环镇南路和昌和路交叉口    
+文象府E1户型中间套  3室2厅1卫1厨	 	98㎡(建面)     
+文象府A户型东西边套  3室2厅2卫1厨	 	110.00㎡  
+文象府D1户型东西边套  3室2厅2卫1厨	 	120.00㎡   
+到杭州市政府 41公里， 到萧山机场26公里  
+ http://wenxiangfu.fang.com//photo/d_house_132080822.htm  
+
+◆ 万邦名邸  
+http://wanbangmingdi.fang.com/  
+霞西路越西路交叉口东北侧，地块东南西北各靠规划支路  
+
+◆ 金邦汇馨湾  
+http://huixinwanjb.fang.com/  
+润沁路100号（润沁花园北侧）  
+
+
+◆ 宝业·新桥风情  
+http://xinqiaofengqingby.fang.com/  
+越城区西郊路与越西路交叉口  
+
+◆ 华宇·兰园  
+http://huayulanyuan.fang.com/  
+  越城区山阴路，绍兴托普信息职业技术学院以南约150米  
+  
+
+◆ 星尚悦湖苑  
+http://yuehuxs.fang.com/  
+ 越城区胜利东路825号（近阳明北路）  
+ 
+ ◆ 馥园鉴湖一号  
+ http://jianhuyihao.fang.com/  
+ 柯桥区柯岩大道699号  
+ 
+ ◆ 都市阳光花园  
+ http://dushiyangguanghuayuan0575.fang.com/  
+ 柯桥区钱陶公路与蜀阜路交叉口  
+ 
 
