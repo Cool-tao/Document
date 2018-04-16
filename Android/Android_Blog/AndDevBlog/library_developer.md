@@ -21,6 +21,7 @@ http://dandanlove.com/
 https://github.com/BeesAndroid/BeesAndroid  
 https://www.liaohuqiu.net/cn/  
 https://github.com/BeesAndroid/BeesAndroid  
+http://baronzhang.com/  
 
 ◆ 开发总结  
 http://blog.csdn.net/zxt0601  
