@@ -25,10 +25,6 @@
 http://wanbangmingdi.fang.com/  
 霞西路越西路交叉口东北侧，地块东南西北各靠规划支路  
 
-◆ 金邦汇馨湾  
-http://huixinwanjb.fang.com/  
-润沁路100号（润沁花园北侧）  
-
 
 ◆ 宝业·新桥风情  
 http://xinqiaofengqingby.fang.com/  
