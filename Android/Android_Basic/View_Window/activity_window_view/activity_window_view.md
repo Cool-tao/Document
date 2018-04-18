@@ -1,4 +1,4 @@
-#### 对Activity、Window、View的认识  
+### 对Activity、Window、View的认识  
 
 [Activity、Window、View层级嵌套结构](../../Activity_Fragment_Context/ImageFiles/awv_001.jpg)    
 
@@ -35,4 +35,10 @@ WindowManager为每个Window创建Surface对象，然后应用就可以通过这
 http://www.jianshu.com/p/5297e307a688  
 http://www.cnblogs.com/wangle12138/p/7810552.html  
 http://blog.csdn.net/huachao1001/article/details/51866287  
+http://liuwangshu.cn/framework/wm/1-windowmanager.html  
+http://liuwangshu.cn/framework/wm/2-window-property.html  
+http://liuwangshu.cn/framework/wm/3-add-window.html  
+http://liuwangshu.cn/framework/wms/1-wms-produce.html  
+http://liuwangshu.cn/framework/wms/2-wms-member.html  
+http://liuwangshu.cn/framework/wms/3-wms-remove.html  
 

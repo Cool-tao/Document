@@ -84,3 +84,16 @@ http://blog.csdn.net/qq_23547831/article/details/51224992
 
 理解Android进程创建流程  
 http://gityuan.com/2016/03/26/app-process-create/  
+
+http://www.cnblogs.com/nokiaguy/archive/2013/04/14/3020774.html  
+http://www.cnblogs.com/nokiaguy/p/3164799.html  
+http://liuwangshu.cn/framework/booting/1-init.html  
+https://blog.csdn.net/fu_kevin0606/article/details/53383031  
+https://blog.csdn.net/sunao2002002/article/details/52454878  
+https://blog.csdn.net/gaugamela/article/details/52133186  
+https://blog.csdn.net/hu3167343/article/details/38230271  
+http://liuwangshu.cn/framework/applicationprocess/1.html  
+http://liuwangshu.cn/framework/applicationprocess/2.html  
+http://liuwangshu.cn/framework/component/1-activity-start-1.html  
+http://liuwangshu.cn/framework/component/1-activity-start-2.html  
+

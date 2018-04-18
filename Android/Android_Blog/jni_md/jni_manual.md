@@ -22,6 +22,11 @@
 
 11  http://blog.csdn.net/androidstarjack/article/details/72827991
 
-> NDK
-- http://blog.csdn.net/shulianghan/article/details/18964835
-- http://blog.csdn.net/xyang81/article/details/42319789
+> NDK  
+
+http://blog.csdn.net/shulianghan/article/details/18964835
+http://blog.csdn.net/xyang81/article/details/42319789  
+
+https://blog.csdn.net/mabeijianxi  
+https://github.com/mabeijianxi/small-video-record/blob/master/document/README_CH.md  
+

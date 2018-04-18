@@ -22,6 +22,8 @@ https://github.com/AbrahamCaiJin/CommonUtilLibrary
 
 ◆ 卸载监听  
 https://github.com/sevenler/Uninstall_Statics  
+https://github.com/Coolerfall/Android-AppUninstallWatcher  
+
 
 ◆ 进程保活  
 http://www.52im.net/thread-1138-1-1.html    
@@ -89,5 +91,9 @@ https://github.com/nisrulz/android-tips-tricks
 ◆ 设备信息  
 https://github.com/nisrulz/easydeviceinfo  
 
-https://github.com/florent37/NoActivityResult  
+https://github.com/florent37/NoActivityResult    
+
+进程重生  
+https://github.com/JakeWharton/ProcessPhoenix  
+
 

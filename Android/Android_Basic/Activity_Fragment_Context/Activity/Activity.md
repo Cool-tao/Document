@@ -8,3 +8,8 @@
 [不同App 的 Activity 之间的传值](basic_fun/Activity_OtherApp_Intent.md)   
 
 
+> 参考  
+
+http://liuwangshu.cn/framework/ams/2-activitytask.html  
+http://liuwangshu.cn/framework/component/6-activity-start-1.html  
+http://liuwangshu.cn/framework/component/7-activity-start-2.html  

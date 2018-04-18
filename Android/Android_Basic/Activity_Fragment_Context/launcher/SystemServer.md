@@ -13,5 +13,6 @@ ActivityManagerService、PackageManagerService、WindowManagerService、DisplayM
 
 http://blog.csdn.net/qq_23547831/article/details/51105171    
 http://blog.csdn.net/itachi85/article/details/55053356  
+http://liuwangshu.cn/framework/booting/3-syetemserver.html  
 
 

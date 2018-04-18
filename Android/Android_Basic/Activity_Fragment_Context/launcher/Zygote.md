@@ -15,6 +15,7 @@
 http://blog.csdn.net/qq_23547831/article/details/51104873  
 http://blog.csdn.net/luoshengyang/article/details/6768304    
 http://blog.csdn.net/itachi85/article/details/55047104  
+http://liuwangshu.cn/framework/booting/2-zygote.html  
 
 
 

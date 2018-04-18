@@ -40,7 +40,7 @@ public void onReceive(Context context, Intent intent) {
 ```
  
 
-![Context](../ImageFiles/context_001.png)  
+![Context](../../ImageFiles/context_001.png)  
 
 
 >  参考 
