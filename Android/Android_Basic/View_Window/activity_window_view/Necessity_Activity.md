@@ -1,4 +1,4 @@
-#### Activity有存在的必要吗  
+### Activity有存在的必要吗  
 
 Window已经是系统管理的窗口界面。那么为什么还需要Activity呢？  
 其实，本质上讲，我们要显示一个窗口出来，的确可以不需要Activity，悬浮窗口可以不依赖Activity；  

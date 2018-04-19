@@ -35,6 +35,7 @@ https://github.com/PopFisher/FingerprintRecognition
 ◆ 蓝牙  
 https://github.com/dingjikerbo/BluetoothKit  
 https://github.com/Jasonchenlijian/FastBle  
+https://www.kancloud.cn/alex_wsc/android-wifi-nfc-gps/413031  
 
 
 ◆ 作业调度  

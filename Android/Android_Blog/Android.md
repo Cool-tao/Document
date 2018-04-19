@@ -109,8 +109,8 @@
 > [jni部分](jni_md/jni_manual.md) 
 
 > [源码相关](AndDevBlog/library_source_code.md)、  
-[优秀的文章](AndDevBlog/library_developer.md)、  
-[干货集中营](AndDevBlog/library_comprehensive.md)、  
+[优秀的文章](AndDevBlog/library_notes.md)、  
+[UI相关](AndDevBlog/library_ui_collection.md)、  
 [自定义控件相关知识](AndDevBlog/library_view.md)、   
 [开源App](AndDevBlog/library_app.md)、     
 [未整理分类](AndDevBlog/library_other.md)、  
