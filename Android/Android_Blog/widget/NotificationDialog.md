@@ -16,6 +16,7 @@ https://github.com/ViHtarb/Tooltip
 https://github.com/dupengtao/BubbleTextView  
 https://github.com/PopFisher/SmartPopupWindow   
 https://github.com/zyyoona7/EasyPopup  
+https://github.com/razerdp/BasePopup  
  
 
 ◆ Snackbar  

@@ -9,3 +9,4 @@ https://github.com/IsseiAoki/SimpleCropView
 https://github.com/jdamcd/android-crop  
 https://github.com/Yalantis/uCrop  
 https://github.com/yulu/crop-image-layout    
+https://github.com/EarlOfEgo/FrameView  

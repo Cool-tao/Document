@@ -9,4 +9,5 @@ https://github.com/Flipboard/bottomsheet
 https://github.com/Brioal/VertalSwipeContent    
 https://github.com/michaelbel/BottomSheet   
 https://github.com/qhutch/BottomSheetLayout  
+
  
