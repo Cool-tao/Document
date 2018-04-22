@@ -25,11 +25,12 @@
 
 
 > [阴影效果](view_render_animation/view_shadow.md) 、
+[Ripple-水波](widget/ripple.md)、
 [三棱镜效果](view_render_animation/triangulation.md)、
 [Blur效果](view_render_animation/blur.md)、
 [粒子爆炸效果](view_render_animation/Explosion.md)、
 [碎玻璃](view_render_animation/Broken.md)、
-[圆角化布局](view_render_animation/round_view.md)、  
+[圆角化布局  多边形布局](view_render_animation/round_view.md)、  
 [鼻涕虫效果](view_render_animation/Bisssze.md)、
 [开关控件](view_render_animation/switch.md)、
 [复选框-单选按钮](view_render_animation/check_box.md)、
@@ -39,7 +40,6 @@
 
 > [状态切换、播放器按钮](widget/state_switch.md)、
 [通知对话框](widget/NotificationDialog.md)、
-[Ripple-水波](widget/ripple.md)、
 [SeekBar](widget/seek_bar.md)、
 [RangeBar](widget/ranger_bar.md)、
 [Progress](widget/progress.md)、  
@@ -75,8 +75,6 @@
 
 > [图形图表-仪表盘-刻度盘](chart_ruler/Chart.md)、
 [尺子](chart_ruler/Ruler.md)、
-
-
 
 
 > [菜单](menu_sheet/Menu.md)、

@@ -5,6 +5,8 @@ https://github.com/HotBitmapGG/bilibili-android-client
 
 仿微信  
 https://github.com/GitLqr/LQRWeChat  
+https://github.com/motianhuo/wechat   
+
 
 音乐播放器  
 https://github.com/harjot-oberai/MusicDNA    
@@ -19,3 +21,7 @@ github-client
 http://frodoking.github.io/2016/06/07/android-github-client/  
 
 https://github.com/armcha/Ribble 
+
+https://github.com/chentao0707/SimplifyReader
+
+
