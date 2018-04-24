@@ -5,6 +5,8 @@
 右键，新建文件  NewFileMenu.dmg  
 解压软件 The Unarchiver  
 截图软件 Snip for mac  
+多屏幕，移动光标  CatchMouse  
+多屏幕，移动窗口  Spectacle  
 ⌘: command, ⌃: control, ⇧: shift, ⌥: alt/option, ⏎: enter/return, ⌫: delete   
 [快捷键](library/shortcut_key.md)    
 [安装软件](ImageFiles/shortcut_001.png)  

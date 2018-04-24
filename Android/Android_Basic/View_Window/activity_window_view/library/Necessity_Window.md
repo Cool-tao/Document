@@ -1,4 +1,4 @@
-#### Window  
+### Window  
 
 一个Window对象代表一块显示区域，系统不关心Window里面具体的绘制内容，也不管Window怎么去绘制，  
 只给Window提供可以在这块区域上绘制图形的Surface对象；  

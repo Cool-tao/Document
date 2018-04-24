@@ -34,6 +34,7 @@
 打开桌面文件夹  Shift + Command + D    
 显示隐藏文件(临时)  在finder目录下 shift + command + .  
 显示隐藏文件(永久)  终端执行  defaults write com.apple.finder AppleShowAllFiles -bool true  
+
 ◆ 文本处理  
 删除光标右边的字符  fn + Delete  
 单词左右跳转 option + 左右  

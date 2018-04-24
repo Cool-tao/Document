@@ -6,23 +6,24 @@
 在它上面可以增加更多其他的Window，如dialog等；  
 
 ● 为什么要设计Activity、View、Window？  
-[三者，是怎样关联的](awv_001.md)  
-[Activity存在的必要](Necessity_Activity.md)  
+[三者，是怎样关联的](library/awv_001.md)  
+[Activity存在的必要](library/Necessity_Activity.md)  
 DecorView  
-[Window](Necessity_Window.md)    
+[Window](library/Necessity_Window.md)    
 PhoneWindow  
 WindowManagerService  
 WindowManager  
 
 
 ● Window是什么？它的职能是什么？  
-Activity要管理View需要通过Window来间接管理的。Window通过addView()、removeView()、updateViewLayout()这三个方法来管理View的。  
+Activity 内部持有 PhoneWindow 对象， 
+Activity 通过Window来管理View，Window通过addView()、removeView()、updateViewLayout()这三个方法来管理View的。  
 
 ● View跟Window有什么联系？  
 View需要通过Window来展示在Activity上。  
 
 ● Activity、View、Window三者如何关联？  
-Activity包含了一个PhoneWindow，而PhoneWindow就是继承于Window的，Activity通过setContentView将View设置到了PhoneWindow上，    
+[Activity包含了一个PhoneWindow](library/awv_003.md)  ，
 View通过WindowManager的addView()、removeView()、updateViewLayout()对View进行管理。    
 Window的添加过程以及Activity的启动流程都是一次IPC的过程。    
 Activity的启动需要通过AMS完成；Window的添加过程需要通过WindowSession完成。  
@@ -32,8 +33,6 @@ WindowManager为每个Window创建Surface对象，然后应用就可以通过这
 
 > 参考  
 
-http://www.jianshu.com/p/5297e307a688  
-http://www.cnblogs.com/wangle12138/p/7810552.html  
 http://blog.csdn.net/huachao1001/article/details/51866287  
 http://liuwangshu.cn/framework/wm/1-windowmanager.html  
 http://liuwangshu.cn/framework/wm/2-window-property.html  

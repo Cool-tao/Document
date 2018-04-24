@@ -11,7 +11,7 @@ adb shell am start -W com.alex.andfun.basic/com.alex.andfun.basic.MainActivity
 
 ● 安装app  
 adb devices    
-adb -s emulator-5556 install    
+adb -s emulator-5554 install    
 adb -s emulator-5556 install ebook.apk   
 
 ● 查看连接设备  

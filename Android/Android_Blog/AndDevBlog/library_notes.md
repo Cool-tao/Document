@@ -30,11 +30,11 @@ https://juejin.im/user/587377ec61ff4b005c4d4189
 http://blog.csdn.net/qibin0506?viewmode=contents  
 http://yifeng.studio/archives/  
 https://github.com/CymChad/BRVAHST  
-◆ 一般化      
+❊ 一般化      
 http://blog.csdn.net/xiaole0313  
 http://wuxiaolong.me/archives/index.html  
 http://zmywly8866.github.io/  
-◆ 废弃，不用看了    
+❊ 废弃，不用看了    
 http://blog.lmj.wiki/archives/page/10/  
 http://blog.csdn.net/cym492224103  
 http://yifeiyuan.me/  
