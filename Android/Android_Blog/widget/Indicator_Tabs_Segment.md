@@ -50,6 +50,7 @@ https://github.com/YinLiWisdom/Android-YLSegmentedControl
 ◆ FootBar  
 https://github.com/roughike/BottomBar  
 https://github.com/armcha/Space-Navigation-View  
+https://github.com/aurelhubert/ahbottomnavigation  
 
 
 

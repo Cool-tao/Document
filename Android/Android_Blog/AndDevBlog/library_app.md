@@ -23,5 +23,6 @@ http://frodoking.github.io/2016/06/07/android-github-client/
 https://github.com/armcha/Ribble 
 
 https://github.com/chentao0707/SimplifyReader
+https://github.com/maoruibin/TranslateApp  
 
 

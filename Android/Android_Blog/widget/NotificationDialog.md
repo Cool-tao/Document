@@ -17,7 +17,8 @@ https://github.com/dupengtao/BubbleTextView
 https://github.com/PopFisher/SmartPopupWindow   
 https://github.com/zyyoona7/EasyPopup  
 https://github.com/razerdp/BasePopup  
- 
+https://github.com/PopFisher/SmartPopupWindow  
+
 
 ◆ Snackbar  
 https://github.com/nispok/snackbar  

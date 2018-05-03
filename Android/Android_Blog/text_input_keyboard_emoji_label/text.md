@@ -70,4 +70,5 @@ https://github.com/keyboard3/HencoderKeyboard3
 ◆ 复制粘贴  
 https://github.com/androiddevelop/AlignTextView  
 https://github.com/laobie/SelectableTextHelper  
+https://github.com/maoruibin/TranslateApp  
 
