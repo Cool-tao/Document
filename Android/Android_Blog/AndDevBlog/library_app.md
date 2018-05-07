@@ -6,6 +6,7 @@ https://github.com/HotBitmapGG/bilibili-android-client
 仿微信  
 https://github.com/GitLqr/LQRWeChat  
 https://github.com/motianhuo/wechat   
+https://github.com/KCrason/HighPerformanceFriendsCircle  
 
 
 音乐播放器  

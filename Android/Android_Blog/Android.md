@@ -10,9 +10,7 @@
 [拍照-摄像-剪裁-图片选择器](image_media_picker/ImagePicker.md)、  
 [截图、拍摄、滤镜、水印](image_media_picker/image_media.md)、
 [二维码扫描](image_media_picker/QRCode.md)、
-[图片剪裁](image_media_picker/cropper.md)、
-[图片处理](image_media_picker/ImageEditor.md)、
-
+[图片剪裁、图片处理](image_media_picker/cropper.md)、
 
 
 > [文本相关](text_input_keyboard_emoji_label/text.md)、
