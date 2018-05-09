@@ -1,3 +1,4 @@
+[ART特性的介绍](jvm_dalvik_art/jda_art.md)；  
 ##### Jvm、Dalvik、Art 对比；  
 [dvm是基于寄存器的虚拟机，而jvm是基于栈结构的虚拟机](jvm_dalvik_art/jda_basic_memory_001.md)；    
 [dvm的堆结构相对于JVM的堆结构](jvm_dalvik_art/jda_heap_001.md)；  
