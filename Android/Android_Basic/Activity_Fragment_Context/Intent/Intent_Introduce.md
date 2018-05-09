@@ -77,3 +77,6 @@ Uri uri = Uri.fromParts("package", strPackageName, null);
 Intent intent = new Intent(Intent.ACTION_DELETE, uri);
 startActivintenty(intent);
 ```
+
+❊ 参考    
+https://developer.android.com/guide/components/intents-common  
