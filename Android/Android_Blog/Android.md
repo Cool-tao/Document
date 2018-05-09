@@ -67,7 +67,7 @@
 
 
 > [手势密码、数字密码](screen_pattern_sketchpad_guide/PatternLock.md)、
-[画图板](screen_pattern_sketchpad_guide/sketchpad.md)、
+[画图板、刮刮卡](screen_pattern_sketchpad_guide/sketchpad.md)、
 [操作引导](screen_pattern_sketchpad_guide/Guide.md)、
 
 

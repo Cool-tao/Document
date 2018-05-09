@@ -44,6 +44,7 @@ https://github.com/FutureMind/recycler-fast-scroll
 
 ◆ 文件夹分类  
 https://github.com/AlphaBoom/ClassifyView  
+https://github.com/beasonshu/ClassifyView  
 
 ◆ 九宫格      
 https://github.com/jeasonlzy/NineGridView  
