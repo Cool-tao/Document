@@ -1,5 +1,6 @@
 ### 插件化  
 
+[类加载器](librray/classloader.md)  
 
 ◆ 参考  
 http://weishu.me/2016/01/28/understand-plugin-framework-overview/  

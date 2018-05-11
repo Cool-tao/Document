@@ -2,4 +2,6 @@
 
 ◆ 参考  
 https://github.com/renjianan/RecyclerBanner  
+https://github.com/gabrielemariotti/RecyclerViewItemAnimators  
+
 

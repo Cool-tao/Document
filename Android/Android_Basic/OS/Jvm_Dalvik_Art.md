@@ -12,6 +12,7 @@ https://source.android.google.cn/devices/tech/dalvik/
 http://blog.csdn.net/evan_man/article/details/52414390  
 http://blog.csdn.net/jason0539/article/details/50440669    
 https://www.cnblogs.com/qiaoyanlin/p/6743010.html  
+https://www.jianshu.com/p/a85bc59d6549  
 
 
 
