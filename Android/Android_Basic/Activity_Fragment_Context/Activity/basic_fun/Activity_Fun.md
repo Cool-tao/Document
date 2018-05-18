@@ -12,4 +12,3 @@
 [关于输入法](Activity_SoftInputMode.md)    
 [禁止Activity截图](../system_fun/Activity_Screen.md)    
 [保持屏幕常亮](KeepScreen_ON.md)  
-  

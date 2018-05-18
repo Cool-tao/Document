@@ -4,6 +4,8 @@ https://github.com/imablanco/Zoomy
 https://github.com/nshmura/SnappyImageViewer   
 https://github.com/MostafaAryan/transitional-imageview   
 https://github.com/Piasy/BigImageViewer   
+https://github.com/LuckyJayce/LargeImage  
+
 
 ◆ PhotoView  
 https://github.com/boycy815/PinchImageView   

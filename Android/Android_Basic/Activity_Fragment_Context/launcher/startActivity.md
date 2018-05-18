@@ -1,5 +1,8 @@
 ### startActivity  
-◆ 概述  
+◆ 概述 
+先从App进程调用startActivity；然后通过IPC调用进入系统进程system_server，完成Activity管理以及一些校检工作，  
+最后又回到了APP进程完成真正的Activioty对象创建。  
+ 
 主要经历 Activity.startActivity → ContextImpl.execStartActivity → Instrumentation.startActivity → ActivityManagerService   
 最后startActivity的任务还是交给了ActivityManagerService，经历了一系列
 ActivityManagerService.startActivity →  
