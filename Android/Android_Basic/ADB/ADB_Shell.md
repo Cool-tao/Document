@@ -9,6 +9,11 @@ adb shell am start -W com.alex.andfun.basic/com.alex.andfun.basic.MainActivity
 如果关心系统启动应用耗时，参考WaitTime；  
 如果关心应用有界面Activity启动耗时，参考ThisTime；  
 
+● 命令行指定设备 -s deviceName  
+deviceName 用 adb devices 查看  
+adb -s 79BMADR8WZA3F reverse tcp:8888 tcp:8888  
+
+
 ● 安装app  
 adb devices    
 adb -s emulator-5554 install    
