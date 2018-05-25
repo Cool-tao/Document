@@ -15,6 +15,10 @@ BinderProxy 继承自 Java 层的IBinder接口，  BpBinder 继承自 Native 层
 BpBinder 是由ProcessState创建的， BinderProxy是由javaObjectForIBinder函数通过JNI的NewObject() 创建的；  
 BpBinder 是Native层的代理，又由javaObjectForIBinder函数转化成Java层的BinderProxy；  
 
+binder_proc是描述进程上下文信息的，每一个用户空间的进程都对应一个binder_proc结构体。  
+binder_node是Binder实体对应的结构体，它是Server在Binder驱动中的体现。  
+binder_ref是Binder引用对应的结构体，它是Client在Binder驱动中的体现。  
+
 Process 负责打开 Binder Device驱动设备，进行mmap等准备工作；  
 IPCThreadState 负责Binder驱动的具体命令的通信；  
 在getService()场景中，调用者从Java层的IBinder.transact()开始，层层往下调用到 IPCThreadState.transact()，  
@@ -23,11 +27,10 @@ IPCThreadState 负责Binder驱动的具体命令的通信；
 
 ◆ 参考  
 http://wangkuiwu.github.io/2014/09/01/Binder-Introduce/  
-http://www.jianshu.com/p/4ee3fd07da14  
-https://www.jianshu.com/p/4ee3fd07da14  
 http://blog.csdn.net/universus/article/details/6211589###;  
-https://github.com/AlanCheen/Android-Resources/blob/master/Binder.md  
 http://weishu.me/2016/01/12/binder-index-for-newer/  
+https://www.jianshu.com/p/3d053abba04b  
+https://www.jianshu.com/p/b260051237fe  
 http://blog.csdn.net/luoshengyang/article/details/6618363  
 http://blog.csdn.net/universus/article/details/6211589  
 https://github.com/francistao/LearningNotes/blob/master/Part1/Android/Binder%E6%9C%BA%E5%88%B6.md  

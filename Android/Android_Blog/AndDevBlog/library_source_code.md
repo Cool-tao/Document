@@ -12,15 +12,5 @@ http://androidxref.com/4.0.4/xref/dalvik/
 http://androidxref.com/5.0.0_r2/xref/art/  
 https://github.com/aosp-mirror/platform_frameworks_base  
 
-◆ 源码分析  
-♬ --------------- 不看了 ↓    
-https://github.com/AlanCheen/Android-Resources  
-https://github.com/AlanCheen/ReadingNotes  
-https://github.com/LittleFriendsGroup/AndroidSdkSourceAnalysis  
-https://github.com/RTFSC-Android/RTFSC  
-https://github.com/yipianfengye/androidSource  
-https://github.com/ZhaoKaiQiang/AndroidDifficultAnalysis  
-https://github.com/iwannabetop/Awesome-Android-Learning-Guide  
-♬ --------------- 不看了 ↑  
 
 

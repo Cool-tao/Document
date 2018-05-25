@@ -42,3 +42,5 @@ http://blog.csdn.net/lmj623565791/article/details/38377229
 https://zhuanlan.zhihu.com/p/29929031  
 http://hpw123.win/2017/01/04/Handler%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/  
 https://blog.csdn.net/qingtiantianqing/article/details/72783952  
+https://blog.csdn.net/u013718120/article/details/53115824  
+

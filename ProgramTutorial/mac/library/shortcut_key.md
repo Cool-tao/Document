@@ -8,6 +8,7 @@
 切换输入法  control + 空格，我改成了 control + shift + 空格  
 隐藏当前窗口  command + H，command + m  
 隐藏其他窗口  option + command + H  
+隐藏所有窗口  option + command + H  + M  
 当前应用打开 新的窗口 command + N  
 强关 当前 应用  Command + Option + Shift + Esc  
 强关 当前 应用  Command + Q  
