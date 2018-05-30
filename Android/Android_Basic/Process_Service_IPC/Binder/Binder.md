@@ -11,6 +11,18 @@ Binder机制主要涉及到了四种角色：Client，Server，Service Manager�
 [Server注册到ServiceManager中](library/RegisterService.md)  
 [Client获取远程服务](library/GetService.md)    
 [Binder通讯模型](library/BinderModel.md)   
+n 就是native        p 就是proxy  
+
+java  
+IBinder        BBinder        BpBinder        BpInterface        BnInterface        Binder        BinderProxy        Stub        Proxy        IInterface    
+
+c++  
+IBinder        BBinder        BpBinder        BpInterface        BnInterface        Binder        BpBuddy        BnBuddy        IInterface        RefBase        
+BpRefBase        IPCThread        ProcessState        
+[c++类图](ImageFiles/native_sevice_class_tree.png)   
+Binder Driver  
+binder_proc        binder_thread        binder_node        
+
 BinderProxy 继承自 Java 层的IBinder接口，  BpBinder 继承自 Native 层的接口；  
 BpBinder 是由ProcessState创建的， BinderProxy是由javaObjectForIBinder函数通过JNI的NewObject() 创建的；  
 BpBinder 是Native层的代理，又由javaObjectForIBinder函数转化成Java层的BinderProxy；  
@@ -24,19 +36,37 @@ IPCThreadState 负责Binder驱动的具体命令的通信；
 在getService()场景中，调用者从Java层的IBinder.transact()开始，层层往下调用到 IPCThreadState.transact()，  
 然后通过waitForResponse进入主循环，直到ServiceManager恢复后，才结束，之后将结果回传给Java层；  
 
+AIDL：  
+IInterface--Stub--Proxy--Stub具体实现  
+ContentProvider：  
+IContentProvider--ContentProviderNative--ContentProviderProxy--ContentProvider.Transport  
+管理四大组件的AMS：  
+IActivityManager--ActivityManagerNative--ActivityManagerProxy--ActivityManagerService  
+负责ActivityThread和AMS之间的通讯  
+IApplicationThread--ApplicationThreadNative--ApplicationThreadProxy--ApplicationThread  
+
+IBinder代表跨进程传输的能力，  
+IInterface则代表远程服务端具备的能力。    
+
+Binder是IBinder的实现类，因此它具备跨进程传输的能力，它实际上就是远程Server端的Binder对象本身。  
+Binder对象是Server端对象本身，是Server进程用的，与此对应的BinderProxy则是远程Binder的代理对象。  
+
+
 
 ◆ 参考  
 http://wangkuiwu.github.io/2014/09/01/Binder-Introduce/  
 http://blog.csdn.net/universus/article/details/6211589###;  
 http://weishu.me/2016/01/12/binder-index-for-newer/  
 https://www.jianshu.com/p/3d053abba04b  
-https://www.jianshu.com/p/b260051237fe  
 http://blog.csdn.net/luoshengyang/article/details/6618363  
 http://blog.csdn.net/universus/article/details/6211589  
-https://github.com/francistao/LearningNotes/blob/master/Part1/Android/Binder%E6%9C%BA%E5%88%B6.md  
-http://hpw123.win/2017/01/04/Binder%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/  
 https://www.jianshu.com/p/1eff5a13000d  
+https://blog.csdn.net/codefly/article/details/17058607
 https://blog.csdn.net/universus/article/details/6211589  
+http://www.cnblogs.com/samchen2009/p/3316001.html  
+https://blog.csdn.net/desler/article/details/47908017  
+https://blog.csdn.net/coding_glacier/article/details/7520199  
+https://blog.csdn.net/freekiteyu/article/details/70082302  
 
 
 

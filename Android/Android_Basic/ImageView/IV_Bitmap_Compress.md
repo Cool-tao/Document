@@ -26,4 +26,16 @@ inJustDecodeBounds = false 展示图片；
 ##### BitmapFactory.Options.inSampleSize   
 inSampleSize = 2; 就是 宽度只用1/2，高度只用 1/2，就是压缩展示， 占据内存会变成原来的 1/4;  
 
+######  CompressFormat  
+format:压缩格式,它有JPEG、PNG、WEBP三种选择，JPEG是有损压缩，PNG是无损压缩，WEBP是Google推出的图像格式.  
+int quality：0~100可选，数值越大，质量越高，图像越大。  
+
+####  参考  
+https://juejin.im/post/5b0d73116fb9a00a1c14c84e  
+https://juejin.im/post/5a1bd6595188254cc067981f  
+http://www.52im.net/thread-1208-1-1.html  
+http://zhengxiaoyong.me/2017/04/23/%E4%B9%9F%E8%B0%88%E5%9B%BE%E7%89%87%E5%8E%8B%E7%BC%A9/  
+https://www.zhihu.com/question/29355920  
+https://www.jianshu.com/p/0f56f35068e2  
+https://wangfuda.github.io/2017/07/09/nebula_gpu_monitor_optimize/  
 
