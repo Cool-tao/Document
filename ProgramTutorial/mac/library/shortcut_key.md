@@ -15,6 +15,7 @@
 文件重命名 return 按键  
 放大、缩小 command + +  command + -    
 打开当前应用的 设置页  command + ,  
+强制关机  control + command + 电源键  ， 相当于 windows 一直按住电源键  
 
 ◆ 浏览器  
 新建标签  command + T  
