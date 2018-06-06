@@ -6,11 +6,14 @@ Binder机制主要涉及到了四种角色：Client，Server，Service Manager�
 [BinderDriver](library/BinderDriver.md)  
 [ServiceManager](library/ServiceManager.md)  
 [Binder协议](library/BinderProtocol.md)  
-[Binder实体](library/BinderEntity.md)  
-[Binder引用](library/BinderReference.md)  
+[Binder实体  binder_node](library/BinderEntity.md)  
+[Binder引用  binder_ref](library/BinderReference.md)  
 [Server注册到ServiceManager中](library/RegisterService.md)  
 [Client获取远程服务](library/GetService.md)    
 [Binder通讯模型](library/BinderModel.md)   
+[ProcessState](library/ProcessState.md)  
+[IPCThreadState](library/IPCThreadState.md)  
+[Binder 跨进程通讯流程主要为如下 4 步](library/fun_binder_communication_step.md)   
 n 就是native        p 就是proxy  
 
 java  
@@ -54,6 +57,7 @@ Binder对象是Server端对象本身，是Server进程用的，与此对应的Bi
 
 
 ◆ 参考  
+https://blog.csdn.net/u011240877/article/details/72801425  
 http://wangkuiwu.github.io/2014/09/01/Binder-Introduce/  
 http://blog.csdn.net/universus/article/details/6211589###;  
 http://weishu.me/2016/01/12/binder-index-for-newer/  

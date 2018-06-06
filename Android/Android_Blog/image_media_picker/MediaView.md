@@ -1,5 +1,8 @@
 ### 播放器页面
 
+↣ 播放器框架  
+https://github.com/jiajunhui/PlayerBase  
+
 ◆ 音频播放器页面  
 https://github.com/ryanhoo/StylishMusicPlayer    
 https://github.com/Cleveroad/WaveInApp    

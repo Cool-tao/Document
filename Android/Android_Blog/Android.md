@@ -1,7 +1,7 @@
 > [图片缩放、查看大图](image_media_picker/ClickForLargerImage.md)、  
 [相机](image_media_picker/Camera.md)、
 [摄影-拍摄视频](image_media_picker/VideoRecorder.md)、
-[播放器页面](image_media_picker/MediaView.md)、
+[播放器页面、播放器框架](image_media_picker/MediaView.md)、
 [点赞与礼物](image_media_picker/Clap_Gift.md)、  
 [文件选择器](image_media_picker/filepicker.md)、
 [文字选择器](image_media_picker/TextPicker.md)、
