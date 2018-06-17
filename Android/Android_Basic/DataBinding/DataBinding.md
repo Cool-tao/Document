@@ -1,5 +1,6 @@
 #### MVVM、DataBinding、LiveData
 
+[dataBinding 结合 kotlin 报错问题](library/databinding_kotlin_config_conflict.md)   
 [关于DataBinding、Kotlin的配置](sample/Kotlin_Databinding_Gradle.md)  
 [常用的转义字符的问题](sample/DataBinding_02.md)  
 [整体架构](Arch_Library/SimpleViewModel.md)  
