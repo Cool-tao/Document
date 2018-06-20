@@ -1,6 +1,7 @@
 ### 富文本编辑器
 
 https://github.com/zzhoujay/RichText  
+https://github.com/sendtion/XRichText  
 https://github.com/SufficientlySecure/html-textview  
 https://github.com/armcha/AutoLinkTextView  
 https://github.com/nowandfurure/richeditor  

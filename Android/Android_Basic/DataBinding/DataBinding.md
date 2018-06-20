@@ -19,7 +19,7 @@ https://github.com/LyndonChin/MasteringAndroidDataBinding
 https://github.com/LyndonChin/MasteringAndroidDataBinding/blob/master/README.md  
 http://yanghui.name/blog/2016/02/17/data-binding-guide/  
 https://mp.weixin.qq.com/s?__biz=MzI1NjEwMTM4OA==&mid=2651232170&idx=1&sn=f4d7eb8f35ebf3b13696562ca3172bac&chksm=f1d9eac9c6ae63df357c3a96aa0218b5d66237c5411de5b34cd24ddb7a1d258b34444966d8c6&scene=0#rd  
-http://www.jianshu.com/p/43ea7a531700  
+http://www.jianshu.coXRichTextm/p/43ea7a531700  
 http://www.jianshu.com/p/eb29c691d370  
 http://www.jianshu.com/p/7fbe2e9aa092  
 http://www.jianshu.com/p/c27462a405fb  
