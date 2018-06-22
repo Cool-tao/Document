@@ -9,7 +9,7 @@ RxDownload    https://github.com/ssseasonnn/RxDownload
 etrofit-converter-fastjson    https://github.com/ligboy/retrofit-converter-fastjson  
 Retrofit Series Overview    http://www.cnblogs.com/krislight1105/p/5467969.html  
 
-> okhttp  
+> OkHttp  
 
 https://github.com/square/okhttp  
 https://github.com/jgilfelt/chuck  
@@ -28,16 +28,10 @@ OkHttp 使用 get post UI线程回调 上传 下载 进度监听    http://www.j
 
 https://github.com/amitshekhariitbhu/Fast-Android-Networking  
 
-> okhttp-OkGo  
-
-https://github.com/jeasonlzy/okhttp-OkGo  
-
 > OKHttpUtils  
 
+https://github.com/jeasonlzy/okhttp-OkGo  
 https://github.com/duzechao/OKHttpUtils
-
-> OkHttpPlus介绍  
-
 http://www.jianshu.com/p/281b9af06642  
 
 > NoHttp  
