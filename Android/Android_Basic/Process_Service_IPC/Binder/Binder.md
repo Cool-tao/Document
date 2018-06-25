@@ -59,18 +59,19 @@ Binder对象是Server端对象本身，是Server进程用的，与此对应的Bi
 ◆ 参考  
 https://blog.csdn.net/u011240877/article/details/72801425  
 http://wangkuiwu.github.io/2014/09/01/Binder-Introduce/  
-http://blog.csdn.net/universus/article/details/6211589###;  
 http://weishu.me/2016/01/12/binder-index-for-newer/  
 https://www.jianshu.com/p/3d053abba04b  
+https://blog.csdn.net/innost/article/details/47208049  
 http://blog.csdn.net/luoshengyang/article/details/6618363  
 http://blog.csdn.net/universus/article/details/6211589  
 https://www.jianshu.com/p/1eff5a13000d  
 https://blog.csdn.net/codefly/article/details/17058607
-https://blog.csdn.net/universus/article/details/6211589  
 http://www.cnblogs.com/samchen2009/p/3316001.html  
 https://blog.csdn.net/desler/article/details/47908017  
 https://blog.csdn.net/coding_glacier/article/details/7520199  
 https://blog.csdn.net/freekiteyu/article/details/70082302  
+http://gityuan.com/2015/10/31/binder-prepare/  
+
 
 
 
