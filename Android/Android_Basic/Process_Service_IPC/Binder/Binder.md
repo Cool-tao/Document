@@ -16,8 +16,7 @@ Binder机制主要涉及到了四种角色：Client，Server，Service Manager�
 [Binder 跨进程通讯流程主要为如下 4 步](library/fun_binder_communication_step.md)   
 n 就是native        p 就是proxy  
 
-
-链接  
+frameworks native 链接  
 BnInterface    http://androidxref.com/8.0.0_r4/xref/frameworks/native/include/binder/IInterface.h#63  
 BpInterface    http://androidxref.com/8.0.0_r4/xref/frameworks/native/libs/binder/include/binder/IInterface.h#63    
 
