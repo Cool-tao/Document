@@ -16,12 +16,22 @@ Binder机制主要涉及到了四种角色：Client，Server，Service Manager�
 [Binder 跨进程通讯流程主要为如下 4 步](library/fun_binder_communication_step.md)   
 n 就是native        p 就是proxy  
 
-java  
-IBinder        BBinder        BpBinder        BpInterface        BnInterface        Binder        BinderProxy        Stub        Proxy        IInterface    
 
-c++  
-IBinder        BBinder        BpBinder        BpInterface        BnInterface        Binder        BpBuddy        BnBuddy        IInterface        RefBase        
-BpRefBase        IPCThread        ProcessState        
+链接  
+BnInterface    http://androidxref.com/8.0.0_r4/xref/frameworks/native/include/binder/IInterface.h#63  
+BpInterface    http://androidxref.com/8.0.0_r4/xref/frameworks/native/include/binder/IInterface.h#63  
+IBinder    http://androidxref.com/8.0.0_r4/xref/frameworks/native/include/binder/Binder.h  
+IBinder    http://androidxref.com/8.0.0_r4/xref/frameworks/native/libs/binder/include/binder/Binder.h  
+BpBinder    http://androidxref.com/8.0.0_r4/xref/frameworks/native/libs/binder/include/binder/BpBinder.h  
+BpBinder    http://androidxref.com/8.0.0_r4/xref/frameworks/native/include/binder/BpBinder.h  
+BBinder    http://androidxref.com/8.0.0_r4/xref/frameworks/native/libs/binder/include/binder/Binder.h#27  
+BBinder    http://androidxref.com/8.0.0_r4/xref/frameworks/native/include/binder/Binder.h#27  
+RefBase    http://androidxref.com/8.0.0_r4/xref/frameworks/rs/cpp/util/RefBase.h#65  
+IServiceManager    http://androidxref.com/8.0.0_r4/xref/frameworks/native/include/binder/IServiceManager.h  
+IServiceManager    http://androidxref.com/8.0.0_r4/xref/frameworks/native/libs/binder/include/binder/IServiceManager.h    
+BpRefBase    http://androidxref.com/8.0.0_r4/xref/frameworks/native/libs/binder/include/binder/Binder.h#80  
+BpRefBase    http://androidxref.com/8.0.0_r4/xref/frameworks/native/include/binder/Binder.h#80   
+
 [c++类图](ImageFiles/native_sevice_class_tree.png)   
 Binder Driver  
 binder_proc        binder_thread        binder_node        
@@ -63,6 +73,7 @@ http://weishu.me/2016/01/12/binder-index-for-newer/
 https://www.jianshu.com/p/3d053abba04b  
 https://blog.csdn.net/innost/article/details/47208049  
 http://blog.csdn.net/luoshengyang/article/details/6618363  
+https://blog.csdn.net/luoshengyang/article/details/6642463  
 http://blog.csdn.net/universus/article/details/6211589  
 https://www.jianshu.com/p/1eff5a13000d  
 https://blog.csdn.net/codefly/article/details/17058607
@@ -93,6 +104,11 @@ http://windrunnerlihuan.com/2016/06/12/Binder%E7%AE%80%E8%A6%81%E5%88%86%E6%9E%9
 https://www.kancloud.cn/alex_wsc/androidsystem/483924  
 https://www.ctolib.com/topics-79743.html  
 http://houzhi.me/2016/04/30/android-sourcecode-binder-process-analysis/  
+http://www.cnblogs.com/innost/archive/2011/01/09/1931456.html  
+https://blog.csdn.net/u010132993/article/details/72582655  
+
+
+
 
 
 
