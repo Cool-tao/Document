@@ -1,4 +1,5 @@
 ### Binder  
+按下电源键  ⤑  init进程  ⤑ Zygote进程  和  ServiceManager进程  
 整个Android系统架构中，大量采用了Binder机制作为IPC方案，当然也存在部分其他的IPC方式，比如Zygote通信便是采用socket；  
 RAM可以分为用户空间 和 内核空间，每一个进程只能运行在自己的工作空间，当然是在用户空间分配的，要想跨进程通信，只能通过内核空间；  
 bindService、startActivity、sendBroadcast等操作都会用到Binder；  
