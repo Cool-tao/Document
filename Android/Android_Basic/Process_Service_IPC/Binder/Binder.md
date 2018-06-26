@@ -71,6 +71,28 @@ https://blog.csdn.net/desler/article/details/47908017
 https://blog.csdn.net/coding_glacier/article/details/7520199  
 https://blog.csdn.net/freekiteyu/article/details/70082302  
 http://gityuan.com/2015/10/31/binder-prepare/  
+https://blog.csdn.net/carson_ho/article/details/73560642  
+https://www.jianshu.com/p/f4f722d3e51d  
+https://mr-cao.gitbooks.io/android/content/android-binder.html   
+https://cloud.tencent.com/developer/article/1056116  
+http://sniffer.site/2016/10/01/Binder%E5%85%A5%E9%97%A8/  
+https://70kg.info/2016/07/09/Android%20Binder%20%E6%B5%85%E6%9E%90/  
+http://mouxuejie.com/blog/2018-05-12/learning-notes-binder/  
+http://blog.imallen.wang/archives/page/6/  
+https://blog.csdn.net/bettarwang/article/details/51166823  
+https://juejin.im/entry/59c9cd8e518825745c636ffd  
+https://github.com/android-cjj/SourceAnalysis-1/blob/master/Binder%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.md  
+https://www.cnblogs.com/a284628487/p/3187320.html  
+https://www.diycode.cc/topics/384  
+https://www.jianshu.com/p/88fd0dcd0528  
+https://adbcode.com/2017/05/11/Android%20Binder%E5%88%86%E6%9E%90/  
+https://adbcode.com/2017/06/27/Android%20Binder%E8%BF%9B%E9%98%B6/  
+https://adbcode.com/2017/06/27/%E8%AF%A6%E8%A7%A3Binder%E7%B1%BB/  
+http://blog.51cto.com/13064681/1944339  
+http://windrunnerlihuan.com/2016/06/12/Binder%E7%AE%80%E8%A6%81%E5%88%86%E6%9E%90/  
+https://www.kancloud.cn/alex_wsc/androidsystem/483924  
+https://www.ctolib.com/topics-79743.html  
+http://houzhi.me/2016/04/30/android-sourcecode-binder-process-analysis/  
 
 
 

@@ -22,6 +22,9 @@ https://github.com/BeesAndroid/BeesAndroid
 https://www.liaohuqiu.net/cn/  
 https://github.com/BeesAndroid/BeesAndroid  
 http://baronzhang.com/  
+https://70kg.info/archives/  
+http://blog.imallen.wang/archives/page/6/  
+
 
 ◆ 开发总结  
 http://blog.csdn.net/zxt0601  
