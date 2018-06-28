@@ -93,12 +93,11 @@
 [图片加载](framework_architecture/ImageLoader.md)、
 [图片压缩](framework_architecture/ImageCompressor.md)、
 [热修复](framework_architecture/HotFix.md)、  
-[路由](framework_architecture/router.md)、
 [数据库](framework_architecture/database.md)、
 [插件化](framework_architecture/plugin.md)、
 [缓存](framework_architecture/cache.md)、
 [数据解析](framework_architecture/DataParser.md)、
-[音频框架](framework_architecture/audio.md)、
+[音视频框架](framework_architecture/audio_media.md)、
 [框架](framework_architecture/framework.md)、
 [架构与组件化 ](framework_architecture/ArchitectureComponents.md)、
 

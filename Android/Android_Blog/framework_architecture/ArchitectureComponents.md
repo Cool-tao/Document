@@ -15,7 +15,7 @@ https://github.com/googlesamples/android-architecture-components
 http://blog.csdn.net/hubinqiang/article/details/73012336?utm_source=tuicool&utm_medium=referral  
 https://github.com/bufferapp/clean-architecture-components-boilerplate  
 https://github.com/CameloeAnthony/AndroidArchitectureCollection  
-https://github.com/Juude/Awesome-Android-Architecture  
+https://github.com/Juude/Awesome-Android-Architecture  ImmersionBar
 https://github.com/luckybilly/CC  
 https://juejin.im/post/5937e1c8570c35005b7b262a  
 https://mp.weixin.qq.com/s?__biz=MzA5MzI3NjE2MA==&mid=2650241672&idx=1&sn=b85da1ac10dcc3cda158944f244a266b&chksm=88638be7bf1402f17f48716177e20705a7a8cfbd5a2a73b82e75cea1e3b51ec110ece5046bc5&scene=38#wechat_redirect  
@@ -83,10 +83,6 @@ https://github.com/G-Joker/WeaponApp
 https://github.com/googlesamples/android-architecture-components  
 
 
-◆ 路由  
-https://www.jianshu.com/p/8a3eeeaf01e8  
-http://blog.csdn.net/johanman/article/details/77099440  
-http://www.cnblogs.com/whoislcj/p/5825333.html  
-https://www.jianshu.com/p/186fa07fc48a  
+https://github.com/PrototypeZ/SaveState  
 
 

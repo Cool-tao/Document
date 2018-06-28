@@ -8,6 +8,7 @@ RxDownload    https://github.com/ssseasonnn/RxDownload
 深入浅出 Retrofit，这么牛逼的框架你们还不来看看？    http://dev.qq.com/topic/591aa71ae315487c53deeca9#rd  
 etrofit-converter-fastjson    https://github.com/ligboy/retrofit-converter-fastjson  
 Retrofit Series Overview    http://www.cnblogs.com/krislight1105/p/5467969.html  
+https://github.com/JessYanCoding/RetrofitUrlManager  
 
 > OkHttp  
 

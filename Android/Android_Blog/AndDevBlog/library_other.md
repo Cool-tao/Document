@@ -94,7 +94,8 @@ https://github.com/florent37/NoActivityResult
 进程重生  
 https://github.com/JakeWharton/ProcessPhoenix  
 
-查看 栈顶 Activity  
-https://github.com/fashare2015/ActivityTracker  
+
+室内交互  
+https://github.com/karonl/InDoorSurfaceView  
 
 

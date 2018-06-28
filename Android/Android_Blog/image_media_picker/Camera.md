@@ -8,6 +8,8 @@ https://github.com/Glamdring/EasyCamera
 https://github.com/afollestad/material-camera  
 https://github.com/wuhaoyu1990/MagicCamera  
 https://github.com/googlesamples/android-Camera2Video  
+https://github.com/dingjikerbo/Android-Camera  
+
 
 ##### 贴纸相机、水印  
 https://github.com/wuapnjie/StickerView  

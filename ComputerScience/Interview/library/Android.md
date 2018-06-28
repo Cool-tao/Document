@@ -76,7 +76,8 @@ https://juejin.im/post/5aa721936fb9a028d4443d8b
 http://blog.csdn.net/qian520ao/article/details/79601179  
 https://github.com/MindorksOpenSource/android-interview-questions  
 https://www.jianshu.com/p/c70989bd5f29  
-
+https://github.com/AweiLoveAndroid/CommonDevKnowledge  
+https://github.com/guoxiaoxing/android-interview  
 
 
 
