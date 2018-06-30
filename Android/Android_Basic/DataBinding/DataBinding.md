@@ -3,7 +3,8 @@
 [dataBinding 结合 kotlin 报错问题](library/databinding_kotlin_config_conflict.md)   
 [关于DataBinding、Kotlin的配置](library/Kotlin_Databinding_Gradle.md)  
 [常用的转义字符的问题](sample/DataBinding_02.md)  
-[单项数据绑定](sample/DataBinding_01.md)  
+[单向数据绑定](sample/DataBinding_01.md)  
+[双向数据绑定](sample/DataBinding_01.md)  
 [关联RecyclerView](Binding_Adapter/Binding_RecyclerView.md)  
 [关联ImageView](Binding_Adapter/ImageLoaderBindingAdapter.md)  
 
