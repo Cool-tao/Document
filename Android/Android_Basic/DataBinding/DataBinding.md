@@ -1,14 +1,16 @@
 #### MVVM、DataBinding、LiveData
 
 [dataBinding 结合 kotlin 报错问题](library/databinding_kotlin_config_conflict.md)   
-[关于DataBinding、Kotlin的配置](sample/Kotlin_Databinding_Gradle.md)  
+[关于DataBinding、Kotlin的配置](library/Kotlin_Databinding_Gradle.md)  
 [常用的转义字符的问题](sample/DataBinding_02.md)  
-[整体架构](Arch_Library/SimpleViewModel.md)  
+[单项数据绑定](sample/DataBinding_01.md)  
 [关联RecyclerView](Binding_Adapter/Binding_RecyclerView.md)  
 [关联ImageView](Binding_Adapter/ImageLoaderBindingAdapter.md)  
 
 
 ◆ DataBinding教程  
+版本号  https://developer.android.google.cn/topic/libraries/architecture/adding-components#lifecycle  
+
 https://developer.android.google.cn/topic/libraries/data-binding/index.html  
 https://developer.android.google.cn/topic/libraries/architecture/index.html  
 https://developer.android.google.cn/topic/libraries/architecture/lifecycle.html
@@ -16,9 +18,9 @@ https://developer.android.google.cn/topic/libraries/architecture/livedata.html
 https://developer.android.google.cn/topic/libraries/architecture/saving-states.html  
 https://developer.android.google.cn/topic/libraries/architecture/viewmodel.html  
 https://github.com/LyndonChin/MasteringAndroidDataBinding  
-https://github.com/LyndonChin/MasteringAndroidDataBinding/blob/master/README.md  
+https://github.com/Kelin-Hong/MVVMLight  
 http://yanghui.name/blog/2016/02/17/data-binding-guide/  
-https://mp.weixin.qq.com/s?__biz=MzI1NjEwMTM4OA==&mid=2651232170&idx=1&sn=f4d7eb8f35ebf3b13696562ca3172bac&chksm=f1d9eac9c6ae63df357c3a96aa0218b5d66237c5411de5b34cd24ddb7a1d258b34444966d8c6&scene=0#rd  
+http://blog.zhaiyifan.cn/2016/07/06/android-new-project-from-0-p8/
 http://www.jianshu.coXRichTextm/p/43ea7a531700  
 http://www.jianshu.com/p/eb29c691d370  
 http://www.jianshu.com/p/7fbe2e9aa092  

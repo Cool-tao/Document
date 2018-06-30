@@ -1,18 +1,20 @@
 ###### 常用的转义字符的问题
 
+```XML
+<data>
+
+    <import type="java.util.List"/>
+
+    <import type="com.alex.andfun.account.model.AccountMessageBean"/>
+
+    <variable
+        name="accountMessageList"
+        type="List&lt;AccountMessageBean&gt;"/>
+
+</data>
+
 ```
-    <data>
 
-        <import type="java.util.List"/>
-
-        <import type="com.alex.andfun.account.model.AccountMessageBean"/>
-
-        <variable
-            name="accountMessageList"
-            type="List&lt;AccountMessageBean&gt;"/>
-
-    </data>
-```
 > 常用的转义字符
 
 显示结果|描述|转义字符|十进制

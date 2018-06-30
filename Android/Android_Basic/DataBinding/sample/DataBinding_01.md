@@ -1,4 +1,6 @@
 ###### 数据绑定
+参考  
+https://developer.android.google.cn/topic/libraries/data-binding/expressions  
 
 > 单项数据绑定
 
