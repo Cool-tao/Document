@@ -2,33 +2,28 @@
 
 #####  Observable  
 ```
-public class UserObservable extends BaseObservable {
+class UserObservable(name: String = "", phone: String = "13146008029") : BaseObservable() {
+    var name = ""
+    private var phone = ""
 
-    private String name;
-    private String phone;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+    init {
+        this.name = name
+        this.phone = phone
     }
 
     @Bindable
-    public String getPhone() {
-        return phone;
+    fun getPhone(): String {
+        return phone
     }
 
     @Bindable
-    public void setPhone(String phone) {
-        this.phone = phone;
-        notifyPropertyChanged(BR.phone);  // BR.字段名  
-//        notifyChange();
+    fun setPhone(phone: String) {
+        this.phone = phone
+        notifyPropertyChanged(BR.phone);
     }
 }
-
 ```  
+
 ##### ViewModel  
 ```
 
@@ -220,3 +215,8 @@ class LoginViewModel(view: LoginContract.View) :
 </layout>
 
 ```
+##### 步骤说名  
+1. 写entity  
+2. 写xml variable 节点  
+3. rebuild  否则，id找不到  
+4. 写 viewModel

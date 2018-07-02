@@ -4,7 +4,8 @@
 [关于DataBinding、Kotlin的配置](library/Kotlin_Databinding_Gradle.md)  
 [常用的转义字符的问题](sample/DataBinding_02.md)  
 [单向数据绑定](sample/DataBinding_01.md)  
-[双向数据绑定](sample/DataBinding_01.md)  
+[双向数据绑定 Observable](sample/DataBinding_03.md)  
+[双向数据绑定 ObservableField](sample/DataBinding_04.md)  
 [关联RecyclerView](Binding_Adapter/Binding_RecyclerView.md)  
 [关联ImageView](Binding_Adapter/ImageLoaderBindingAdapter.md)  
 
@@ -19,8 +20,10 @@ https://developer.android.google.cn/topic/libraries/architecture/livedata.html
 https://developer.android.google.cn/topic/libraries/architecture/saving-states.html  
 https://developer.android.google.cn/topic/libraries/architecture/viewmodel.html  
 https://github.com/LyndonChin/MasteringAndroidDataBinding  
+https://blog.stylingandroid.com/category/architecture-components/  
 https://github.com/Kelin-Hong/MVVMLight  
 http://yanghui.name/blog/2016/02/17/data-binding-guide/  
+https://github.com/Shopify/livedata-ktx  
 http://blog.zhaiyifan.cn/2016/07/06/android-new-project-from-0-p8/
 http://www.jianshu.coXRichTextm/p/43ea7a531700  
 http://www.jianshu.com/p/eb29c691d370  
