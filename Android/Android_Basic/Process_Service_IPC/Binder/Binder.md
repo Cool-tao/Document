@@ -1,10 +1,11 @@
 ### Binder  
-按下电源键  ⤑  init进程  ⤑ Zygote进程  和  ServiceManager进程  
+按下电源键  ⤑  init进程  ⤑ Zygote进程  和  ServiceManager进程   
 整个Android系统架构中，大量采用了Binder机制作为IPC方案，当然也存在部分其他的IPC方式，比如Zygote通信便是采用socket；  
 RAM可以分为用户空间 和 内核空间，每一个进程只能运行在自己的工作空间，当然是在用户空间分配的，要想跨进程通信，只能通过内核空间；  
 bindService、startActivity、sendBroadcast等操作都会用到Binder；  
 Binder机制主要涉及到了四种角色：Client，Server，Service Manager， Binder driver。  
-[BinderDriver](library/BinderDriver.md)  
+[binder通信流程概述](library/BinderProccessOutline.md)  
+[Binder驱动](library/BinderDriver.md)  
 [ServiceManager](library/ServiceManager.md)  
 [Binder协议](library/BinderProtocol.md)  
 [Binder实体  binder_node](library/BinderEntity.md)  
@@ -18,6 +19,10 @@ Binder机制主要涉及到了四种角色：Client，Server，Service Manager�
 n 就是native        p 就是proxy  
 
 frameworks native 链接  
+https://github.com/aosp-mirror/platform_frameworks_base/tree/master/core/jni   
+binder.h    http://androidxref.com/8.0.0_r4/xref/frameworks/native/cmds/servicemanager/binder.h  
+binder.c    http://androidxref.com/8.0.0_r4/xref/frameworks/native/cmds/servicemanager/binder.c  
+service_manager.c    http://androidxref.com/8.0.0_r4/xref/frameworks/native/cmds/servicemanager/service_manager.c    
 BnInterface    http://androidxref.com/8.0.0_r4/xref/frameworks/native/include/binder/IInterface.h#63  
 BpInterface    http://androidxref.com/8.0.0_r4/xref/frameworks/native/libs/binder/include/binder/IInterface.h#63    
 
@@ -33,6 +38,8 @@ IServiceManager    http://androidxref.com/8.0.0_r4/xref/frameworks/native/libs/b
 BpRefBase    http://androidxref.com/8.0.0_r4/xref/frameworks/native/libs/binder/include/binder/Binder.h#80  
 BpRefBase    http://androidxref.com/8.0.0_r4/xref/frameworks/native/include/binder/Binder.h#80   
 BpServiceManager    http://androidxref.com/8.0.0_r4/xref/frameworks/native/libs/binder/IServiceManager.cpp#127    
+android_util_Binder.cpp    http://androidxref.com/8.0.0_r4/xref/frameworks/base/core/jni/android_util_Binder.cpp   
+
 
 Binder Driver  
 binder_proc        binder_thread        binder_node        
@@ -70,16 +77,9 @@ Binder对象是Server端对象本身，是Server进程用的，与此对应的Bi
 ◆ 参考  
 https://blog.csdn.net/u011240877/article/details/72801425  
 http://wangkuiwu.github.io/2014/09/01/Binder-Introduce/  
-http://weishu.me/2016/01/12/binder-index-for-newer/  
-https://www.jianshu.com/p/3d053abba04b  
-https://blog.csdn.net/innost/article/details/47208049  
-http://blog.csdn.net/luoshengyang/article/details/6618363  
-https://blog.csdn.net/luoshengyang/article/details/6642463  
 http://blog.csdn.net/universus/article/details/6211589  
-https://www.jianshu.com/p/1eff5a13000d  
-https://blog.csdn.net/codefly/article/details/17058607
 http://www.cnblogs.com/samchen2009/p/3316001.html  
-https://blog.csdn.net/desler/article/details/47908017  
+
 https://blog.csdn.net/coding_glacier/article/details/7520199  
 https://blog.csdn.net/freekiteyu/article/details/70082302  
 http://gityuan.com/2015/10/31/binder-prepare/  
@@ -105,13 +105,17 @@ http://windrunnerlihuan.com/2016/06/12/Binder%E7%AE%80%E8%A6%81%E5%88%86%E6%9E%9
 https://www.kancloud.cn/alex_wsc/androidsystem/483924  
 https://www.ctolib.com/topics-79743.html  
 http://houzhi.me/2016/04/30/android-sourcecode-binder-process-analysis/  
-http://www.cnblogs.com/innost/archive/2011/01/09/1931456.html  
 https://blog.csdn.net/u010132993/article/details/72582655  
 
 
-
-
-
+废柴  
+http://weishu.me/2016/01/12/binder-index-for-newer/    
+https://www.jianshu.com/p/3d053abba04b   
+http://www.cnblogs.com/innost/archive/2011/01/09/1931456.html  
+http://blog.csdn.net/luoshengyang/article/details/6618363  
+https://www.jianshu.com/p/1eff5a13000d  
+https://blog.csdn.net/codefly/article/details/17058607  
+https://blog.csdn.net/desler/article/details/47908017  
 
 
 
