@@ -4,7 +4,7 @@
 RAM可以分为用户空间 和 内核空间，每一个进程只能运行在自己的工作空间，当然是在用户空间分配的，要想跨进程通信，只能通过内核空间；  
 bindService、startActivity、sendBroadcast等操作都会用到Binder；  
 Binder机制主要涉及到了四种角色：Client，Server，Service Manager， Binder driver。  
-[binder通信流程概述](library/BinderProccessOutline.md)  
+[binder通信流程概述](library/BinderProcessOutline.md)  
 [Binder驱动](library/BinderDriver.md)  
 [ServiceManager](library/ServiceManager.md)  
 [Binder协议](library/BinderProtocol.md)  
@@ -79,8 +79,8 @@ https://blog.csdn.net/u011240877/article/details/72801425
 http://wangkuiwu.github.io/2014/09/01/Binder-Introduce/  
 http://blog.csdn.net/universus/article/details/6211589  
 http://www.cnblogs.com/samchen2009/p/3316001.html  
-
 https://blog.csdn.net/coding_glacier/article/details/7520199  
+  
 https://blog.csdn.net/freekiteyu/article/details/70082302  
 http://gityuan.com/2015/10/31/binder-prepare/  
 https://blog.csdn.net/carson_ho/article/details/73560642  
