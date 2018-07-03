@@ -8,7 +8,8 @@
 [双向数据绑定 ObservableField](sample/DataBinding_04.md)  
 [关联RecyclerView](Binding_Adapter/Binding_RecyclerView.md)  
 [关联ImageView](Binding_Adapter/ImageLoaderBindingAdapter.md)  
-
+[生命周期 OnLifecycleEvent 示例01](sample/DataBinding_05.md)   
+[生命周期 OnLifecycleEvent 源码分析](library/LifeCycle_01.md)   
 
 ◆ DataBinding教程  
 版本号  https://developer.android.google.cn/topic/libraries/architecture/adding-components#lifecycle  
