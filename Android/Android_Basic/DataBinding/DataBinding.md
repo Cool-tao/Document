@@ -25,7 +25,8 @@ https://blog.stylingandroid.com/category/architecture-components/
 https://github.com/Kelin-Hong/MVVMLight  
 http://yanghui.name/blog/2016/02/17/data-binding-guide/  
 https://github.com/Shopify/livedata-ktx  
-http://blog.zhaiyifan.cn/2016/07/06/android-new-project-from-0-p8/
+http://blog.zhaiyifan.cn/2016/07/06/android-new-project-from-0-p8/  
+https://github.com/goldze/MVVMHabit  
 http://www.jianshu.coXRichTextm/p/43ea7a531700  
 http://www.jianshu.com/p/eb29c691d370  
 http://www.jianshu.com/p/7fbe2e9aa092  

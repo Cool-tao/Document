@@ -17,6 +17,12 @@ Binder机制主要涉及到了四种角色：Client，Server，Service Manager�
 [IPCThreadState](library/IPCThreadState.md)  
 [Binder 跨进程通讯流程主要为如下 4 步](library/fun_binder_communication_step.md)   
 n 就是native        p 就是proxy  
+/framework/base/core/java/               (Java)  
+/framework/base/core/jni/                (JNI)  
+/framework/native/libs/binder            (Native)  
+/framework/native/cmds/servicemanager/   (Native)  
+/kernel/drivers/staging/android          (Driver)  
+Java framework  
 
 frameworks native 链接  
 https://github.com/aosp-mirror/platform_frameworks_base/tree/master/core/jni   
@@ -81,6 +87,7 @@ http://blog.csdn.net/universus/article/details/6211589
 http://www.cnblogs.com/samchen2009/p/3316001.html  
 https://blog.csdn.net/coding_glacier/article/details/7520199  
 
+Binder系列00    http://gityuan.com/2015/10/31/binder-prepare/  
 Binder系列01    http://gityuan.com/2015/11/01/binder-driver/  
 Binder系列02    http://gityuan.com/2015/11/02/binder-driver-2/  
 Binder系列03    http://gityuan.com/2015/11/07/binder-start-sm/  
@@ -92,7 +99,6 @@ Binder系列08    http://gityuan.com/2015/11/22/binder-use/
 Binder系列09    http://gityuan.com/2015/11/23/binder-aidl/
 Binder系列10    http://gityuan.com/2015/11/28/binder-summary/  
 
-http://gityuan.com/2015/10/31/binder-prepare/  
 https://blog.csdn.net/carson_ho/article/details/73560642  
 https://www.jianshu.com/p/f4f722d3e51d  
 https://mr-cao.gitbooks.io/android/content/android-binder.html   
@@ -128,5 +134,11 @@ https://blog.csdn.net/codefly/article/details/17058607
 https://blog.csdn.net/desler/article/details/47908017  
 https://blog.csdn.net/freekiteyu/article/details/70082302  
 
+
+
+名词解释  
+MISC    Mobile Information Service Center 移动信息服务中心   
+mmap 是将一个文件或者其它对象映射进内存。  
+文件被映射到多个页上，如果文件的大小不是所有页的大小之和，最后一个页不被使用的空间将会清零。mmap在用户空间映射调用系统中作用很大。  
 
 
