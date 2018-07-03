@@ -80,8 +80,18 @@ http://wangkuiwu.github.io/2014/09/01/Binder-Introduce/
 http://blog.csdn.net/universus/article/details/6211589  
 http://www.cnblogs.com/samchen2009/p/3316001.html  
 https://blog.csdn.net/coding_glacier/article/details/7520199  
-  
-https://blog.csdn.net/freekiteyu/article/details/70082302  
+
+Binder系列01    http://gityuan.com/2015/11/01/binder-driver/  
+Binder系列02    http://gityuan.com/2015/11/02/binder-driver-2/  
+Binder系列03    http://gityuan.com/2015/11/07/binder-start-sm/  
+Binder系列04    http://gityuan.com/2015/11/08/binder-get-sm/  
+Binder系列05    http://gityuan.com/2015/11/14/binder-add-service/  
+Binder系列06    http://gityuan.com/2015/11/15/binder-get-service/  
+Binder系列07    http://gityuan.com/2015/11/21/binder-framework/  
+Binder系列08    http://gityuan.com/2015/11/22/binder-use/  
+Binder系列09    http://gityuan.com/2015/11/23/binder-aidl/
+Binder系列10    http://gityuan.com/2015/11/28/binder-summary/  
+
 http://gityuan.com/2015/10/31/binder-prepare/  
 https://blog.csdn.net/carson_ho/article/details/73560642  
 https://www.jianshu.com/p/f4f722d3e51d  
@@ -116,6 +126,7 @@ http://blog.csdn.net/luoshengyang/article/details/6618363
 https://www.jianshu.com/p/1eff5a13000d  
 https://blog.csdn.net/codefly/article/details/17058607  
 https://blog.csdn.net/desler/article/details/47908017  
+https://blog.csdn.net/freekiteyu/article/details/70082302  
 
 
 
