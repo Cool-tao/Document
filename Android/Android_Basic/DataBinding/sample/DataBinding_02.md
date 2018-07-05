@@ -1,4 +1,5 @@
-###### 常用的转义字符的问题
+#### 常用知识点  
+##### 常用的转义字符的问题
 
 ```XML
 <data>
@@ -15,7 +16,7 @@
 
 ```
 
-> 常用的转义字符
+##### 常用的转义字符
 
 显示结果|描述|转义字符|十进制
  |:--------:|:---------:|:-------:|:-------:|
@@ -28,7 +29,7 @@
 ×	| 乘号	| \&times;	 | \&#215;
 ÷	| 除号	| \&divide;  | \&#247;
 
-> 一些资源需要显示类型调用。
+##### 一些资源需要显示类型调用。
 
 Type | Normal Reference | Expression Reference
 |:--------:|:---------:|:---------:|
@@ -40,4 +41,15 @@ StateListAnimator	| @animator	 | @stateListAnimator
 color int	| @color	 | @color
 ColorStateList	| @color	 | @colorStateList
 
- 
+##### 修改生成的DataBinding的类名  
+```
+<!--suppress AndroidUnknownAttribute -->
+<data class="com.alex.andfun.account.login.contract.LoginDataBinding"
+    >
+    <variable
+        name="loginViewModel"
+        type="com.alex.andfun.account.login.contract.LoginViewModel"/>
+</data>
+```
+##### 对于有id 的view  
+dataBinding.tvContent.text = "hello"  可以这样直接使用了； 都是final类型；   
