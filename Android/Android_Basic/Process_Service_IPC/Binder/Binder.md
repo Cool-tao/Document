@@ -16,6 +16,8 @@ Binder机制主要涉及到了四种角色：Client，Server，Service Manager�
 [ProcessState](library/ProcessState.md)  
 [IPCThreadState](library/IPCThreadState.md)  
 [Binder 跨进程通讯流程主要为如下 4 步](library/fun_binder_communication_step.md)   
+[各个类的作用](library/class_each_function.md)  
+
 n 就是native        p 就是proxy  
 /framework/base/core/java/               (Java)  
 /framework/base/core/jni/                (JNI)  
@@ -86,7 +88,6 @@ http://wangkuiwu.github.io/2014/09/01/Binder-Introduce/
 http://blog.csdn.net/universus/article/details/6211589  
 http://www.cnblogs.com/samchen2009/p/3316001.html  
 https://blog.csdn.net/coding_glacier/article/details/7520199  
-
 Binder系列00    http://gityuan.com/2015/10/31/binder-prepare/  
 Binder系列01    http://gityuan.com/2015/11/01/binder-driver/  
 Binder系列02    http://gityuan.com/2015/11/02/binder-driver-2/  
@@ -98,15 +99,8 @@ Binder系列07    http://gityuan.com/2015/11/21/binder-framework/
 Binder系列08    http://gityuan.com/2015/11/22/binder-use/  
 Binder系列09    http://gityuan.com/2015/11/23/binder-aidl/
 Binder系列10    http://gityuan.com/2015/11/28/binder-summary/  
-
 https://blog.csdn.net/carson_ho/article/details/73560642  
-https://www.jianshu.com/p/f4f722d3e51d  
-https://mr-cao.gitbooks.io/android/content/android-binder.html   
-https://cloud.tencent.com/developer/article/1056116  
-http://sniffer.site/2016/10/01/Binder%E5%85%A5%E9%97%A8/  
-https://70kg.info/2016/07/09/Android%20Binder%20%E6%B5%85%E6%9E%90/  
-http://mouxuejie.com/blog/2018-05-12/learning-notes-binder/  
-http://blog.imallen.wang/archives/page/6/  
+
 https://blog.csdn.net/bettarwang/article/details/51166823  
 https://juejin.im/entry/59c9cd8e518825745c636ffd  
 https://github.com/android-cjj/SourceAnalysis-1/blob/master/Binder%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.md  

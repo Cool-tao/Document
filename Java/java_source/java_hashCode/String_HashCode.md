@@ -25,3 +25,7 @@ private int hash; // Default to 0
 > 所以 "a" 的hashCode就是 97
 
 > 所以"aa" 的hashCode就是 97+31*97 = 3104
+
+
+参考  
+https://www.cnblogs.com/skywang12345/p/3324958.html  
