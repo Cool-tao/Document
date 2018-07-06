@@ -27,7 +27,7 @@ http://yanghui.name/blog/2016/02/17/data-binding-guide/
 https://github.com/Shopify/livedata-ktx  
 http://blog.zhaiyifan.cn/2016/07/06/android-new-project-from-0-p8/  
 https://academy.realm.io/cn/posts/data-binding-android-boyar-mount/?utm_source=tuicool  
-
+https://juejin.im/post/5937b1d7a22b9d005810b877  
 
 ◆  架构  
 http://lijiankun24.com/Android-%E5%BA%94%E7%94%A8%E6%9E%B6%E6%9E%84%E7%BB%84%E4%BB%B6%EF%BC%88Architecture-Components%EF%BC%89%E5%AE%9E%E8%B7%B5/  
