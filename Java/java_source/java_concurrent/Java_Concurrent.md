@@ -47,3 +47,4 @@ https://juejin.im/post/5a5de7a86fb9a01caf376cc1
 https://www.ibm.com/developerworks/cn/java/j-lo-taskschedule/  
 http://www.blogjava.net/xylz/category/45607.html  
 http://www.blogjava.net/xylz/archive/2010/07/08/325587.html  
+http://wangkuiwu.github.io/2012/08/15/juc-executor01/  
