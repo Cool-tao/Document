@@ -1,3 +1,4 @@
+#### autodispose
 ```
 autodispose       : "0.6.1",
 
@@ -46,4 +47,129 @@ model.getNewsList(req)
         .subscribe(LiteObserver {
         
         }
+```  
+
+##### 自定义-SimpleLifecycleScopeProvider  
+LifeCycleEvent  
 ```
+public interface LifeCycleEvent {
+}
+```
+SimpleLifeCycleEvent  
+```
+public enum SimpleLifeCycleEvent implements LifeCycleEvent {
+    START,
+    STOP,
+}
+```  
+SimpleLifecycleScopeProvider  
+```
+public class SimpleLifecycleScopeProvider implements LifecycleScopeProvider<SimpleLifeCycleEvent> {
+    private final BehaviorSubject<SimpleLifeCycleEvent> lifecycleSubject;
+
+    public SimpleLifecycleScopeProvider() {
+        lifecycleSubject = BehaviorSubject.create();
+    }
+
+    @Override
+    public Observable<SimpleLifeCycleEvent> lifecycle() {
+        return lifecycleSubject;
+    }
+
+    public void next(SimpleLifeCycleEvent lifeCycleEvent) {
+        lifecycleSubject.onNext(lifeCycleEvent);
+    }
+
+    @SuppressWarnings("Convert2Lambda")
+    @Override
+    public Function<SimpleLifeCycleEvent, SimpleLifeCycleEvent> correspondingEvents() {
+        return new Function<SimpleLifeCycleEvent, SimpleLifeCycleEvent>() {
+            @SuppressWarnings("RedundantThrows")
+            @Override
+            public SimpleLifeCycleEvent apply(SimpleLifeCycleEvent simpleLifeCycleEvent)
+                    throws Exception {
+                if (simpleLifeCycleEvent == SimpleLifeCycleEvent.START) {
+                    return SimpleLifeCycleEvent.STOP;
+                }
+                throw new LifecycleEndedException();
+            }
+        };
+    }
+
+    @Nullable
+    @Override
+    public SimpleLifeCycleEvent peekLifecycle() {
+        return lifecycleSubject.getValue();
+    }
+}
+
+```  
+##### 自定义-使用  
+```
+private val lifecycleScopeProvider: SimpleLifecycleScopeProvider = SimpleLifecycleScopeProvider()  
+override fun onClickEvent(v: View) {
+    if (R.id.tvLogin == v.id) {
+//            presenter.loginWithLiveData(LoginReq()).observeBlock(view) { result ->
+//                LogTrack.i(result)
+//            }
+        lifecycleScopeProvider.next(SimpleLifeCycleEvent.START)
+        LogTrack.i("点击登录")
+        loginWithLiveData3(LoginReq())
+        return
+    }
+    if (R.id.tvLogout == v.id) {
+        LogTrack.i("点击退出")
+        lifecycleScopeProvider.next(SimpleLifeCycleEvent.STOP)
+        return
+    }
+
+}
+
+private fun loginWithLiveData3(req: LoginReq): LiveData<WrapperEntity<UserEntity>> {
+    val loginRepLiveData = MutableLiveData<WrapperEntity<UserEntity>>()
+    //  AndroidLifecycleScopeProvider   LifecycleScopeProvider
+    func@ StringObservable(5 * 1000)
+            .map { SuccessWrapperEntity(UserEntity()) }
+            .compose(RxHelper.defaultTransformer(presenter))
+            .compose(RxHelper.wrap2DataTransformer<WrapperEntity<UserEntity>, UserEntity>(presenter))
+            .doFinally {
+                LogTrack.i("doFinally")
+            }
+            .autoDisposable(lifecycleScopeProvider)
+            .subscribe(object : LiteObserver<UserEntity>() {
+                override fun onNext(result: UserEntity) {
+                    SpUtil.putString(C.SpKey.userToken, result.userToken)
+                    SpUtil.putString(C.SpKey.userId, result.id)
+                    loginRepLiveData.value = SuccessWrapperEntity(UserEntity(nickname = "alex", phone = "13023033043"))
+                    LogTrack.w("开始")
+                    return@func loginRepLiveData
+                }
+
+                override fun onSubscribe(d: Disposable) {
+                    super.onSubscribe(d)
+                }
+
+                override fun onError(e: Throwable) {
+                    super.onError(e)
+                }
+
+                override fun onComplete() {
+                    super.onComplete()
+                    LogTrack.w("结束")
+                }
+            })
+    view.dismissLoadingView()
+    return loginRepLiveData
+}
+```
+##### 自定义-运行结果  
+```
+2018-07-09 13:33:35.176 21012-21012/com.alex.andfun.account I/LogTrack: [ (LoginViewModel.kt:67) #onClickEvent] 点击登录
+2018-07-09 13:33:35.178 21012-21012/com.alex.andfun.account I/LogTrack: [ (SimpleLifecycleScopeProvider.java:54) #peekLifecycle] event = START
+2018-07-09 13:33:36.360 21012-21012/com.alex.andfun.account I/LogTrack: [ (LoginViewModel.kt:72) #onClickEvent] 点击退出
+2018-07-09 13:33:36.361 21012-21012/com.alex.andfun.account I/LogTrack: [ (AndBasePresenter.java:135) #onObtainFinish] 结束了
+2018-07-09 13:33:36.362 21012-21012/com.alex.andfun.account I/LogTrack: [ (LoginViewModel.kt:88) LoginViewModel$loginWithLiveData3$2#run] doFinally
+
+```
+
+
