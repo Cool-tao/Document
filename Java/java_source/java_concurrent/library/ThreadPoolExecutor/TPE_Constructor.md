@@ -48,3 +48,5 @@ ThreadPoolExecutor.CallerRunsPolicy：由调用线程处理该任务
 ◆ 示例代码  
 ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(6, 10, 5, TimeUnit.SECONDS, new LinkedBlockingQueue<>());
 
+#####  参考  
+http://wangkuiwu.github.io/2012/08/15/juc-executor05/  
