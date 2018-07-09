@@ -73,7 +73,7 @@ public class SimpleLifecycleScopeProvider implements LifecycleScopeProvider<Simp
 
     @Override
     public Observable<SimpleLifeCycleEvent> lifecycle() {
-        return lifecycleSubject;
+        return lifecycleSubject.hide();
     }
 
     public void next(SimpleLifeCycleEvent lifeCycleEvent) {
@@ -171,5 +171,9 @@ private fun loginWithLiveData3(req: LoginReq): LiveData<WrapperEntity<UserEntity
 2018-07-09 13:33:36.362 21012-21012/com.alex.andfun.account I/LogTrack: [ (LoginViewModel.kt:88) LoginViewModel$loginWithLiveData3$2#run] doFinally
 
 ```
+
+#### 参考  
+https://blog.csdn.net/mq2553299/article/details/78927617  
+https://www.jianshu.com/p/8490d9383ba5  
 
 
