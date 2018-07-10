@@ -28,7 +28,7 @@ Java集合框架中表示堆栈的数据类型，堆栈是一种“后进先出�
 [TreeMap](Library/Map_TreeMap.md)    
 LinkedTreeMap  
 LinkedHashTreeMap  
-[ConcurrentHashMap](Library/Map_ConcurrentHashMap.md)  
+[ConcurrentHashMap](ConcurrentHashMap/ConcurrentHashMap.md)  
 ConcurrentSkipListMap  
 IdentityHashMap  
 WeakHashMap  

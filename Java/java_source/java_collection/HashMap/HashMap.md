@@ -17,8 +17,8 @@ HashMap使用key的hashCode来寻找存储位置；
 也就是将哈希值一样的，但是equals是false的，entry保存在同一个数组项里面，  
 每一个数组项当做一个桶，桶里面装的entry的key的hashCode是一样的；
 
-- [几个常量的解释](HM_Constants.md)
-- [Put 操作](HM_Put.md)
+- [几个常量的解释](HM_Constants.md)  
+- [Put 操作](HM_Put.md)  
 
 
 
