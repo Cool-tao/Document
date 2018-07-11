@@ -1,7 +1,7 @@
 ### java 集合框架
 
 [Collection系列图](ImageFiles/Collection_001.png)、 [Map系列图](ImageFiles/Collection_002.png)  
-[Collection 汇总图](ImageFiles/Collection_003.jpg)  
+[Collection汇总图](ImageFiles/Collection_003.jpg)  
 
 ◆ 简单描述 
 ◑ Map<K, V>    
