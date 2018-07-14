@@ -19,10 +19,20 @@
 [onDestroy](fun/onDestroy.md)  
 [onStartCommand](fun/onStartCommand.md)  
 
-> 参考  
+##### 参考  
 
-关于Android Service真正的完全详解，你需要知道的一切  http://blog.csdn.net/javazejian/article/details/52709857  
-全面剖释 Service 服务  https://www.cnblogs.com/leslies2/p/5401813.html  
-耍流氓的方式保活Service  http://www.jianshu.com/p/28c5377c77c4   
-启动前台服务，国内产商的配合程度  http://www.jianshu.com/p/76af1e7503a5  
-Process(进程)  https://github.com/AlanCheen/Android-Resources/blob/master/Process.md  
+关于Android Service真正的完全详解，你需要知道的一切  
+http://blog.csdn.net/javazejian/article/details/52709857  
+
+全面剖释 Service 服务  
+https://www.cnblogs.com/leslies2/p/5401813.html  
+
+保活Service  
+http://www.jianshu.com/p/28c5377c77c4  
+https://www.jianshu.com/p/c1a9e3e86666      
+
+启动前台服务，国内产商的配合程度  
+http://www.jianshu.com/p/76af1e7503a5  
+Process(进程)  
+https://github.com/AlanCheen/Android-Resources/blob/master/Process.md  
+
