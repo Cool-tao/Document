@@ -2,6 +2,7 @@
 当多个线程访问一个类时，如果不用考虑这些线程在运行时环境下的调度和交替运行，并且不需要额外的同步及在调用方代码不必做其他的协调，  
 这个类的行为仍然是正确的，那么这个类就是线程安全的。  
 
+[示例-周期执行](sample/cycle_01.md)   
 [多线程架构图](ImageFiles/MT_001.png)  
 [Synchronized](library/synchronized.md)  
 [Executors](library/Executors.md)  
