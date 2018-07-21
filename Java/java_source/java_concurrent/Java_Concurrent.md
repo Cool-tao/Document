@@ -21,19 +21,6 @@
 [ReentrantLock](library/ReentrantLock.md)  
 [Exchanger](library/Exchanger.md)  
 [Atomic](library/Atomic)  
-ArrayBlockingQueue arrayBlockingQueue;
-AtomicBoolean atomicBoolean;
-AtomicLong atomicLong;
-AtomicReference atomicReference;
-AtomicStampedReference atomicStampedReference;
-AtomicIntegerArray atomicIntegerArray;
-AtomicLongArray atomicLongArray;
-AtomicReferenceArray atomicReferenceArray;
-BlockingQueue blockingQueue;
-BlockingDeque blockingDeque;
-ConcurrentMap concurrentMap;
-ConcurrentNavigableMap concurrentNavigableMap;
-DelayQueue delayQueue;
 Executor executor;
 
 LinkedBlockingQueue linkedBlockingQueue;
