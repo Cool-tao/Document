@@ -4,7 +4,7 @@
 [多线程架构图](ImageFiles/MT_001.png)  
 #### 示例代码  
 [示例-周期执行](sample/ses_01.md)   
-[示例-并发执行，多任务完成，反馈](sample/ses_01.md)   
+[示例-并发执行，多任务完成，反馈](sample/es_01.md)   
 #### 类逐个介绍  
 [Synchronized](library/synchronized.md)  
 [Executors](library/Executors.md)  
