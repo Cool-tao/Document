@@ -21,31 +21,52 @@
 [ReentrantLock](library/ReentrantLock.md)  
 [Exchanger](library/Exchanger.md)  
 [Atomic](library/Atomic)  
-ArrayBlockingQueue  
-AtomicBoolean  
-AtomicLong  
-AtomicReference  
-AtomicStampedReference  
-AtomicIntegerArray  
-AtomicLongArray  
-AtomicReferenceArray  
-BlockingQueue  
-BlockingDeque  
-CountDownLatch  
-ConcurrentMap  
-ConcurrentNavigableMap  
-CyclicBarrier  
-DelayQueue  
-Executor
-ForkJoinPool  
-LinkedBlockingQueue  
-LinkedBlockingDeque  
-Lock  
-Phaser  
-PriorityBlockingQueue  
-ReadWriteLock  
-SynchronousQueue  
+ArrayBlockingQueue arrayBlockingQueue;
+AtomicBoolean atomicBoolean;
+AtomicLong atomicLong;
+AtomicReference atomicReference;
+AtomicStampedReference atomicStampedReference;
+AtomicIntegerArray atomicIntegerArray;
+AtomicLongArray atomicLongArray;
+AtomicReferenceArray atomicReferenceArray;
+BlockingQueue blockingQueue;
+BlockingDeque blockingDeque;
+ConcurrentMap concurrentMap;
+ConcurrentNavigableMap concurrentNavigableMap;
+DelayQueue delayQueue;
+Executor executor;
 
+LinkedBlockingQueue linkedBlockingQueue;
+LinkedBlockingDeque linkedBlockingDeque;
+Lock lock;
+Phaser phaser;
+PriorityBlockingQueue priorityBlockingQueue;
+ReadWriteLock readWriteLock;
+SynchronousQueue synchronousQueue;
+RecursiveAction recursiveAction;
+RecursiveTask recursiveTask;
+ForkJoinPool forkJoinPool;
+ForkJoinTask forkJoinTask;
+ForkJoinWorkerThread forkJoinWorkerThread;
+CompletableFuture completableFuture;
+CompletionService completionService;
+CompletionStage completionStage;
+CountDownLatch countDownLatch;
+CountedCompleter countedCompleter;
+CyclicBarrier cyclicBarrier;
+Exchanger exchanger;
+ExecutorCompletionService executorCompletionService;
+Executors executors;
+ExecutorService executorService;
+FutureTask futureTask;
+RunnableFuture runnableFuture;
+RunnableScheduledFuture runnableScheduledFuture;
+ScheduledExecutorService scheduledExecutorService;
+ScheduledFuture scheduledFuture;
+ScheduledThreadPoolExecutor scheduledThreadPoolExecutor;
+Semaphore semaphore;
+ThreadLocalRandom threadLocalRandom;
+ThreadPoolExecutor threadPoolExecutor;
 ◆ 参考  
 http://tutorials.jenkov.com/java-util-concurrent/index.html  
 http://www.importnew.com/26678.html  
