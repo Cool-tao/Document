@@ -10,7 +10,7 @@
 [Executors](library/Executors.md)  
 [ExecutorService](library/ExecutorService.md)  
 [ScheduledExecutorService](library/ScheduledExecutorService.md)  
-[ThreadPoolExecutor](library/ThreadPoolExecutor.md)  
+[ThreadPoolExecutor](ThreadPoolExecutor/ThreadPoolExecutor.md)  
 [ScheduledThreadPoolExecutor](library/ScheduledThreadPoolExecutor.md)  
 [Future](library/Future.md)  
 [CompletionService](library/CompletionService.md)  

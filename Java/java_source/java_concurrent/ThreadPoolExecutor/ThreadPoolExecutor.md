@@ -8,11 +8,10 @@ AbstractExecutorService implements ExecutorService
 那么有没有一种办法使得线程可以复用，就是执行完一个任务，并不被销毁，而是可以继续执行其他的任务？  
 在Java中可以通过线程池来达到这样的效果。  
 
-
-[构造函数](ThreadPoolExecutor/TPE_Constructor.md)   
-[重要的几个常量](ThreadPoolExecutor/TPE_Important_Constant_Fields.md)  
-[重要的几个方法](ThreadPoolExecutor/TPE_Important_Method.md)  
-[原理介绍](ThreadPoolExecutor/TPE_Principle.md)  
+[构造函数](TPE_Constructor.md)   
+[重要的几个常量](TPE_Important_Constant_Fields.md)  
+[重要的几个方法](TPE_Important_Method.md)  
+[原理介绍](TPE_Principle.md)  
 
 ##### API  
 ```
