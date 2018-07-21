@@ -1,20 +1,25 @@
 ### CompletionService  
-◆ 简单示例  
+#### submit  
+1. 根据 Executor 构建一个 completionService；  
+2. 一次性，通过completionService.submit 函数，把所有的Callable添加到线程池；  
+3. 通过 completionService.take()得到Future， 在通过future.get 得到最终的result；  
+4. 达到最终的并发的效果，再所有的任务结束时，才会继续向下执行；  
+
 ```
-ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(6, 10, 5, TimeUnit.SECONDS, new LinkedBlockingQueue<>());
-CompletionService completionService = new ExecutorCompletionService(threadPoolExecutor);
-LogTrack.w("计时开始");
-for (int i = 0; i < 3; i++) {
-    InnerCallable callable = new InnerCallable((i + 1) * 1000 + 1000); //  2  3  4
-    completionService.submit(callable);
+ThreadPoolExecutor poolExecutor = ThreadUtil.newExecutor();
+ExecutorCompletionService<String> completionService = new ExecutorCompletionService<>(poolExecutor);
+LogTrack.w("submit = " + TimeUtil.currentTimeMillis());
+for (int i = 0; i < RandTimeArray.length; i++) {
+    completionService.submit(new NameCallable(RandTimeArray[i], i + ""));
 }
-for (int i = 0; i < 3; i++) {
-    Future future = completionService.take();
-    LogTrack.w("hello  " + i);
-    LogTrack.w("得到  " + future.get());
-}
-LogTrack.w("循环 外面");
-threadPoolExecutor.shutdown();
+LogTrack.w("take = " + TimeUtil.currentTimeMillis());
+Arrays.stream(RandTimeArray).forEachOrdered(index -> {
+    String result = ThreadUtil.takeGet(completionService, "");
+    LogTrack.w("index = " + index + " result = " + result);
+});
+
+LogTrack.w("上面几个任务，并发执行，所有的任务都结束了");
+poolExecutor.shutdown();
 ```
 我们知道简单的Future的缺点就是，各个Callable是串行运行的，是对CPU资源的浪费；  使用 CompletionService可以使多个Callable并行运行；  
 

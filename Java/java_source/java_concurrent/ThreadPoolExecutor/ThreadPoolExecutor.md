@@ -15,15 +15,6 @@ AbstractExecutorService implements ExecutorService
 
 ##### API  
 ```
-// 用给定的初始参数和默认的线程工厂及被拒绝的执行处理程序创建新的 ThreadPoolExecutor。
-ThreadPoolExecutor(int corePoolSize, int maximumPoolSize, long keepAliveTime, TimeUnit unit, BlockingQueue<Runnable> workQueue)
-// 用给定的初始参数和默认的线程工厂创建新的 ThreadPoolExecutor。
-ThreadPoolExecutor(int corePoolSize, int maximumPoolSize, long keepAliveTime, TimeUnit unit, BlockingQueue<Runnable> workQueue, RejectedExecutionHandler handler)
-// 用给定的初始参数和默认被拒绝的执行处理程序创建新的 ThreadPoolExecutor。
-ThreadPoolExecutor(int corePoolSize, int maximumPoolSize, long keepAliveTime, TimeUnit unit, BlockingQueue<Runnable> workQueue, ThreadFactory threadFactory)
-// 用给定的初始参数创建新的 ThreadPoolExecutor。
-ThreadPoolExecutor(int corePoolSize, int maximumPoolSize, long keepAliveTime, TimeUnit unit, BlockingQueue<Runnable> workQueue, ThreadFactory threadFactory, RejectedExecutionHandler handler)
-
 // 基于完成执行给定 Runnable 所调用的方法。
 protected void afterExecute(Runnable r, Throwable t)
 // 如果在保持活动时间内没有任务到达，新任务到达时正在替换（如果需要），则设置控制核心线程是超时还是终止的策略。
@@ -96,5 +87,8 @@ protected void terminated()
 http://www.importnew.com/19011.html  
 https://blog.csdn.net/tianshi_kco/article/details/53026179    
 https://blog.csdn.net/qq_25806863/article/details/71126867  
+https://www.cnblogs.com/trust-freedom/p/6594270.html  
+http://www.cnblogs.com/trust-freedom/p/6681948.html  
+http://www.cnblogs.com/trust-freedom/p/6693601.html  
 
 
