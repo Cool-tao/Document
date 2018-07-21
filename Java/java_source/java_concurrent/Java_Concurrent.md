@@ -61,12 +61,9 @@ ExecutorService executorService;
 FutureTask futureTask;
 RunnableFuture runnableFuture;
 RunnableScheduledFuture runnableScheduledFuture;
-ScheduledExecutorService scheduledExecutorService;
 ScheduledFuture scheduledFuture;
-ScheduledThreadPoolExecutor scheduledThreadPoolExecutor;
 Semaphore semaphore;
 ThreadLocalRandom threadLocalRandom;
-ThreadPoolExecutor threadPoolExecutor;
 ◆ 参考  
 http://tutorials.jenkov.com/java-util-concurrent/index.html  
 http://www.importnew.com/26678.html  
