@@ -1,4 +1,4 @@
-##### async  
+### async  
 
 ```
 public fun <T> async(
