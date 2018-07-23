@@ -1,22 +1,56 @@
-##### launch 的执行顺序
-
+### launch 的执行顺序  
+#### launch(UI)  
 ````
-override fun onClick(v: View) {
-    val id = v.id
-    if (id == R.id.bt1) {  // IF  
-        coroutineFun()  //  A
-        launch(UI) {
-            "我是独立的协程  start".logW()  //  B
-            delay(2000)  //  C
-            "我是独立的协程  finish".logW()  //  D
-        }
-        "我不在挂起函数内".logW()  //  E
-        return
+fun testLaunch2() {
+    "A主线程 ${BaseUtil.isUIThread()}".logI() //A  
+    launch(UI) {
+        "B主线程 ${BaseUtil.isUIThread()}".logI()  
+        delay(5000L)
+        "B 2主线程 ${BaseUtil.isUIThread()}".logI()
     }
-
+    "C主线程 ${BaseUtil.isUIThread()}".logI()  // C  
+    for (i in 0..399) {
+        i.logI()
+    }
 }
 ````
+先执行A处代码；  
+在执行C处代码；  
+最后执行B处代码；  
+不管C处代码，需要执行多久，都是如此，要等UI线程全部执行完成，才会执行launch{ }  
 
-● 最先执行的是A，因为是顺序执行的；  
-● 之后执行 E，因为代码块 launch 是被挂起的UI线程，所以在编译的时候对应一个状态机，先存储在内存，先会被挂起，所以launch代码块会在当前顺序结构的最后被执行；  
-● 之后执行B-C-D，是因为 IF 代码块的顺序结构都被执行完成了，所以开始执行被挂起的代码块；  
+#### launch(CommonPool)  
+```
+fun testLaunch() {
+    "A主线程 ${BaseUtil.isUIThread()}".logI()
+    launch {
+        "B主线程 ${BaseUtil.isUIThread()}".logI()
+        delay(300L)
+        "B 2主线程 ${BaseUtil.isUIThread()}".logI()
+    }
+    "C主线程 ${BaseUtil.isUIThread()}".logI()
+    for (i in 0..99) {
+        i.logI()
+    }
+}
+```  
+
+执行结果  
+```
+2018-07-23 00:11:53.578 9391-9391/com.alex.andfun.coroutine I/LogTrack: [ (Sample04.kt:14) #testLaunch] A主线程 true
+2018-07-23 00:11:53.579 9391-9391/com.alex.andfun.coroutine I/LogTrack: [ (Sample04.kt:18) #testLaunch] C主线程 true
+2018-07-23 00:11:53.580 9391-9391/com.alex.andfun.coroutine I/LogTrack: [ (Sample04.kt:20) #testLaunch] 0
+2018-07-23 00:11:53.580 9391-9391/com.alex.andfun.coroutine I/LogTrack: [ (Sample04.kt:20) #testLaunch] ...
+2018-07-23 00:11:53.587 9391-9391/com.alex.andfun.coroutine I/LogTrack: [ (Sample04.kt:20) #testLaunch] 21
+2018-07-23 00:11:53.587 9391-9450/com.alex.andfun.coroutine I/LogTrack: [ (Sample04.kt:16) Sample04$testLaunch$1#doResume] B主线程 false
+2018-07-23 00:11:53.580 9391-9391/com.alex.andfun.coroutine I/LogTrack: [ (Sample04.kt:20) #testLaunch] ...
+2018-07-23 00:11:53.587 9391-9391/com.alex.andfun.coroutine I/LogTrack: [ (Sample04.kt:20) #testLaunch] 99
+2018-07-23 00:18:11.957 9593-9630/com.alex.andfun.coroutine I/LogTrack: [ (Sample04.kt:19) Sample04$testLaunch$1#doResume] B 2主线程 false
+```
+结果分析：  
+A处代码最先执行；  
+C处代码开始执行；  
+launch{}代码块，涉及状态机的状态保存和切换，最后执行；  
+但是C处的代码没有直接结束，launch{}代码块就开始执行的情况，还是很常见的；
+和上面的launch(UI) 的执行结果是不一样的；  
+  

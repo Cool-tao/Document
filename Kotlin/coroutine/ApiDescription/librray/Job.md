@@ -6,7 +6,7 @@ Job是协程创建的后台任务的概念，它持有该协程的引用。Job�
 ● Active (default initial state)  活动中（默认初始状态）  是激活态  未完成  
 ● Completed (final state)  已结束（最终状态）  非激活态  已完成  
 
-[job.join函数](Job_join.md)；  
-[cancel](Job_cancel.md)；  
+[job.join函数](../job/Job_join.md)；  
+[cancel](../job/Job_cancel.md)；  
 cancelAndJoin = cancel + join；  
 
