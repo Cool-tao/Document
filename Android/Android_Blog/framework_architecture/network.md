@@ -69,4 +69,5 @@ https://github.com/enjoy008/HttpURLConnection
 https://github.com/lingochamp/FileDownloader  
 https://github.com/handsomelee/AsyncHttpDownloadLib/blob/master/DownloadLib/src/indi/liji/common/download/DownloadFileTask.java  
 https://github.com/MindorksOpenSource/PRDownloader  
+https://github.com/lingochamp/okdownload  
 
