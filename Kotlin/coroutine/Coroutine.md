@@ -10,9 +10,11 @@
 
 
 #### 参考  
-
-[协程官方示例](https://github.com/Kotlin/kotlinx.coroutines/blob/master/coroutines-guide.md)  
-https://github.com/Kotlin/kotlinx.coroutines/blob/master/ui/coroutines-guide-ui.md#android  
+[官方github]  https://github.com/Kotlin/kotlinx.coroutines    
+[官方API]  https://kotlin.github.io/kotlinx.coroutines/   
+[RxCoroutine]  https://github.com/Kotlin/kotlinx.coroutines/blob/master/reactive/kotlinx-coroutines-rx2/README.md  
+[官方示例]   https://github.com/Kotlin/kotlinx.coroutines/tree/master/core/kotlinx-coroutines-core/src/test/kotlin/guide  
+https://github.com/Kotlin/kotlinx.coroutines/blob/master/coroutines-guide.md  
 https://github.com/Kotlin/kotlinx.coroutines/blob/master/ui/coroutines-guide-ui.md  
 https://github.com/Kotlin/kotlinx.coroutines/blob/master/coroutines-guide.md  
 https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/README.md  
@@ -28,6 +30,8 @@ http://www.jianshu.com/p/9f720b9ccdea
 http://blog.csdn.net/axi295309066/article/details/78070011?locationNum=4&fps=1  
 
 https://github.com/Papeone/Coroutines  
+https://blog.dreamtobe.cn/kotlin-coroutines/  
+http://johnnyshieh.me/posts/kotlin-coroutine-introduction/  
 
 
 
