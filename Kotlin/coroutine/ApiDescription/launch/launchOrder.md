@@ -4,9 +4,9 @@
 fun testLaunch2() {
     "A主线程 ${BaseUtil.isUIThread()}".logI() //A  
     launch(UI) {
-        "B主线程 ${BaseUtil.isUIThread()}".logI()  
+        "B主线程 ${BaseUtil.isUIThread()}".logI()  // true
         delay(5000L)
-        "B 2主线程 ${BaseUtil.isUIThread()}".logI()
+        "B 2主线程 ${BaseUtil.isUIThread()}".logI()  // true
     }
     "C主线程 ${BaseUtil.isUIThread()}".logI()  // C  
     for (i in 0..399) {
@@ -18,15 +18,16 @@ fun testLaunch2() {
 在执行C处代码；  
 最后执行B处代码；  
 不管C处代码，需要执行多久，都是如此，要等UI线程全部执行完成，才会执行launch{ }  
+launch(UI){} 代码块是主线程，仍然可以执行耗时操作，并且在代码块内，是顺序执行的；  
 
 #### launch(CommonPool)  
 ```
 fun testLaunch() {
     "A主线程 ${BaseUtil.isUIThread()}".logI()
     launch {
-        "B主线程 ${BaseUtil.isUIThread()}".logI()
+        "B主线程 ${BaseUtil.isUIThread()}".logI()  // false
         delay(300L)
-        "B 2主线程 ${BaseUtil.isUIThread()}".logI()
+        "B 2主线程 ${BaseUtil.isUIThread()}".logI()  // false
     }
     "C主线程 ${BaseUtil.isUIThread()}".logI()
     for (i in 0..99) {

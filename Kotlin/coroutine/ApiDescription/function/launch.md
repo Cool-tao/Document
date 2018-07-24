@@ -26,5 +26,8 @@ public fun launch(
 ● block  协程真正要执行的代码块，必须是suspend修饰的挂起函数；  
 ● return  函数返回一个Job类型，Job是协程创建的后台任务的概念，它持有该协程的引用；  
 
+launch(UI)  代码块是主线程，代码块可以执行耗时操作；  
+launch(CommonPool) 代码块是子线程，代码块可以执行耗时操作；  
+
 [看一下，launch代码块的执行顺序](../launch/launchOrder.md)   
 

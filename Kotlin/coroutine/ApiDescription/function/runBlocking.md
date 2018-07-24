@@ -11,7 +11,11 @@ public fun <T> runBlocking(context: CoroutineContext = EmptyCoroutineContext, bl
     return coroutine.joinBlocking()
 }
 ````
-runBlocking函数不是用来当作普通协程函数使用的，它的设计主要是用来桥接普通阻塞代码和挂起风格的（suspending style）的非阻塞代码的；  
+runBlocking函数不是用来当作普通协程函数使用的，它的设计主要是用来桥接普通阻塞代码和挂起风格-非阻塞代码的；  
+主要用来跑 psvm 的main函数，或者test函数的；  
+如果直接在main函数跑协程代码，可能看不到执行结果，因为这个时候，主线程已经结束了，故此 需要runBlocking代码块；  
+在runBlocking代码块，会在当前thread中执行，需要执行的携程函数，并等待携程执行完成；    
+如果runBlocking代码块跑在UI线程，出现耗时操作，一定会出现ANR异常的；  
 
 #### 示例代码01  
 ```
