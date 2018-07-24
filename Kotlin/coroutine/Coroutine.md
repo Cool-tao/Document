@@ -13,6 +13,8 @@
 
 [协程官方示例](https://github.com/Kotlin/kotlinx.coroutines/blob/master/coroutines-guide.md)  
 https://github.com/Kotlin/kotlinx.coroutines/blob/master/ui/coroutines-guide-ui.md#android  
+https://github.com/Kotlin/kotlinx.coroutines/blob/master/ui/coroutines-guide-ui.md
+https://github.com/Kotlin/kotlinx.coroutines/blob/master/coroutines-guide.md  
 https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/README.md  
 https://github.com/Kotlin/kotlin-coroutines/blob/master/kotlin-coroutines-informal.md  
 https://github.com/Kotlin/kotlinx.coroutines/blob/master/reactive/coroutines-guide-reactive.md  
