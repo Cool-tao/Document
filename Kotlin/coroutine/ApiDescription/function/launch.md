@@ -30,4 +30,5 @@ launch(UI)  代码块是主线程，代码块可以执行耗时操作；
 launch(CommonPool) 代码块是子线程，代码块可以执行耗时操作；  
 
 [看一下，launch代码块的执行顺序](../launch/launchOrder.md)   
+[利用parent参数，关联主线程生命周期](../launch/launch_lifecycle.md)    
 

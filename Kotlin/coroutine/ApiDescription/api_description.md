@@ -13,6 +13,9 @@
 ● [CoroutineDispatcher](librray/CoroutineDispatcher.md)  
 ● [Deferred](librray/Deferred.md)  
 ● [Job](librray/Job.md)  
+● [Channel](librray/Job.md)  
+
+
 
 
 
