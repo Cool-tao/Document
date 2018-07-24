@@ -61,3 +61,21 @@ private fun coroutineFun() = runBlocking<Unit> {
     LogTrack.w("我延时了2秒")
 }
 ```
+#### 示例代码03  
+这样会 ANR  
+```
+fun testLaunch3() = runBlocking {
+    val job = launch(UI) {
+        delay(5000L)
+    }
+    job.join()
+}
+```  
+这样会 ANR  
+```
+fun testRunBlocking() = runBlocking {
+    "A主线程 $isUiThread".logI()
+    delay(10000L)
+    "B主线程 $isUiThread".logI()
+}
+```
