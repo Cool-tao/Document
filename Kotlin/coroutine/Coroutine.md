@@ -15,16 +15,14 @@
 [RxCoroutine]  https://github.com/Kotlin/kotlinx.coroutines/blob/master/reactive/kotlinx-coroutines-rx2/README.md  
 [官方示例]   https://github.com/Kotlin/kotlinx.coroutines/tree/master/core/kotlinx-coroutines-core/src/test/kotlin/guide  
 [官方文档]  https://github.com/Kotlin/kotlinx.coroutines/blob/master/coroutines-guide.md  
-https://github.com/Kotlin/kotlinx.coroutines/blob/master/ui/coroutines-guide-ui.md  
-https://github.com/Kotlin/kotlinx.coroutines/blob/master/coroutines-guide.md  
-https://github.com/Kotlin/kotlinx.coroutines/blob/master/kotlinx-coroutines-core/README.md  
 https://github.com/Kotlin/kotlin-coroutines/blob/master/kotlin-coroutines-informal.md  
 https://github.com/Kotlin/kotlinx.coroutines/blob/master/reactive/coroutines-guide-reactive.md  
 [介绍基于JVM的协程机制](https://kotlinlang.org/docs/tutorials/coroutines-basic-jvm.html)   
-http://kotlinlang.org/docs/reference/coroutines.html  
-[关联生命周期](https://github.com/Kotlin/kotlinx.coroutines/blob/master/coroutines-guide.md#cancellation-via-explicit-job)  
+
 
 - 其他  
+https://www.jianshu.com/p/ffa6cd6f5986  
+https://www.jianshu.com/p/fbbff69822eb  
 http://www.jianshu.com/p/993902c98688  
 http://www.jianshu.com/p/9f720b9ccdea  
 http://blog.csdn.net/axi295309066/article/details/78070011?locationNum=4&fps=1  
