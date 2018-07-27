@@ -1,4 +1,4 @@
-##### cancel  
+### cancel  
 
 ● 如果协程内，有释放时间片的操作，那么，在cancel之后，协程会被立刻取消掉；  
 ● 如果协程内，一直是抢占式的操作，那么，在cancel之后，协程会在抢占式操作结束之后，被取消掉；  
@@ -54,5 +54,13 @@ private fun delayFun() = runBlocking {
     job.cancel()
     job.join()
     "D".logI()
+}
+```
+
+#### 计算密集型 cancel 无法取消任务  
+协程正工作在循环计算中，并且不检查协程当前的状态, 那么调用cancel来取消协程将无法停止协程的运行，可以这样解决  
+```
+if (!isActive) {
+    return@launch
 }
 ```

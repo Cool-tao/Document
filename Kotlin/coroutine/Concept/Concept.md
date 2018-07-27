@@ -17,6 +17,12 @@
 执行器可以关联任意线程或线程池, 可以使当前线程, UI线程, 或新建新程；  
 实质上协程是一种轻量级的可控制的用户线程，基于状态机实现，有协程构造器启动；  
 
+协程最早的描述是由Melvin Conway于1958年给出：“subroutines who act as the master program”(与主程序行为类似的子例程)。  
+数据在后续调用中始终保持（ The values of data local to a coroutine persist between successive calls 协程的局部）  
+当控制流程离开时，协程的执行被挂起，此后控制流程再次进入这个协程时，这个协程只应从上次离开挂起的地方继续   
+（The execution of a coroutine is suspended as control leaves it, only to carry on where it left off when control re-enters the coroutine at some later stage）。  
+
+
 
 > 参考  
 

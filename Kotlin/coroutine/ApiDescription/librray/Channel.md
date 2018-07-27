@@ -61,4 +61,8 @@ private suspend fun sendString(channel: SendChannel<String>, s: String, time: Lo
     }
 }
 ```  
+#### 缓冲区  
+val channel = Channel<Int>(4) // 创建一个缓冲区容量为4的通道  
+channel.send(it) // 当缓冲区已满的时候， send将会挂起  
+
 
