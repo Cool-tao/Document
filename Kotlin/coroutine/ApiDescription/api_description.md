@@ -12,7 +12,7 @@
 ● [produce](function/produce.md)    
 ● [runBlocking](function/runBlocking.md)  
 ● [ticker](function/ticker.md)   
-● [select]()  
+● [select](function/select.md)  
 ● [selectUnbiased]()  
 ● [suspendAtomicCancellableCoroutine]()  
 ● [suspendCancellableCoroutine]()  
