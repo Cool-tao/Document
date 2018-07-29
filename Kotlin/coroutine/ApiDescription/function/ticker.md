@@ -1,4 +1,4 @@
-### 定时器  
+### ticker 定时器  
 #### 示例1
 ```
 fun testTicker() {
