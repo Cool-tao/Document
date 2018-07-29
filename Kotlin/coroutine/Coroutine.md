@@ -15,20 +15,15 @@
 [RxCoroutine]  https://github.com/Kotlin/kotlinx.coroutines/blob/master/reactive/kotlinx-coroutines-rx2/README.md  
 [官方示例]   https://github.com/Kotlin/kotlinx.coroutines/tree/master/core/kotlinx-coroutines-core/src/test/kotlin/guide  
 [官方文档]  https://github.com/Kotlin/kotlinx.coroutines/blob/master/coroutines-guide.md  
-https://github.com/Kotlin/kotlin-coroutines/blob/master/kotlin-coroutines-informal.md  
 https://github.com/Kotlin/kotlinx.coroutines/blob/master/reactive/coroutines-guide-reactive.md  
-[介绍基于JVM的协程机制](https://kotlinlang.org/docs/tutorials/coroutines-basic-jvm.html)   
+[介绍基于JVM的协程机制]  https://kotlinlang.org/docs/tutorials/coroutines-basic-jvm.html  
 
 
 - 其他  
 
-https://github.com/Papeone/Coroutines  
 https://blog.dreamtobe.cn/kotlin-coroutines/  
-http://johnnyshieh.me/posts/kotlin-coroutine-introduction/  
-https://github.com/enbandari/Kotlin-Tutorials/tree/master/articles  
-https://blog.csdn.net/qq_32115439/article/details/74018755  
-https://my.oschina.net/zzxzzg/blog/1612992  
-https://blog.csdn.net/sinat_33878878/article/details/81097895  
+https://github.com/Papeone/Coroutines  
+
 - 新手区  
 
 https://www.jianshu.com/p/9f720b9ccdea  
