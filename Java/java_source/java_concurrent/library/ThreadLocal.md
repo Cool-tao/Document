@@ -17,3 +17,4 @@ ThreadLocal 在类中通常定义为静态类变量。
 https://my.oschina.net/xianggao/blog/392440?fromerr=CLZtT4xC
 http://blog.csdn.net/lufeng20/article/details/24314381  
 https://juejin.im/post/5a64a581f265da3e3b7aa02d  
+https://juejin.im/post/5b5ecf9de51d45190a434308  
