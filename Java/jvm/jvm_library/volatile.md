@@ -35,3 +35,5 @@ volatile 操作不会像锁一样造成阻塞，因此，在能够安全使用 v
 https://github.com/LRH1993/android_interview/blob/master/java/concurrence/volatile.md  
 http://www.cnblogs.com/dolphin0520/p/3920373.html  
 http://www.importnew.com/27002.html  
+https://www.cnblogs.com/paddix/p/5428507.html  
+https://juejin.im/post/59db333b6fb9a00a69752a39  
