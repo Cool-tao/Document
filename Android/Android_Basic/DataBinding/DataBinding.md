@@ -13,7 +13,7 @@
 [为什么dataBinding.viewId的性能会优于 findViewById ](library/findViewById.md)   
 
 ◆ DataBinding教程  
-版本号  https://developer.android.google.cn/topic/libraries/architecture/adding-components#lifecycle  
+[版本号]    https://developer.android.google.cn/topic/libraries/architecture/adding-components#lifecycle  
 https://developer.android.com/topic/libraries/data-binding/  
 https://developer.android.google.cn/topic/libraries/data-binding/index.html  
 https://developer.android.google.cn/topic/libraries/architecture/index.html  
@@ -21,6 +21,7 @@ https://developer.android.google.cn/topic/libraries/architecture/lifecycle.html
 https://developer.android.google.cn/topic/libraries/architecture/livedata.html  
 https://developer.android.google.cn/topic/libraries/architecture/saving-states.html  
 https://developer.android.google.cn/topic/libraries/architecture/viewmodel.html  
+[官方demo]    https://github.com/googlesamples/android-databinding/tree/master/BasicSample  
 https://blog.stylingandroid.com/category/architecture-components/  
 https://github.com/Kelin-Hong/MVVMLight  
 http://yanghui.name/blog/2016/02/17/data-binding-guide/  

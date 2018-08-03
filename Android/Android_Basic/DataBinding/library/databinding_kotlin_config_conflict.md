@@ -92,5 +92,6 @@ Directory 'D:\WorkSpace\Android\Acho\app\build\intermediates\feature_data_bindin
 ##### 解决办法  
 猜测，版本不一致，导致   dataBinding 的版本 要和 gradle的版本一致  
 ```
-        classpath 'com.android.tools.build:gradle:3.1.3'
+classpath 'com.android.tools.build:gradle:3.1.3'  
+kapt 'com.android.databinding:compiler:3.1.3'  
 ```
