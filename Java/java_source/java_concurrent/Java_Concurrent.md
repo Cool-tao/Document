@@ -3,6 +3,7 @@
 这个类的行为仍然是正确的，那么这个类就是线程安全的。  
 [多线程架构图](ImageFiles/MT_001.png)  
 #### 示例代码  
+[线程安全与线程不安全](sample/safe_unsafe.md)   
 [简化封装 ThreadUtil](library/ThreadUtil.md)  
 [示例-周期执行](sample/ses_01.md)   
 [示例-并发执行，多任务完成，反馈](sample/es_01.md)   
