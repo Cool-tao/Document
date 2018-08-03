@@ -1,4 +1,6 @@
 ### actor  
+既能发送，又能接收  
+
 The basic thing to know about actor is that they have a mailbox, and you can send them messages.   
 Kotlin guarantees that the actor only treats one message at a time, and that they will be treated in the order that they’ve been received.  
 The expression actor<Int>(CommonPool){...} returns an actor that takes Integers as messages.   
@@ -44,3 +46,5 @@ https://github.com/BonnetM/KotlinActorsAndCleanArchitecture/
 https://medium.com/@jagsaund/kotlin-concurrency-with-actors-34bd12531182  
 https://github.com/jsaund/ActorsPlayground  
 https://blog.elpassion.com/create-a-clean-code-app-with-kotlin-coroutines-and-android-architecture-components-part-2-4f585050d7d7  
+https://blog.elpassion.com/create-a-clean-code-app-with-kotlin-coroutines-and-android-architecture-components-part-3-f3f3850acbe6  
+  
