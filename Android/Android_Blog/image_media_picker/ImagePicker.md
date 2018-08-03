@@ -15,6 +15,8 @@ https://github.com/jeasonlzy/ImagePicker
 https://github.com/yanzhenjie/album  
 https://github.com/crazycodeboy/TakePhoto  
 https://github.com/LuckSiege/PictureSelector  
+https://github.com/crazycodeboy/TakePhoto  
+
 
 
 
