@@ -1,4 +1,4 @@
-##### Deferred  
+### Deferred  
 
 ● DeferredCoroutine  任务创建后会立即启动；  
 ● LazyDeferredCoroutine  任务创建后new的状态，要等用户调用 start() or join() or await()去启动他；  
@@ -18,3 +18,17 @@ Resolved (最终状态)  isActive = false；  isCompleted = true；  isCompleted
 Failed (最终状态)  isActive = false；  isCompleted = true；  isCompletedExceptionally = true； isCancelled = false；  
 Cancelled (最终状态)  isActive = false；  isCompleted = true；  isCompletedExceptionally = true； isCancelled = true；  
 
+#### CompletableDeferred  
+````
+val deferred = CompletableDeferred<WrapperEntity<T>>()
+launch {
+    kotlinx.coroutines.experimental.delay(delay)
+    val wrapperEntity = WrapperEntity<T>().apply {
+        code = C.CodeEnum.success
+        message = "success"
+        requestTag = "mock data"
+        this.data = data
+    }
+    deferred.complete(wrapperEntity)
+}
+````
