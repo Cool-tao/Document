@@ -15,3 +15,9 @@ https://github.com/MarcinusX/flutter_ui_challenge_filter_menu
 https://github.com/flutter/plugins/tree/master/packages  
 https://github.com/flutter/plugins/tree/master/packages/android_intent  
 
+### 开源App  
+https://github.com/MarcinusX/flutter_ui_challenge_flight_search  
+https://github.com/MarcinusX/cap_challenge  
+https://github.com/CarGuo/GSYGithubAppFlutter  
+
+
