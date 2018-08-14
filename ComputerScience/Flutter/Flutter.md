@@ -21,6 +21,7 @@
 [Container](library/Container.md)  
 [BoxDecoration](library/BoxDecoration.md)  
 [Layout Widgets]    https://flutter.io/widgets/layout/  
+[开源库]    https://pub.dartlang.org/flutter/  
 
 
 ### 参考  
@@ -43,7 +44,7 @@
 
 
 https://www.cnblogs.com/yangyxd/p/9168244.html  
-https://mp.weixin.qq.com/s/cJjKZCqc8UuzvEtxK1BJCw  
+https://juejin.im/post/5b699783e51d4533f5285ee7  
 https://juejin.im/post/5b6cfcade51d451915575b7b  
 https://juejin.im/post/5b6da4b2e51d45195c07a30f  
 https://juejin.im/post/5b631d326fb9a04fce524db2  
@@ -55,3 +56,6 @@ https://juejin.im/post/5b6111b3e51d45198905679a
 https://juejin.im/post/5b57e339e51d4519700f686b  
 https://juejin.im/post/5b5dc77fe51d451757327412  
 https://juejin.im/post/5b456ebee51d4519277b7761  
+https://www.cnblogs.com/yangyxd/p/9232308.html  
+https://zhuanlan.zhihu.com/p/36577285  
+
