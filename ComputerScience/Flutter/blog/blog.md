@@ -19,5 +19,7 @@ https://github.com/flutter/plugins/tree/master/packages/android_intent
 https://github.com/MarcinusX/flutter_ui_challenge_flight_search  
 https://github.com/MarcinusX/cap_challenge  
 https://github.com/CarGuo/GSYGithubAppFlutter  
+https://github.com/jianggaocheng/30-days-of-flutter  
+
 
 
