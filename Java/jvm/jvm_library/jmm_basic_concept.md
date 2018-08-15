@@ -1,6 +1,7 @@
 ### 基本概念
 
-JMM定义了线程和主存之间的抽象关系；  
+JMM（Java Memory Model ,JMM）定义了线程和主存之间的抽象关系；  
+Java内存模型就是一种符合内存模型规范的，屏蔽了各种硬件和操作系统的访问差异的，保证了Java程序在各种平台下对内存的访问都能保证效果一致的机制及规范。  
 
 ◆ 什么是内存模型  
 内存模型描述了程序中各个变量（实例域、静态域和数组元素）之间的关系，以及在实际计算机系统中将变量存储到内存和从内存中取出变量这样的底层细节，  
@@ -63,4 +64,4 @@ write：把store操作从工作内存中得到的变量值放入到主内存的�
 ◆ 参考  
 http://www.cnblogs.com/BangQ/p/4045954.html  
 https://github.com/LRH1993/android_interview/blob/master/java/concurrence/volatile.md  
-
+http://www.hollischuang.com/archives/2550  
