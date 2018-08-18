@@ -25,3 +25,5 @@ https://github.com/lawloretienne/TinderStack
 https://github.com/JerryChan123/ReSwipeCard    
 https://github.com/wensefu/StackCardsView    
 
+◑ 仿IOS钱包  
+https://github.com/loopeer/CardStackView  

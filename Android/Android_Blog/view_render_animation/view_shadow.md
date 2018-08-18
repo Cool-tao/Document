@@ -7,6 +7,7 @@ https://github.com/DingMouRen/PaletteImageView
 https://github.com/wangjiegulu/ShadowViewHelper  
 https://github.com/Hitomis/CrazyShadow  
 https://github.com/pinguo-zhouwei/EasyBlur  
+https://github.com/loopeer/shadow  
 
 
 ◆ 文字阴影   

@@ -39,6 +39,7 @@ https://github.com/brucetoo/GradientTabStrip
 https://github.com/shem8/customviewpager  
 https://github.com/armcha/PlayTabLayout 
 https://github.com/Ashok-Varma/BottomNavigation  
+https://github.com/long1eu/SpaceTabLayout  
 
 
 ◆ Segment  
