@@ -6,3 +6,4 @@ https://github.com/lantouzi/WheelView-Android
 https://github.com/keyboard3/HencoderKeyboard3  
 https://github.com/superSp/RulerView  
 https://github.com/totond/BooheeRuler  
+https://github.com/zjun615/RuleView  
