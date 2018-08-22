@@ -66,6 +66,19 @@ adb shell cat /proc/cpuinfo
 ● 更多硬件与系统属性  
 adb shell cat /system/build.prop  
 
+● 输入文本  
+adb shell input text XXXX  
+
+● 查看顶层 Activity 名字  
+```
+linux:
+adb shell dumpsys activity | grep "mFocusedActivity"
+
+windows:
+adb shell dumpsys activity | findstr "mFocusedActivity"
+```
+
+
 
 
 
