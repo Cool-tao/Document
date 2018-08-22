@@ -18,6 +18,8 @@ adb -s 79BMADR8WZA3F reverse tcp:8888 tcp:8888
 adb devices    
 adb -s emulator-5554 install    
 adb -s emulator-5556 install ebook.apk   
+// 安装测试 包  
+adb install -t   
 
 ● 查看连接设备  
 adb devices  
