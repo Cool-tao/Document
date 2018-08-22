@@ -9,6 +9,7 @@ https://github.com/afollestad/material-camera
 https://github.com/wuhaoyu1990/MagicCamera  
 https://github.com/googlesamples/android-Camera2Video  
 https://github.com/dingjikerbo/Android-Camera  
+https://github.com/CameraKit/camerakit-android  
 
 
 ##### 贴纸相机、水印  
