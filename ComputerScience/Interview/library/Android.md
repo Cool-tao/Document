@@ -14,14 +14,25 @@ ViewPager使用细节，如何设置成每次只初始化当前的Fragment，其
 SP是进程同步的吗?有什么方法做到同步；   
 
 Handler机制及底层实现；  
+handler实现机制（很多细节需要关注：如线程如何建立和退出消息循环等等）；  
 Handler.postDelay 一定能收到吗？  
 Service 的生命周期；  
 BroadcastReceiver；  
 Binder机制及底层实现；  
 什么是AIDL 以及如何使用；  
+BroadcastReceiver，LocalBroadcastReceiver 区别  
+
 
 
 一张Bitmap所占内存以及内存占用的计算；  
+ListView和RecyclerView区别  
+既然RecyclerView在很多方面能取代ListView，Google为什么没把ListView划上一条过时的横线？  
+```
+答案： 可以沿着回收机制来回答。ListView采用的是RecyclerBin的回收机制在一些轻量级的List显示时效率更高  
+```
+你用过MD，你知道怎么定义一个Behavior吗？      https://www.jianshu.com/p/82d18b0d18f4  
+AlertDialog,popupWindow,Activity区别；  
+
 
 Serializable 和Parcelable 的区别；  
 
@@ -39,6 +50,8 @@ RxJava；
 Retrofit；  
 Glide；  
 EventBus；  
+图片加载原理；  
+Https请求慢的解决办法，DNS，携带数据，直接访问IP；  
 
 热修复；  
 插件化；  

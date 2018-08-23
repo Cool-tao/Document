@@ -4,8 +4,13 @@ ConcurrentHashMap；
 TreeMap；  
 Synchronized；  
 volatile；  
-ThreadLocal；  
+ThreadLocal 原理；  
 ReentrantLock；  
+ReentrantLock的内部实现；  
+synchronized与ReentrantLock；  
+LRUCache原理；  
+synchronized与Lock的区别；  
+
 String、StringBuilder、StringBuffer；  
 String 为什么要设计成不可变的；  
 Java集合类图；  
@@ -17,6 +22,11 @@ equals、hashCode；
 内部类的作用；  
 Java深拷贝和浅拷贝；  
 Java finally与return执行顺序；  
+
+谈谈classloader  
+类加载机制；  
+双亲委派模型；  
+
 类的加载过程，Person person = new Person();为例进行说明。  
 类加载器；  
 GC回收策略；  
