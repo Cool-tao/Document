@@ -25,3 +25,26 @@ pgrep java
 杀死进程 kill -9 pid  
 kill -9 10571  
 
+### [zip](librray/zip.md)   
+[find](librray/find.md)  
+### rm  
+```
+rm -rf /alex/work/sample  
+
+```
+
+### 时间类  
+今天是 一年中的第几天  
+```
+cal -j  
+
+```
+
+### 网络类  
+获取 域名对应的ip  
+```
+ping www.baidu.com
+
+```  
+
+

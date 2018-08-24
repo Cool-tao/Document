@@ -82,3 +82,4 @@ adb shell dumpsys activity | findstr "mFocusedActivity"
 
 
 
+
