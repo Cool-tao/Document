@@ -16,3 +16,6 @@ Java虚拟机对Class文件每一部分（自然也包括常量池）的格式�
 [常量池](../class_file_structure/CFS_constant_pool.md)   
 
 
+参考  
+https://blog.csdn.net/qq_26222859/article/details/73135660  
+https://blog.csdn.net/vegetable_bird_001/article/details/51278339  
