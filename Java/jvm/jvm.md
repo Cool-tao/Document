@@ -24,6 +24,7 @@
 [什么情况下触发垃圾回收](gc/trigger.md)  
 [垃圾收集算法](gc/garbage_collection.md)   
 [垃圾收集器](gc/garbage_coloector.md)   
+[内存分配与回收策略](gc/memory_generation_recycle.md)  
 
 
 ◆ Java内存模型  
