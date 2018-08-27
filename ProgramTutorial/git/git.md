@@ -12,6 +12,7 @@ git提供了好几种方法做到这点，其中最简单的方法就是用git r
 
 ### commit 
 git commit -m "更新"  
+git commit -am 更新
 
 ### push  
 git push origin master  
