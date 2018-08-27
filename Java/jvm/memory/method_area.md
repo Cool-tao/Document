@@ -13,7 +13,7 @@ Java虚拟机对Class文件每一部分（自然也包括常量池）的格式�
 这种特性被开发人员利用得比较多的便是String类的intern（）方法。  
 既然运行时常量池是方法区的一部分，自然受到方法区内存的限制，当常量池无法再申请到内存时会抛出OutOfMemoryError异常。  
 
-[常量池](../class_file_structure/CFS_constant_pool.md)   
+[常量池](../class_file_structure/constant_pool.md)   
 
 
 参考  
