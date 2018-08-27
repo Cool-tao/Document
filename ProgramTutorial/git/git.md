@@ -18,7 +18,14 @@ git commit -am 更新
 git push origin master  
 
 ◆ 参考  
+[git 下载]  https://gitforwindows.org/  
 http://blog.csdn.net/wangyanchang21/article/details/51437934  
 
 http://iissnan.com/progit/  
+https://git-scm.com/book/zh/v1  
 https://git-scm.com/book/zh/v2  
+http://www.runoob.com/git/git-basic-operations.html  
+https://www.yiibai.com/git/git_clone_operation.html  
+https://github.com/geeeeeeeeek/git-recipes/wiki  
+https://www.ibm.com/developerworks/cn/java/j-lo-git-mange/index.html  
+
