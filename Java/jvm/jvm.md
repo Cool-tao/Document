@@ -21,9 +21,9 @@
 ◆ 内存回收  
 [JVM怎么判断对象是否已死](gc/class_lifecycle.md)  
 [判断对象是否存活与引用有关](gc/reference.md)   
-[堆内存，年代划分](memory/generation.md)  
 [什么情况下触发垃圾回收](gc/trigger.md)  
-[垃圾收集算法](gc/garbage_collector.md)   
+[垃圾收集算法](gc/garbage_collection.md)   
+[垃圾收集器](gc/garbage_coloector.md)   
 
 
 ◆ Java内存模型  
