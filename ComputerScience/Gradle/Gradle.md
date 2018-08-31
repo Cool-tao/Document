@@ -1,4 +1,5 @@
 ### Gradle  
+[使用本地gradle](library/local_gradle.md)  
 [声明依赖项](library/dependencies.md)   
 [常用 DSL](library/common_dsl.md)  
 [属性参考](library/BuildType_Properties.md)   
