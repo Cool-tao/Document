@@ -27,7 +27,6 @@ public class UserTypeAdapter extends TypeAdapter<UserEntity> {
         UserEntity userEntity = new UserEntity();
         try {
             JsonToken jsonToken = in.peek();
-            LogTrack.w("peek = " + jsonToken);
             if (JsonToken.BEGIN_OBJECT != jsonToken) {
                 return userEntity;
             }
@@ -38,6 +37,9 @@ public class UserTypeAdapter extends TypeAdapter<UserEntity> {
 
         while (in.hasNext()) {
             try {
+                /*
+                 * in.nextName() 要 比  in.peek() 先执行； 负责会死循环
+                 * */
                 String nextName = in.nextName();
                 JsonToken jsonToken = in.peek();
                 if (JsonToken.STRING == jsonToken) {
@@ -74,6 +76,7 @@ public class UserTypeAdapter extends TypeAdapter<UserEntity> {
         return userEntity;
     }
 }
+
 ```
 
 ```
