@@ -39,6 +39,7 @@ public class UserTypeAdapter extends TypeAdapter<UserEntity> {
             try {
                 /*
                  * in.nextName() 要 比  in.peek() 先执行； 负责会死循环
+                 * jsonToken 要匹配完， 否则也会死循环；
                  * */
                 String nextName = in.nextName();
                 JsonToken jsonToken = in.peek();
