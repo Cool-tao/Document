@@ -3,6 +3,7 @@
 clone(), equals(), hashCode(), toString(), notify(), notifyAll(), wait(), finalize(), getClass()  
 ◆ 内存泄漏
 长生命周期的对象持有短生命周期对象的引用， 使得被持有的短生命周期的对象，得不到释放，就很可能发生内存泄露；  
+[数据类型](library/data_type.md)   
 [boolean](library/boolean.md)  
 [final](library/final.md)  
 [接口 和 抽象类](library/Interface_AbstractClass.md)  
