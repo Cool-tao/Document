@@ -19,6 +19,8 @@ https://github.com/BeesAndroid/BeesAndroid
 http://baronzhang.com/  
 https://70kg.info/archives/  
 http://blog.imallen.wang/archives/page/6/  
+https://github.com/gonghuiyuan516/AndroidArchitectureArticle  
+
 
 
 ◆ 开发总结  
