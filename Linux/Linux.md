@@ -1,6 +1,7 @@
 ### Linux  
 
 [命令](cmd/cmd.md)   
+[shell](shell/shell.md)   
 ◆ 参考  
 深入理解LINUX内核(第3版)  博韦 (作者)    
 深入Linux内核架构  莫尔勒 (Wolfgang Mauerer) (作者),‎ 郭旭 (译者)    
