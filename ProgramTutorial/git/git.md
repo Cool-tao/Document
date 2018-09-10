@@ -11,13 +11,14 @@ fatal: index-pack failed
 git提供了好几种方法做到这点，其中最简单的方法就是用git revert命令，后面跟上你要撤销的commit id即可。  
 
 ### commit 
-git commit -m 更新  
-git commit -am 更新
-
+git commit -am 更新    
 ### push  
 git push origin   
 git push origin master  
 
+### 常用  
+git commit -am 更新  
+git push origin  
 ◆ 参考  
 [git 下载]  https://gitforwindows.org/  
 http://blog.csdn.net/wangyanchang21/article/details/51437934  
