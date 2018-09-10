@@ -13,6 +13,18 @@ ThreadLocal不是线程，是线程的一个变量，你可以先简单理解为
 ThreadLocal 在类中通常定义为静态类变量。  
 每个线程有自己的一个ThreadLocal，它是变量的一个‘拷贝’，修改它不影响其他线程。  
 
+通过ThreadLocal.set()将这个新创建的对象的引用保存到各线程的自己的一个map中，每个线程都有这样一个map，执行ThreadLocal.get()时，各线程从自己的map中取出放进去的对象，  
+因此取出来的是各自自己线程中的对象，ThreadLocal实例是作为map的key来使用的。 
+如果ThreadLocal.set()进去的东西本来就是多个线程共享的同一个对象，那么多个线程的ThreadLocal.get()取得的还是这个共享对象本身，还是有并发访问问题。   
+
+
+总之，ThreadLocal不是用来解决对象共享访问问题的，而主要是提供了保持对象的方法和避免参数传递的对象访问方式。归纳了两点：   
+1。每个线程中都有一个自己的ThreadLocalMap类对象，可以将线程自己的对象保持到其中，各管各的，线程可以正确的访问到自己的对象。   
+2。将一个共用的ThreadLocal静态实例作为key，将不同对象的引用保存到不同线程的ThreadLocalMap中，然后在线程执行的各处通过这个静态ThreadLocal实例的get()方法，  
+取得自己线程保存的那个对象，避免了将这个对象作为参数传递的麻烦。   
+
+
+
 ◆ 参考  
 https://my.oschina.net/xianggao/blog/392440?fromerr=CLZtT4xC
 http://blog.csdn.net/lufeng20/article/details/24314381  
