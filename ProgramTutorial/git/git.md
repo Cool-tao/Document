@@ -19,6 +19,12 @@ git push origin master
 ### 常用  
 git commit -am 更新  
 git push origin  
+### fetch 和 pull 区别  
+git pull = git fetch + git merge  
+git fetch的时候只是将remote的origin进行update  但是并没有在local的branch进行merge  
+### checkout  
+git checkout -b 你自己的分支的名字  
+
 ◆ 参考  
 [git 下载]  https://gitforwindows.org/  
 http://blog.csdn.net/wangyanchang21/article/details/51437934  

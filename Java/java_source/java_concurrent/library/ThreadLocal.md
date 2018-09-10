@@ -17,6 +17,80 @@
 2。将一个共用的ThreadLocal静态实例作为key，将不同对象的引用保存到不同线程的ThreadLocalMap中，然后在线程执行的各处通过这个静态ThreadLocal实例的get()方法，  
 取得自己线程保存的那个对象，避免了将这个对象作为参数传递的麻烦。   
 
+### Thread#threadLocals
+thread内部有一个成员变量threadLocals，在线程退出的时候，会被置空    
+```
+Thread#threadLocals
+
+/**
+ * This method is called by the system to give a Thread
+ * a chance to clean up before it actually exits.
+ */
+private void exit() {
+    if (group != null) {
+        group.threadTerminated(this);
+        group = null;
+    }
+    /* Aggressively null out all reference fields: see bug 4006245 */
+    target = null;
+    /* Speed the release of some of these resources */
+    threadLocals = null;
+    inheritableThreadLocals = null;
+    inheritedAccessControlContext = null;
+    blocker = null;
+    uncaughtExceptionHandler = null;
+}
+```
+### 内存泄漏  
+当使用ThreadLocal保存一个value时，会在ThreadLocalMap中的数组插入一个Entry对象，按理说key-value都应该以强引用保存在Entry对象中，  
+但在ThreadLocalMap的实现中，key被保存到了WeakReference对象中。  
+这就导致了一个问题，ThreadLocal在没有外部强引用时，发生GC时会被回收，如果创建ThreadLocal的线程一直持续运行，那么这个Entry对象中的value就有可能一直得不到回收，发生内存泄露。    
+如何避免内存泄露？  
+既然已经发现有内存泄露的隐患，自然有应对的策略，在调用ThreadLocal的get()、set()可能会清除ThreadLocalMap中key为null的Entry对象，这样对应的value就没有GC Roots可达了，  
+下次GC的时候就可以被回收，当然如果调用remove方法，肯定会删除对应的Entry对象。  
+如果使用ThreadLocal的set方法之后，没有显示的调用remove方法，就有可能发生内存泄露，所以养成良好的编程习惯十分重要，使用完ThreadLocal之后，记得调用remove方法。  
+
+### ThreadLocal#get  
+key值为null，则擦除该位置的Entry，那么Entry内的value也就没有强引用链，自然会被回收；    
+set操作也有类似的思想，将key为null的这些Entry都删除，防止内存泄露。  
+上面的设计思路依赖一个前提条件：要调用ThreadLocalMap的getEntry函数或者set函数。这当然是不可能任何情况都成立的，  
+所以很多情况下需要使用者手动调用ThreadLocal的remove函数，手动删除不再需要的ThreadLocal，防止内存泄露。  
+
+```
+public T get() {
+    Thread t = Thread.currentThread();
+    ThreadLocalMap map = getMap(t);
+    if (map != null) {
+        ThreadLocalMap.Entry e = map.getEntry(this);
+        if (e != null) {
+            @SuppressWarnings("unchecked")
+            T result = (T)e.value;
+            return result;
+        }
+    }
+    return setInitialValue();
+}
+
+ThreadLocalMap getMap(Thread t) {
+    return t.threadLocals;
+}
+```
+### ThreadLocal.ThreadLocalMap#set  
+```
+
+```
+### ThreadLocal.ThreadLocalMap.Entry  
+```
+static class Entry extends WeakReference<ThreadLocal<?>>{
+    /**
+     * The table, resized as necessary.
+     * table.length MUST always be a power of two.
+     */
+    private Entry[] table;
+    
+}
+
+```
 
 
 ◆ 参考  

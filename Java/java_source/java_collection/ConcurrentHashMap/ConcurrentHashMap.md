@@ -15,8 +15,8 @@ ConcurrentHashMap由多个Segment组成(Segment下包含很多Node，也就是�
 因为当前线程中的值已经不是最新的值，你的修改很可能会覆盖掉其他线程修改的结果。这一点与乐观锁，SVN的思想是比较类似的。  
 unsafe代码块控制了一些属性的修改工作，比如最常用的SIZECTL 。 在这一版本的concurrentHashMap中，大量应用来的CAS方法进行变量、属性的修改工作。   
 利用CAS进行无锁操作，可以大大提高性能。    
-[几个常量的解释](CHM_Constants.md)  
-[扩容函数 transfer](CHM_fun_transfer.md)  
+[几个常量的解释](library/constants.md)  
+[扩容函数 transfer](library/fun_transfer.md)  
 
 ##### 名词解释  
 ◑ CAS算法   
@@ -30,6 +30,8 @@ http://www.importnew.com/22007.html
 http://blog.csdn.net/u010723709/article/details/48007881  
 http://blog.csdn.net/fjse51/article/details/55260493  
 https://www.cnblogs.com/everSeeker/p/5601861.html   
+https://javadoop.com/post/hashmap  
+
 
 
 
