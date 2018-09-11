@@ -423,7 +423,12 @@ https://www.jianshu.com/p/d10256f0ebea
 https://www.cnblogs.com/wenbochang/p/8484779.html  
 https://blog.csdn.net/makeliwei1/article/details/81287855  
 https://www.jianshu.com/p/c0642afe03e0  
+http://www.jianshu.com/p/e694f1e868ec  
+https://my.oschina.net/liuxiaomian/blog/880088  
+http://cmsblogs.com/?p=2283  
+https://bentang.me/tech/2016/12/01/jdk8-concurrenthashmap-1/  
 https://blog.csdn.net/u011392897/article/details/60479937  
+https://blog.csdn.net/u010412719/article/details/52145145  
 
 
 
