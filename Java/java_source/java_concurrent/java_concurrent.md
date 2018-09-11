@@ -23,7 +23,7 @@
 [ReentrantLock](library/ReentrantLock.md)  
 [Exchanger](library/Exchanger.md)  
 [Atomic](library/Atomic)  
-
+[CountDownLatch](library/CountDownLatch.md)  
 Executor executor;
 
 LinkedBlockingQueue linkedBlockingQueue;
@@ -40,7 +40,6 @@ ForkJoinTask forkJoinTask;
 ForkJoinWorkerThread forkJoinWorkerThread;
 CompletableFuture completableFuture;
 CompletionStage completionStage;
-CountDownLatch countDownLatch;
 CountedCompleter countedCompleter;
 CyclicBarrier cyclicBarrier;
 Exchanger exchanger;
