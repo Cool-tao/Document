@@ -1,6 +1,6 @@
-####  常亮解释  
+###  常亮解释  
 
-#####  sizeCtl含义  
+####  sizeCtl含义  
 private transient volatile int sizeCtl;  
 1.负数代表正在进行初始化或扩容操作  
 2.-1代表正在初始化    
