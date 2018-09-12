@@ -26,11 +26,13 @@
 [Atomic](library/Atomic)  
 [CountDownLatch](library/CountDownLatch.md)  
 [CyclicBarrier](library/CyclicBarrier.md)  
+[LockSupport](library/LockSupport.md)  
 Executor executor;
-
+ThreadLocalRandom  
 LinkedBlockingQueue linkedBlockingQueue;
 LinkedBlockingDeque linkedBlockingDeque;
 Lock lock;
+LockSupport  
 Phaser phaser;
 PriorityBlockingQueue priorityBlockingQueue;
 ReadWriteLock readWriteLock;
