@@ -27,31 +27,27 @@
 [CountDownLatch](library/CountDownLatch.md)  
 [CyclicBarrier](library/CyclicBarrier.md)  
 [LockSupport](library/LockSupport.md)  
-Executor executor;
+Executor ;
 ThreadLocalRandom  
-LinkedBlockingQueue linkedBlockingQueue;
-LinkedBlockingDeque linkedBlockingDeque;
-Lock lock;
-LockSupport  
-Phaser phaser;
-PriorityBlockingQueue priorityBlockingQueue;
-ReadWriteLock readWriteLock;
-SynchronousQueue synchronousQueue;
-RecursiveAction recursiveAction;
-RecursiveTask recursiveTask;
-ForkJoinPool forkJoinPool;
-ForkJoinTask forkJoinTask;
-ForkJoinWorkerThread forkJoinWorkerThread;
-CompletableFuture completableFuture;
-CompletionStage completionStage;
-CountedCompleter countedCompleter;
-Exchanger exchanger;
-FutureTask futureTask;
-RunnableFuture runnableFuture;
-RunnableScheduledFuture runnableScheduledFuture;
-ScheduledFuture scheduledFuture;
-Semaphore semaphore;
-ThreadLocalRandom threadLocalRandom;
+LinkedBlockingQueue ;
+LinkedBlockingDeque ;
+Lock ;
+Phaser ;
+PriorityBlockingQueue ;
+ReadWriteLock ;
+SynchronousQueue ;
+RecursiveAction ;
+RecursiveTask ;
+ForkJoinPool ;
+ForkJoinTask ;
+ForkJoinWorkerThread ;
+CompletableFuture ;
+CompletionStage ;
+CountedCompleter ;
+FutureTask ;
+RunnableFuture ;
+RunnableScheduledFuture ;
+ScheduledFuture ;
 ◆ 参考  
 http://tutorials.jenkov.com/java-util-concurrent/index.html  
 http://www.importnew.com/26678.html  
