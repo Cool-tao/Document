@@ -5,6 +5,7 @@ package org.alex.util;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.*;
+import java.util.concurrent.locks.ReentrantLock;
 
 @SuppressWarnings({"Duplicates", "WeakerAccess", "unused"})
 public class ThreadUtil {
@@ -185,6 +186,39 @@ public class ThreadUtil {
             // e.printStackTrace();
         }
         return error;
+    }
+
+    public static void tryLock(ReentrantLock lock, long timeout) {
+        if (lock == null) {
+            return;
+        }
+        try {
+            lock.tryLock(timeout, TimeUnit.MILLISECONDS);
+        } catch (InterruptedException e) {
+            // e.printStackTrace();
+        }
+    }
+
+    public static void tryLock(ReentrantLock lock, long timeout, TimeUnit unit) {
+        if (lock == null) {
+            return;
+        }
+        try {
+            lock.tryLock(timeout, unit);
+        } catch (InterruptedException e) {
+            // e.printStackTrace();
+        }
+    }
+
+    public static void await(CountDownLatch latch) {
+        if (latch == null) {
+            return;
+        }
+        try {
+            latch.await();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }
 

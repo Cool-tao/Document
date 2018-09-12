@@ -38,4 +38,5 @@ http://www.cnblogs.com/dingyingsi/p/3760447.html
 http://www.cnblogs.com/dingyingsi/p/3760730.html  
 https://github.com/LRH1993/android_interview/blob/master/java/virtual-machine/Garbage-Collector.md  
 http://blog.csdn.net/ns_code/article/details/17565503  
+https://juejin.im/post/5b8f7e43f265da0afe62b9f8  
 

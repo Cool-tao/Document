@@ -9,6 +9,7 @@
 [示例-并发执行，多任务完成，反馈](sample/es_01.md)   
 [示例-并发执行，多任务完成，反馈 ExecutorCompletionService](sample/es_01.md)   
 #### 类逐个介绍  
+[Unsafe CAS 比较并交换](library/Unsafe.md)  
 [Synchronized](library/synchronized.md)  
 [ThreadLocal](library/ThreadLocal.md)   
 [Executors](library/Executors.md)  
@@ -24,6 +25,7 @@
 [Exchanger](library/Exchanger.md)  
 [Atomic](library/Atomic)  
 [CountDownLatch](library/CountDownLatch.md)  
+[CyclicBarrier](library/CyclicBarrier.md)  
 Executor executor;
 
 LinkedBlockingQueue linkedBlockingQueue;
@@ -41,7 +43,6 @@ ForkJoinWorkerThread forkJoinWorkerThread;
 CompletableFuture completableFuture;
 CompletionStage completionStage;
 CountedCompleter countedCompleter;
-CyclicBarrier cyclicBarrier;
 Exchanger exchanger;
 FutureTask futureTask;
 RunnableFuture runnableFuture;

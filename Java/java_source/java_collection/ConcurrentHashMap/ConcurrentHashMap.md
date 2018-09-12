@@ -8,6 +8,14 @@ Segment是一种可重入锁（ReentrantLock），在ConcurrentHashMap里扮演�
 ◆ 锁分段技术  
 ConcurrentHashMap由多个Segment组成(Segment下包含很多Node，也就是我们的键值对了)，每个Segment都有把锁来实现线程安全，  
 当一个线程占用锁访问其中一个段数据的时候，其他段的数据也能被其他线程访问。  
+### 几个常量的解释  
+####  sizeCtl含义  
+private transient volatile int sizeCtl;  
+负数代表正在进行初始化或扩容操作  
+-1代表正在初始化    
+-N 表示有N-1个线程正在进行扩容操作  
+正数或0代表hash表还没有被初始化，这个数值表示初始化或下一次进行扩容的大小，这一点类似于扩容阈值的概念。  
+还后面可以看到，它的值始终是当前ConcurrentHashMap容量的0.75倍，这与loadfactor是对应的。  
 
 ### CAS  
 在ConcurrentHashMap中，大量使用了U.compareAndSwapXXX的方法，这个方法是利用一个CAS算法实现无锁化的修改值的操作，他可以大大降低锁代理的性能消耗。   
@@ -15,9 +23,8 @@ ConcurrentHashMap由多个Segment组成(Segment下包含很多Node，也就是�
 因为当前线程中的值已经不是最新的值，你的修改很可能会覆盖掉其他线程修改的结果。这一点与乐观锁，SVN的思想是比较类似的。  
 unsafe代码块控制了一些属性的修改工作，比如最常用的SIZECTL 。 在这一版本的concurrentHashMap中，大量应用来的CAS方法进行变量、属性的修改工作。   
 利用CAS进行无锁操作，可以大大提高性能。    
-[几个常量的解释](library/constants.md)  
 [扩容函数 transfer](library/fun_transfer.md)  
-#### spread  
+### spread  
 再次hash，hash值均匀分布，减少hash冲突；    
 ● 无符号右移  
 各个位向右移指定的位数。右移后左边突出的位用零来填充。移出右边的位被丢弃  
@@ -28,7 +35,7 @@ static final int spread(int h) {
     return (h ^ (h >>> 16)) & HASH_BITS;
 }
 ```
-#### putVal  
+### putVal  
 如果没有初始化就先调用initTable（）方法来进行初始化过程  
 如果没有hash冲突就直接CAS插入  
 如果还在进行扩容操作就先进行扩容  
@@ -106,7 +113,7 @@ final V putVal(K key, V value, boolean onlyIfAbsent) {
 }
 ```
 
-#### initTable  
+### initTable  
 ```
 private final Node<K,V>[] initTable() {
     Node<K,V>[] tab; int sc;
@@ -131,7 +138,7 @@ private final Node<K,V>[] initTable() {
     return tab;
 }
 ```
-#### helpTransfer  
+### helpTransfer  
 ```
 final Node<K,V>[] helpTransfer(Node<K,V>[] tab, Node<K,V> f) {
     Node<K,V>[] nextTab; int sc;
@@ -153,7 +160,7 @@ final Node<K,V>[] helpTransfer(Node<K,V>[] tab, Node<K,V> f) {
     return table;
 }
 ```
-#### transfer  
+### transfer  
 ```
 private final void transfer(Node<K,V>[] tab, Node<K,V>[] nextTab) {
     int n = tab.length, stride;
@@ -304,7 +311,7 @@ private final void transfer(Node<K,V>[] tab, Node<K,V>[] nextTab) {
 }
 
 ```
-#### treeifyBin  
+### treeifyBin  
 ````
 private final void treeifyBin(Node<K,V>[] tab, int index) {
     Node<K,V> b; int n;
@@ -337,7 +344,7 @@ private final void treeifyBin(Node<K,V>[] tab, int index) {
 
 ````
 
-#### addCount
+### addCount
 ```
 private final void addCount(long x, int check) {
     CounterCell[] as; long b, s;
@@ -381,7 +388,7 @@ private final void addCount(long x, int check) {
 }
 
 ```
-#### get
+### get
 ```
 public V get(Object key) {
     Node<K,V>[] tab; Node<K,V> e, p; int n, eh; K ek;
@@ -405,7 +412,7 @@ public V get(Object key) {
 }
 ```
 
-#### 名词解释  
+### 名词解释  
 ◑ CAS算法   
 CAS(Compare And Swap)，  
 unsafe.compareAndSwapInt(this, valueOffset, expect, update);   
