@@ -8,7 +8,7 @@
 主线程的消息队列也一直存在的。当消息队列中没有消息时，消息队列会进入空闲等待状态；  
 当有消息时，则消息队列会进入运行状态，进而将消息交给相应的Handler进行处理；  
 这种机制是通过pipe(管道)机制实现的；  
-[管道](../../Process_Service_IPC/library/Pipe.md)  
+[管道](../Process_Service_IPC/library/Pipe.md)  
 
 新建的 Looper对象 存放在sThreadLocal成员变量里面，这意味着，looper对象是一个线程局部变量，每一个调用了 prepareMainLooper 函数，的线程，都有一个独立的Looper对象。  
 ◆ Loop阶段  
