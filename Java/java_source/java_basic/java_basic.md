@@ -11,4 +11,19 @@ clone(), equals(), hashCode(), toString(), notify(), notifyAll(), wait(), finali
 [对finalize方法的认识](library/finalize.md)  
 [对象引用](library/Reference.md)  
 [java位运算](library/BitOperation.md)  
+### 匿名内部类，引用外部变量需要 加上 final 修饰？？  
+```
+class Main$1 implements FunLisenter {
+    Main$1(Main var1, String var2) {
+        this.this$0 = var1;
+        this.val$nameInner = var2;
+    }
+
+    public void fun() {
+        System.out.println(this.val$nameInner);
+    }
+}
+```
+反编译之后，发现分明是两个对象，不是一个； 如果 外部变量不加上 final ，就需要 内部类 和 外部类，做变量的同步，  
+结构体不需要同步，但是基础数据类型一定需要；好像解决不了，所以干脆 加上 final 就不需要同步了；    
 
