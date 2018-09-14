@@ -6,6 +6,7 @@
 在它上面可以增加更多其他的Window，如dialog等；  
 
 ● 为什么要设计Activity、View、Window？  
+View 是视图， window是面板，视图需要挂在到面板上；Activity负责管理面板的生命周期；  
 [三者，是怎样关联的](library/awv_001.md)  
 [Activity存在的必要](library/Necessity_Activity.md)  
 DecorView  
