@@ -1,4 +1,4 @@
-##### Parcelable 和 Serializable  
+### Parcelable 和 Serializable  
 
 
 ● Serializable（Java自带）：    

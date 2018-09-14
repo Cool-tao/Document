@@ -1,6 +1,6 @@
 ### HandlerThread  
 
-[标准写法](fun/handlerThread_fun.md)  
+[标准写法](library/handlerThread_fun.md)  
   
  
 ◆ HandlerThread的特点  

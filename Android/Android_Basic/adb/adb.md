@@ -1,7 +1,7 @@
 ### ADB  
 
-[ADB环境变量](ADB_Config.md)  
-[常见命令](ADB_Shell.md)  
+[ADB环境变量](library/config.md)  
+[常见命令](library/shell.md)  
 [debug掉线](library/emulator_debug.md)  
 
 

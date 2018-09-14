@@ -1,4 +1,4 @@
-##### Dialog 和 PopupWindow 的比较  
+### Dialog 和 PopupWindow 的比较  
 
 1. PopupWindow 在显示之前一定要设置宽高， Dialog 无此限制。  
 2. PopupWindow 默认不会响应物理键盘的back，除非显示设置了popup.setFocusable(true); 而Dialog会响应back键，默认情况 dialog  会消失。  

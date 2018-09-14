@@ -1,5 +1,5 @@
 ### Handler  
-[一个Handler的标准写法](fun/handler_fun.md)  
+[一个Handler的标准写法](library/handler_fun.md)  
 首先需要了解几个类： Handler  Looper  Message  MessageQueue   
 在C++层，比较重要的是NativeMessageQueue和Loop这两个类。  
 当我们启动一个app时，ActivityManagerService会为我们的Activity创建并启动一个主线程(ActivityThread对象)；  
@@ -33,7 +33,7 @@ next 操作是一个阻塞操作,当没有消息的时候 next 方法会一直�
 这样就成功的将代码逻辑切换到了主线程了，Handler 处理消息的过程是:首先,检查Message 的 callback 是否为 null,不为 null 就通过 handleCallBack 来处理消息，  
 Message 的 callback 是一个 Runnable 对象,实际上是 handler 的 post 方法所传递的 Runnable 参数.其次是检查 mCallback 是 否为 null,不为 null 就调用 mCallback 的handleMessage 方法来处理消息.
 
-[postDelay](fun/handler_postDelay.md)  
+[postDelay](library/handler_postDelay.md)  
 ◆ 参考  
 https://blog.csdn.net/solarsaber/article/details/48974907  
 http://book.51cto.com/art/201208/353352.htm  
