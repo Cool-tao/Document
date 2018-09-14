@@ -15,12 +15,13 @@ http://blog.csdn.net/u011240877/article/list/3
 http://dandanlove.com/  
 https://github.com/BeesAndroid/BeesAndroid  
 https://www.liaohuqiu.net/cn/  
-https://github.com/BeesAndroid/BeesAndroid  
 http://baronzhang.com/  
 https://70kg.info/archives/  
 http://blog.imallen.wang/archives/page/6/  
 https://github.com/gonghuiyuan516/AndroidArchitectureArticle  
-
+https://github.com/guoxiaoxing/android-open-source-project-analysis/blob/master/README.md
+https://github.com/guoxiaoxing/android-interview  
+https://github.com/guoxiaoxing/android-open-framework-analysis  
 
 
 #### 开发总结  

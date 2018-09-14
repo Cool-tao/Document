@@ -17,6 +17,13 @@ If-Unmodified-Since 比较资源的更新时间（与If-Modified-Since相反）
 Max-Forwards 最大传输逐跳数  
 Proxy-Authorization 代理服务器要求客户端的认证信息  
 Range 实体的字节范围请求  
+```
+Range可以请求实体的部分内容，多线程下载一定会用到此请求头。例如：
+表示头500个字节：bytes=0~499
+表示第二个500字节：bytes=500~999
+表示最后500字节：bytes=-500
+表示500字节以后的范围：bytes=500-
+```
 Referer 对请求中URI的原始获取方  
 TE 传输编码的优先级  
 User-Agent HTTP 客户端程序的信息    
