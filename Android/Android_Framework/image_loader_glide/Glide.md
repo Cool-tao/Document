@@ -11,5 +11,5 @@ https://github.com/hss01248/ImageLoader
 http://blog.csdn.net/guolin_blog/article/details/53759439  
 https://github.com/ladingwu/ImageLoaderFramework  
 https://juejin.im/post/5ab9a6b56fb9a028bf0553bd  
-
+https://mrfu.me/2016/02/27/Glide_Getting_Started/  
 
