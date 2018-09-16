@@ -1,7 +1,7 @@
 ### aspectj  
 
-[intellij gradle配置](../../Android/Android_Framework/aop_aspectj/library/and_build.md)  
-[aspect for android](../../Android/Android_Framework/aop_aspectj/and_aspectj.md)  
+[intellij gradle配置](../../Android/framework/aop_aspectj/library/and_build.md)  
+[aspect for android](../../Android/framework/aop_aspectj/and_aspectj.md)  
 execution：用于匹配方法执行的连接点；  
 within：用于匹配指定类型内的方法执行；  
 
