@@ -4,6 +4,8 @@
 [ImageView相关](ImageView/ImageView.md)    
 [Dialog、PopupWindow、Toast](Dialog_PopupWindow_Toast/Dialog_PopupWindow_Toast.md)  
 [apk打包流程](Other/apk_build.md)    
+[优化稳定性、低功耗、性能优化](library/optimize_stability_lowPower.md)  
+[常见问题](bug/bug.md)  
 ◆ 深入Android系统  
 ◑ IPC机制，Binder和匿名共享内存等  
 ◑ 四大组件启动，工作原理  

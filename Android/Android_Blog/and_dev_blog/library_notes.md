@@ -5,6 +5,7 @@ http://liuwangshu.cn/system/
 http://blog.csdn.net/itachi85?viewmode=contents  
 
 http://codemx.cn/archives/    
+http://hukai.me/blog/archives/  
 https://www.jianshu.com/u/0a7e42698e4b  
 http://blog.csdn.net/huachao1001  
 http://lruheng.com/archives/    
