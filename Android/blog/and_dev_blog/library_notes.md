@@ -6,9 +6,14 @@ http://blog.csdn.net/itachi85?viewmode=contents
 
 http://codemx.cn/archives/    
 
+huachao1001  
 https://www.jianshu.com/u/0a7e42698e4b  
 http://blog.csdn.net/huachao1001  
+
+ruheng  
 http://lruheng.com/archives/    
+https://github.com/LRH1993/android_interview  
+
 http://www.cnblogs.com/wangle12138/  
 http://weishu.me/archives/  
 http://blog.csdn.net/qq_23547831  

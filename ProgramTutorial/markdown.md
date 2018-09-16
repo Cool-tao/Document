@@ -13,7 +13,7 @@
 > 区块
 > > 引用
 
-![图片路径](IntelliJ/key_map/Alt_6.png)
+![图片路径](intelliJ/key_map/Alt_6.png)
 
 
 [目标文件](markdown/001.md)
