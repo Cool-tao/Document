@@ -5,7 +5,7 @@ http://liuwangshu.cn/system/
 http://blog.csdn.net/itachi85?viewmode=contents  
 
 http://codemx.cn/archives/    
-http://hukai.me/blog/archives/  
+
 https://www.jianshu.com/u/0a7e42698e4b  
 http://blog.csdn.net/huachao1001  
 http://lruheng.com/archives/    
@@ -33,6 +33,7 @@ https://juejin.im/user/587377ec61ff4b005c4d4189
 http://blog.csdn.net/qibin0506?viewmode=contents  
 http://yifeng.studio/archives/  
 https://github.com/CymChad/BRVAHST   
+http://hukai.me/blog/archives/  
 #### 好，老  
 http://wangkuiwu.github.io/categories/  
 http://blog.csdn.net/Innost/article/list/1  
