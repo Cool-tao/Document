@@ -5,6 +5,7 @@
 [数据结构](library/collection.md)  
 [函数](library/function.md)  
 [类](library/class.md)  
+[网络请求](library/http.md)  
 
 ### 参考  
 http://www.runoob.com/python/python-tutorial.html  
