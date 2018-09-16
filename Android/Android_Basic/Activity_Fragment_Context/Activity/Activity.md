@@ -6,7 +6,7 @@
 [横屏透明的Activity](system_fun/Activity_Landscape.md)        
 [Activity 常用方法](basic_fun/Activity_Fun.md)  
 [不同App 的 Activity 之间的传值](basic_fun/Activity_OtherApp_Intent.md)   
-
+![Activity生命周期](../ImageFiles/activity_lifecycle_001.png)  
 
 > 参考  
 

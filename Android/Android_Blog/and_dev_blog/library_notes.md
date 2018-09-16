@@ -4,7 +4,6 @@
 http://liuwangshu.cn/system/  
 http://blog.csdn.net/itachi85?viewmode=contents  
 
-https://mrfu.me/  
 http://codemx.cn/archives/    
 https://www.jianshu.com/u/0a7e42698e4b  
 http://blog.csdn.net/huachao1001  
@@ -41,6 +40,7 @@ http://blog.csdn.net/yanbober/article/list/1
 http://blog.csdn.net/xiaole0313  
 http://wuxiaolong.me/archives/index.html  
 http://zmywly8866.github.io/  
+https://mrfu.me/  
 #### 废弃，不用看了    
 http://blog.lmj.wiki/archives/page/10/  
 http://blog.csdn.net/cym492224103  
