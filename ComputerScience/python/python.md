@@ -7,3 +7,4 @@
 http://www.jqhtml.com/category/python  
 http://www.cnblogs.com/linhaifeng/articles/7773496.html  
 https://www.cnblogs.com/sss4/p/9429835.html   
+https://cuiqingcai.com/category/technique/python  

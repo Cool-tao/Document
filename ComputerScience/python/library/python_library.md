@@ -37,8 +37,9 @@ import zlib
 性能度量  
 from timeit import Timer  
 
-日志  
+### 日志  
 logging 模块提供了完整和灵活的日志系统。它最简单的用法是记录信息并发送到一个文件或 sys.stderr:  
+示例 1  
 ```
 import logging
 logging.debug('Debugging information')
@@ -48,6 +49,24 @@ logging.error('Error occurred')
 logging.critical('Critical error -- shutting down')
 
 ```
+示例 2  
+```
+import logging
+
+logging.basicConfig(level=logging.DEBUG,
+                    # filename='output.log',
+                    datefmt='%Y/%m/%d %H:%M:%S',
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(lineno)d - %(module)s - %(message)s')
+logger = logging.getLogger(__name__)
+
+logger.info('This is a log info')
+logger.debug('Debugging')
+logger.warning('Warning exists')
+logger.info('Finish')
+```
+参考  
+https://cuiqingcai.com/6080.html  
+
 十进制浮点数算法  
 from decimal import *  
 

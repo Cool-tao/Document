@@ -37,13 +37,23 @@ else:
 ```
 for letter in 'Python':     # 第一个实例
    print '当前字母 :', letter
- 
+
+# 索引 
+for index, value in enumerate(array):
+    print(index, value)
+
+# 索引 
+for i in range(len(array)):
+    print(i, array[i])
+     
 fruits = ['banana', 'apple',  'mango']
 for fruit in fruits:        # 第二个实例
    print '当前水果 :', fruit
 fruits = ['banana', 'apple',  'mango']
+
 for index in range(len(fruits)):
    print '当前水果 :', fruits[index]
+   
 for num in range(10,20):  # 迭代 10 到 20 之间的数字
    for i in range(2,num): # 根据因子迭代
       if num%i == 0:      # 确定第一个因子
