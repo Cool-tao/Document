@@ -1,4 +1,4 @@
-##### 横屏透明的Activity
+### 横屏透明的Activity
 
 ```
  <activity

@@ -1,4 +1,4 @@
-###### 关于墙壁纸
+### 关于墙壁纸
 > 获取当前壁纸
 ```
 WallpaperManager wm=WallpaperManager.getInstance(this);

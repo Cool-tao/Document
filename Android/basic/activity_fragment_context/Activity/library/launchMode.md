@@ -1,4 +1,4 @@
-### Activity启动模式  
+### Activity启动模式与任务栈  
 
 ● standard  默认值，多实例模式    
 
@@ -51,3 +51,11 @@ public static final int FORWARD_RESULT = Intent.FLAG_ACTIVITY_FORWARD_RESULT | I
 此时会弹出应用选择页面。在应用选择页面选择某一款浏览器启动时，就会用到这个Flag。  
 然后应用选择页面将自己finish，以保证从浏览器返回时不会在回到选择页面。经常与FLAG_ACTIVITY_FORWARD_RESULT 一起使用。  
 public static final int PREVIOUS_IS_TOP = Intent.FLAG_ACTIVITY_PREVIOUS_IS_TOP | Intent.FLAG_ACTIVITY_FORWARD_RESULT | Intent.FLAG_ACTIVITY_NEW_TASK;  
+
+
+### 如果历史栈中包含Activity，打开此Activity从栈中放到栈顶层而不是从新打开Activity  
+```
+Intent intent = new Intent(ReorderFour.this, ReorderTwo.class);  
+intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);  
+startActivity(intent);  
+```

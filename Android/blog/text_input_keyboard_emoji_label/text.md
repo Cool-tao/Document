@@ -3,9 +3,6 @@
 ◆ Spannable
 https://github.com/milaptank/SpannableTextView  
 
-◆ 文本点击  
-https://github.com/wangshaolei/AutoSpannableTextView  
-https://github.com/klinker24/Android-TextView-LinkBuilder  
 ◆ 文字变换特效  
 https://github.com/hanks-zyh/HTextView  
 
@@ -13,7 +10,6 @@ https://github.com/hanks-zyh/HTextView
 https://github.com/bluejamesbond/TextJustify-Android  
 https://github.com/ufo22940268/android-justifiedtextview  
 https://github.com/androiddevelop/AlignTextView  
-https://github.com/yellowcath/MTextView  
 
 
 ◆ AutoSize  
