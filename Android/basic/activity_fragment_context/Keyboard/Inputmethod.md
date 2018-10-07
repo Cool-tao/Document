@@ -1,6 +1,5 @@
-##### 关于输入法
+### 获取当前输入法 app
 
-> 获取当前输入法 app
 ```
 String currentInputmethod = Settings.Secure.getString(getContentResolver(),Settings.Secure.DEFAULT_INPUT_METHOD);
 LogUtil.e("currentInputmethod = "+currentInputmethod);

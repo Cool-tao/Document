@@ -38,4 +38,4 @@ if (sendIntent.resolveActivity(getPackageManager()) != null) {
 </activity>
 ```
 
-[系统Intent介绍](Intent_Introduce.md)      
+[系统Intent介绍](library/introduce.md)      

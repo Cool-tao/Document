@@ -68,6 +68,7 @@ Https请求慢的解决办法，DNS，携带数据，直接访问IP；
 
 
 ◆ 参考  
+https://github.com/Blankj/AndroidOfferKiller  
 https://github.com/JackyAndroid/AndroidInterview-Q-A  
 https://github.com/francistao/LearningNotes  
 https://github.com/leerduo/InterviewQuestion  

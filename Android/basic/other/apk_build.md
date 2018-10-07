@@ -1,4 +1,4 @@
-####  apk打包流程  
+###  apk打包流程  
 
 ● AAPT(Android Asset Packaging Tool)工具会打包应用中的资源文件，如AndroidManifest.xml、layout布局中的xml等，并将xml文件编译为二进制形式，  
 当然assets文件夹中的文件不会被编译，图片及raw文件夹中的资源也会保持原来的形态，  

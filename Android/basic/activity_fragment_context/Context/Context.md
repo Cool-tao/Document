@@ -1,7 +1,7 @@
-#### 对Context的认识  
+### 对Context的认识  
 
-[基本概念](library/Context_Concept.md)  
-[关于展示吐司和通知](library/Open_Toast_Notification.md)     
+[基本概念](library/concept.md)  
+[关于展示吐司和通知](library/open_toast_notification.md)     
 
 > 参考  
   

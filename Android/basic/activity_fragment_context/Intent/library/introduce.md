@@ -1,4 +1,4 @@
-###### 系统Intent介绍
+### 系统Intent介绍
 ```
 回到Home窗口
 Intent intent = new Intent("android.intent.action.MAIN");
@@ -78,5 +78,5 @@ Intent intent = new Intent(Intent.ACTION_DELETE, uri);
 startActivintenty(intent);
 ```
 
-❊ 参考    
+### 参考    
 https://developer.android.com/guide/components/intents-common  
